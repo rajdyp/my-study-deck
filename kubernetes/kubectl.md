@@ -58,7 +58,7 @@ kubectl get deployments
 ```
 kubectl apply -f <file>.yaml
 ```
-+ Kubernetes configuration layout:
++ Basic Kubernetes configuration file layout:
   ```
   apiVersion:
   kind:
