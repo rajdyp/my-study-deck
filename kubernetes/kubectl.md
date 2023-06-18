@@ -64,6 +64,8 @@ kubectl apply -f <file>.yaml
   kind:
   metadata:
   spec:
+    template:
+      spec:
   status:
   ```
 ```
