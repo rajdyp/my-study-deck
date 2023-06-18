@@ -22,6 +22,12 @@ kubectl config get-contexts
 ```
 
 
+**Get:**
+```
+kubectl get all
+```
+
+
 **Namespace:**
 ```
 kubectl get ns
@@ -118,7 +124,4 @@ kubectl get secrets
 ```
 
 
-**Get:**
-```
-kubectl get all
-```
+
