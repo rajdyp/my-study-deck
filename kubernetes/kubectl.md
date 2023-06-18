@@ -58,13 +58,13 @@ kubectl get deployments
 ```
 kubectl apply -f <file>.yaml
 ```
-+ Kubernetes configuration file:
++ Kubernetes configuration layout:
   ```
-  - apiVersion
-  - kind
-  - metadata
-  - spec
-  - status
+  apiVersion:
+  kind:
+  metadata:
+  spec:
+  status:
   ```
 ```
 kubectl create deployment <deployment_name> --image=<image_name>
