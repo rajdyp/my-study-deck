@@ -63,9 +63,14 @@ kubectl apply -f <file>.yaml
   apiVersion:
   kind:
   metadata:
+    labels: <=
   spec:
+    selector: <-
     template:
+      metadata:
+        labels: <=
       spec:
+        selector: <-
   status:
   ```
 ```
