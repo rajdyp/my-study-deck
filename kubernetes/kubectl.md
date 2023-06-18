@@ -58,21 +58,6 @@ kubectl get deployments
 ```
 kubectl apply -f <file>.yaml
 ```
-+ Basic Kubernetes configuration file layout:
-  ```
-  apiVersion:
-  kind:
-  metadata:
-    labels: <=
-  spec:
-    selector: <-
-    template:
-      metadata:
-        labels: <=
-      spec:
-        selector: <-
-  status:
-  ```
 ```
 kubectl create deployment <deployment_name> --image=<image_name>
 ```
