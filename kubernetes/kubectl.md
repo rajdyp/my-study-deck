@@ -40,6 +40,12 @@ kubectl get ns
 ```
 kubectl create ns <ns_name>
 ```
+```
+kubectl api-resources --namespaced=true
+```
+```
+kubectl api-resources --namespaced=false
+```
 + --all-namespaces
 
 **Service Account:**
