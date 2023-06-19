@@ -1,6 +1,6 @@
 # kubectl commands
 
-**Basic:**
+## Basic
 ```yaml
 kubectl version --short
 ```
@@ -15,7 +15,7 @@ kubectl cluster-info
 ```
 
 
-**Context:**
+## Context
 ```yaml
 kubectl config current-context
 ```
@@ -27,13 +27,13 @@ kubectl config get-contexts
 ```
 
 
-**Get:**
+## Get
 ```yaml
 kubectl get all
 ```
 
 
-**Namespace:**
+## Namespace
 ```yaml
 kubectl get ns
 ```
@@ -48,19 +48,20 @@ kubectl api-resources --namespaced=false
 ```
 + --all-namespaces
 
-**Service Account:**
+
+## Service Account
 ```yaml
 kubectl get sa
 ```
 
 
-**Node:**
+## Node
 ```yaml
 kubectl get nodes
 ```
 
 
-**Deployment:**
+## Deployment
 ```yaml
 kubectl get deployments
 ```
@@ -78,7 +79,7 @@ kubectl describe deployments <deployment_name>
 ```
 
 
-**Pod:**
+## Pod
 ```yaml
 kubectl get pods
 ```
@@ -108,13 +109,13 @@ kubectl logs <pod_name> -c <container_name>
 ```
 
 
-**ReplicaSet:**
+## ReplicaSet
 ```yaml
 kubectl get rs
 ```
 
 
-**Service:**
+## Service
 ```yaml
 kubectl get services
 ```
@@ -123,13 +124,13 @@ kubectl describe services <service_name>
 ```
 
 
-**ConfigMap:**
+## ConfigMap
 ```yaml
 kubectl get configmaps
 ```
 
 
-**Secret:**
+## Secret
 ```yaml
 kubectl get secrets
 ```
