@@ -17,6 +17,8 @@
 
 **Namespaces:**
 - Mechanism for isolating groups of resources within a single cluster (virtual cluster)
+- To access service in another namespace
+  - Add namespace name to the service name (service_name.namespace_name)
         
 **Basic deployment config file:**
 ```yaml
