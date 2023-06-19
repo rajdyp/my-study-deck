@@ -10,6 +10,9 @@ kubectl explain <resource_name>
 ```
 kubectl config view
 ```
+```
+kubectl cluster-info
+```
 
 
 **Context:**
