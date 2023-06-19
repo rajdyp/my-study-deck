@@ -1,4 +1,4 @@
-# Kubernetes Notes
+# Kubernetes Architecture
 
 ![Kubernetes architecture](https://github.com/rajdyp/rajdyp.github.io/blob/master/images/kubernetes/k8-architecture.png)
 
@@ -15,10 +15,18 @@
 - kube-proxy
 - cotainer runtime
 
-**Namespaces:**
+# **Namespaces:**
 - Mechanism for isolating groups of resources within a single cluster (virtual cluster)
 - To access service in another namespace
-  - Add namespace name to the service name (service_name.namespace_name)
+  - Add namespace name to the service name
+    ```yaml
+    apiVersion: v1
+    kind: ConfigMap
+    metadata:
+    name: mongodb-configmap
+    data:
+    database_url: mongodb-service.database  # service_name.namespace_name
+    ```
         
 **Basic deployment config file:**
 ```yaml
