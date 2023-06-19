@@ -1,3 +1,3 @@
-## My Study Notes
+## My Collection of Study Notes
 
 [Terraform](https://github.com/rajdyp/rajdyp.github.io/tree/master/terraform)
