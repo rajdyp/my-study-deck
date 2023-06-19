@@ -1,5 +1,6 @@
-# Kubernetes Architecture
+# Kubernetes
 
+## Kubernetes Architecture
 ![Kubernetes architecture](https://github.com/rajdyp/rajdyp.github.io/blob/master/images/kubernetes/k8-architecture.png)
 
 **Master (brain):**
@@ -15,7 +16,7 @@
 - kube-proxy
 - cotainer runtime
 
-# **Namespaces:**
+## Namespaces
 - Mechanism for isolating groups of resources within a single cluster (virtual cluster)
 - To access service in another namespace
   - Add namespace name to the service name
