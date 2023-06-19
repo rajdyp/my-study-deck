@@ -10,14 +10,16 @@
 - cloud-controller-manager
 
 
-**Node:**
+**Worker Node:**
 - kubelet
 - kube-proxy
 - cotainer runtime
 
-
+**Namespaces:**
+- Mechanism for isolating groups of resources within a single cluster (virtual cluster)
+        
 **Basic deployment config file:**
-```
+```yaml
 apiVersion: apps/v1
 kind: Deployment
 metadata:
@@ -42,7 +44,7 @@ spec:
 ```
 
 **Basic service config file:**
-```
+```yaml
 apiVersion: v1
 kind: Service
 metadata:
