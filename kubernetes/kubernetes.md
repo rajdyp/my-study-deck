@@ -17,9 +17,9 @@
 - cotainer runtime
 
 ## Namespaces
-- Mechanism for isolating groups of resources within a single cluster (virtual cluster)
-- To access service in another namespace
-  - Add namespace name to the service name
+- Mechanism for isolating groups of resources within a single cluster (virtual cluster).
+- To access service in another namespace.
+  - Add namespace name to the service name.
     ```yaml
     apiVersion: v1
     kind: ConfigMap
@@ -36,9 +36,9 @@
   - Must have an ingress controller to satisfy an ingress.
   - Paths that do not include an explicit pathType will fail validation. 
   - There are three supported path types:
-    - ImplementationSpecific: Matching is up to the IngressClass.
-    - Exact: Matches the URL path exactly and with case sensitivity.
-    - Prefix: Matches based on a URL path prefix split by /. 
+    - **ImplementationSpecific:** Matching is up to the IngressClass.
+    - **Exact:** Matches the URL path exactly and with case sensitivity.
+    - **Prefix:** Matches based on a URL path prefix split by /. 
 
 **Basic deployment config file:**
 ```yaml
