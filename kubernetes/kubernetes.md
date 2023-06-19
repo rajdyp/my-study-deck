@@ -28,7 +28,18 @@
     data:
     database_url: mongodb-service.database  # service_name.namespace_name
     ```
-        
+
+## Ingress
+- Exposes HTTP and HTTPS routes from outside the cluster to services within the cluster.
+- Traffic routing is controlled by rules defined on the Ingress resource.
+- Gives services externally-reachable URLs, load balance traffic, terminate SSL / TLS, and offer name-based virtual hosting.
+  - Must have an ingress controller to satisfy an ingress.
+  - Paths that do not include an explicit pathType will fail validation. 
+  - There are three supported path types:
+    - ImplementationSpecific: Matching is up to the IngressClass.
+    - Exact: Matches the URL path exactly and with case sensitivity.
+    - Prefix: Matches based on a URL path prefix split by /. 
+
 **Basic deployment config file:**
 ```yaml
 apiVersion: apps/v1
