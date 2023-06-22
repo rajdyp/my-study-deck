@@ -15,6 +15,8 @@ terraform validate
 
 ```
 terraform plan
+terraform plan -out <file_name>
+terraform plan -destroy
 ```
 
 ```
