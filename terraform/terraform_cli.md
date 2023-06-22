@@ -1,4 +1,6 @@
-# terraform commands
+# Terraform commands
+
+## Terraform main commands
 ```
 terraform -help
 ```
