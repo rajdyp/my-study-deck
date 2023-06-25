@@ -1,18 +1,28 @@
 # Terraform Notes
 
-### Terraform module
+### Terraform Architecture
+```yaml
++-----------------+       +-----------+        
+| Terraform state + <---> +           |       
++-----------------+       | Terraform |       +----------+
++-----------------+       |   Core    |       | AWS      |       +-----+
+|Terraform config + ----> +           + <---> + Provider + <---> + AWS |       
++-----------------+       +-----------+       +----------+       +-----+
+```
+
+### Terraform Module
 - A Terraform module is a set of Terraform configuration files in a single directory.
 
-## Terraform Code Configuration 
+## Terraform Configuration 
 
-### Configuration block sample
+### Configuration Block Sample
 
 ```hcl
 <BLOCK TYPE> "<BLOCK LABEL>" "<BLOCK LABEL>" {
     <IDENTIFIER> = <EXPRESSION>
 }
 ```
-### Configuration block types:
+### Configuration Block Types:
 - Terraform Settings Block
 - Terraform Provider Block
 - Terraform Resource Block
@@ -21,3 +31,4 @@
 - Terraform Local Variables Block
 - Terraform Output Values Block
 - Terraform Modules Block
+
