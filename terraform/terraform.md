@@ -61,7 +61,7 @@ output "instance_ip_addr" {
   - Terraform CLI prompts
   - Default value in the block
   - Environment variables (TF_VAR_name)
-  - .tfvars files
+  - terraform.tfvars files
   - .auto.tfvars files (auto applied)
   - -var or -var-file options
  
