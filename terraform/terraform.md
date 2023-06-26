@@ -35,16 +35,24 @@
 
 ### Variable Types:
 - Input variables
-  - var.name
+  - var.<name>
+- Local variables
+  - local.<name>
 
 ```hcl
-<BLOCK TYPE> "<BLOCK LABEL>" "<BLOCK LABEL>" {
-    <IDENTIFIER> = <EXPRESSION>
+locals {
+  service_name = "My service"
+  owener       = "rajdyp"
 }
 ```
 
+- Output variables
 
-
+```hcl
+output "instance_ip_addr" {
+  value = aws.instance.instance.public.ip
+}
+```
 
 
 
