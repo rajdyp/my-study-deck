@@ -33,6 +33,8 @@
 - Terraform Output Values Block
 - Terraform Modules Block
 
+## Variable and Outputs 
+
 ### Variable Types:
 - Input variables
   - var.<name>
@@ -41,7 +43,7 @@
 
 ```hcl
 locals {
-  service_name = "My service"
+  service_name = "example-service"
   owener       = "rajdyp"
 }
 ```
@@ -54,7 +56,26 @@ output "instance_ip_addr" {
 }
 ```
 
+### Setting Input Variables
+- Input variables can be set in several ways, ranked in order of precedence from lowest to highest:
+  - Terraform CLI prompts
+  - Default value in the block
+  - Environment variables (TF_VAR_name)
+  - .tfvars files
+  - .auto.tfvars files (auto applied)
+  - -var or -var-file options
+ 
+### Variable Value Types
+- Variables can hold different value types:
+  - **Primitive types:** string, number, or boolean.
+  - **Complex types:** lists, sets, maps, etc.
 
+### Handling Sensitive Data
+- When using sensitive data in variables, add "sensitive = true" attribute when defining the variable to mask the data in Terraform plan output.
+- Avoid storing sensitive data in files, and consider using below options for passing in those data:
+  - Environment variables (TF_VAR_name)
+  - -var command
+  - External secret stores like AWS Secrets Manager or HashiCorp Vault
 
 
 
