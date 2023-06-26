@@ -22,6 +22,7 @@
     <IDENTIFIER> = <EXPRESSION>
 }
 ```
+
 ### Configuration Block Types:
 - Terraform Settings Block
 - Terraform Provider Block
@@ -31,4 +32,29 @@
 - Terraform Local Variables Block
 - Terraform Output Values Block
 - Terraform Modules Block
+
+### Variable Types:
+- Input variables
+  - var.name
+
+```hcl
+<BLOCK TYPE> "<BLOCK LABEL>" "<BLOCK LABEL>" {
+    <IDENTIFIER> = <EXPRESSION>
+}
+```
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
