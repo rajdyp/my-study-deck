@@ -24,14 +24,14 @@
 ```
 
 ### Configuration Block Types:
-- Terraform Settings Block
-- Terraform Provider Block
-- Terraform Resource Block
-- Terraform Data Block
-- Terraform Input Variables Block
-- Terraform Local Variables Block
-- Terraform Output Values Block
-- Terraform Modules Block
+- Settings Block
+- Provider Block
+- Resource Block
+- Data Block
+- Input Variables Block
+- Local Variables Block
+- Output Values Block
+- Modules Block
 
 ## Variable and Outputs 
 
