@@ -6,6 +6,10 @@ terraform -help
 ```
 
 ```
+terraform fmt
+```
+
+```
 terraform init
 ```
 
@@ -25,4 +29,8 @@ terraform apply
 
 ```
 terraform destroy
+```
+
+```
+terraform providers
 ```
