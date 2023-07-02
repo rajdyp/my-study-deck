@@ -9,6 +9,16 @@
 |Terraform config + ----> +           + <---> + Provider + <---> + AWS |       
 +-----------------+       +-----------+       +----------+       +-----+
 ```
+### Terraform Code Comments
+```hcl
+# single line comment
+```
+```hcl
+// single line comment
+```
+```hcl
+/* multi-line comment */
+```
 
 ### Terraform Module
 - A Terraform module is a set of Terraform configuration files in a single directory.
