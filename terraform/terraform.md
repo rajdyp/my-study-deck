@@ -26,7 +26,9 @@
 ### Configuration Block Types:
 - Settings Block
 - Provider Block
+  - Adds a set of resource types and/or data sources that Terraform can manage.
 - Resource Block
+  - Describes one or more infrastructure objects, such as virtual networks, compute instances, etc.
 - Data Block
 - Input Variables Block
 - Local Variables Block
