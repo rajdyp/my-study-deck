@@ -34,3 +34,16 @@ terraform destroy
 ```
 terraform providers
 ```
+
+```
+terraform state list
+```
+
+```
+terraform state show <resource>
+```
+
+```
+terraform show
+```
+
