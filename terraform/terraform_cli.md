@@ -10,6 +10,10 @@ terraform fmt
 ```
 
 ```
+terraform console
+```
+
+```
 terraform init
 ```
 
@@ -50,4 +54,5 @@ terraform show
 ```
 terraform apply -replace <resource>
 ```
+
 
