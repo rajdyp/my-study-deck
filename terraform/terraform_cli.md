@@ -47,3 +47,7 @@ terraform state show <resource>
 terraform show
 ```
 
+```
+terraform apply -replace <resource>
+```
+
