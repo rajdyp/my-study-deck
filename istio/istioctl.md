@@ -8,6 +8,10 @@ istioctl version
 istioctl x precheck
 ```
 
+```
+istioctl proxy-status
+```
+
 ## Enable automatic sidecar injection
 
 ```
