@@ -29,6 +29,7 @@ terraform plan -destroy
 
 ```
 terraform apply
+terraform apply -refresh-only
 ```
 
 ```
