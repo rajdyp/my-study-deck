@@ -11,8 +11,13 @@ istioctl x precheck
 ## Enable automatic sidecar injection
 
 ```
+istioctl kube-inject -f <kube_resource>.yaml | less
+```
+
+```
 kubectl label namespace default istio-injection=enabled
 ```
+
 ```
 kubectl get ns -Listio-injection
 ```
