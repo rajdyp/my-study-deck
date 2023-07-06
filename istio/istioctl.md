@@ -1,31 +1,31 @@
 # Istio commands
 
-```
+```yml
 istioctl version
 ```
 
-```
+```yml
 istioctl x precheck
 ```
 
-```
+```yml
 istioctl proxy-status
 ```
 
-```
+```yml
 istioctl install --set profile=<profile>
 ```
 
 ## Enable automatic sidecar injection
 
-```
+```yml
 istioctl kube-inject -f <kube_resource>.yaml | less
 ```
 
-```
+```yml
 kubectl label namespace default istio-injection=enabled
 ```
 
-```
+```yml
 kubectl get ns -Listio-injection
 ```
