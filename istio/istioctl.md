@@ -12,6 +12,10 @@ istioctl x precheck
 istioctl proxy-status
 ```
 
+```
+istioctl install --set profile=<profile>
+```
+
 ## Enable automatic sidecar injection
 
 ```
