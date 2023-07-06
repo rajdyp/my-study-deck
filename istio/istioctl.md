@@ -20,6 +20,10 @@ istioctl install --set profile=<profile>
 istioctl manifest generate -f <config>.yaml
 ```
 
+```yml
+istioctl proxy-config endpoints deploy/foo.foo
+```
+
 ## Enable automatic sidecar injection
 
 ```yml
