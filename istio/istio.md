@@ -16,3 +16,5 @@ spec:
     - matchLabels:
         env: test
 ```
+
+ingress-gateway -> virtual service -> destination rules
