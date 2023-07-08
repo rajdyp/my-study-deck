@@ -1,18 +1,27 @@
 
 ## Traffic Management
-- ingress-gateway
+- Gateway
   ```yml
-  - Yes
+  - Ports
+  - Protocols
+  - Hosts
   ```
-    - virtual service
+    - VirtualService
       ```yml
+      - Hosts
+      - Route
       - Timeouts
       - Retry policies
       ```
-        - destination rules
+        - DestinationRule
           ```yml
-          - Traffic rules
           - Subsets
+          - Traffic Policies
+            - LB setting
+            - Connection pool settings
+            - Outlier detection
+            - Client TLS settings
+            - Port traffic policy
           ```
 
 ## Discovery Selectors
