@@ -1,4 +1,20 @@
 
+## Traffic Management
+- ingress-gateway
+  ```yml
+  - Yes
+  ```
+    - virtual service
+      ```yml
+      - Timeouts
+      - Retry policies
+      ```
+        - destination rules
+          ```yml
+          - Traffic rules
+          - Subsets
+          ```
+
 ## Discovery Selectors
 - By default, Istio control plane watches and processes updates for all Kubernetes resources in a cluster. 
 - Discovery selectors allow us to control which namespaces Istio control plane watches and sends configuration updates for.
@@ -17,4 +33,4 @@ spec:
         env: test
 ```
 
-ingress-gateway -> virtual service -> destination rules
+
