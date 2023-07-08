@@ -24,6 +24,9 @@
             - Port traffic policy
           ```
 
+#### ServiceEntry
+Add additional entries to Istio’s internal service registry and make external services or internal services that are not part of our mesh look like part of our service mesh.
+
 ## Discovery Selectors
 - By default, Istio control plane watches and processes updates for all Kubernetes resources in a cluster. 
 - Discovery selectors allow us to control which namespaces Istio control plane watches and sends configuration updates for.
