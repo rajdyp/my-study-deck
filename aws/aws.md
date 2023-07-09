@@ -7,3 +7,6 @@ Users
                 > select group 
                     > Create user
 ```
+
+Default VPC = private network
+Security group = instance level firewall 
