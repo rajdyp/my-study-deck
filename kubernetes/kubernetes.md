@@ -28,6 +28,8 @@
     data:
     database_url: mongodb-service.database  # service_name.namespace_name
     ```
+## Deployment
+deployment -> replicaset -> pod
 
 ## Ingress
 - Exposes HTTP and HTTPS routes from outside the cluster to services within the cluster.
