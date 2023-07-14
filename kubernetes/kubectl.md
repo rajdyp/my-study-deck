@@ -77,9 +77,11 @@ kubectl create deployment <deployment_name> --image=<image_name>
 kubectl create deployment <deployment_name> --image=<image_name> --dry-run=client -o yaml
 ```
 ```yaml
-kubectl describe deployments <deployment_name>
+kubectl describe deployment <deployment_name>
 ```
-
+```yaml
+kubectl scale deployment <deployment_name> --replicaset=2
+```
 
 ## Pod
 ```yaml
@@ -122,9 +124,11 @@ kubectl get rs
 kubectl get services
 ```
 ```yaml
-kubectl describe services <service_name>
+kubectl describe service <service_name>
 ```
-
+```yaml
+kubectl expose deployment <deployment_name> --type=LoadBalancer --name=<service_name>
+```
 
 ## ConfigMap
 ```yaml
