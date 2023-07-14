@@ -30,7 +30,7 @@
     ```
 ## Deployment
 - Maintains the history of changes applied to itself.
-deployment -> replicaset -> pod
+  - deployment -> replicaset -> pod
 
 ## Ingress
 - Exposes HTTP and HTTPS routes from outside the cluster to services within the cluster.
