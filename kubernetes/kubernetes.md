@@ -29,6 +29,7 @@
     database_url: mongodb-service.database  # service_name.namespace_name
     ```
 ## Deployment
+- Maintains the history of changes applied to itself.
 deployment -> replicaset -> pod
 
 ## Ingress
