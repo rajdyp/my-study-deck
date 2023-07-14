@@ -30,6 +30,7 @@
     ```
 ## Deployment
 - Maintains the history of changes applied to itself.
+- Enables rollback to previous state.
   - deployment -> replicaset -> pod
 
 ## Ingress
