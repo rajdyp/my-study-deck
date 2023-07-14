@@ -26,7 +26,7 @@ kubectl config use-context <context_name>
 kubectl config get-contexts
 ```
 ```yaml
-kubectl config set-contexts
+kubectl config set-context
 ```
 
 ## Get
