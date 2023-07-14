@@ -82,6 +82,18 @@ kubectl describe deployment <deployment_name>
 ```yaml
 kubectl scale deployment <deployment_name> --replicaset=2
 ```
+```yaml
+kubectl rollout status deployment <deployment_name>
+```
+```yaml
+kubectl rollout undo deployment <deployment_name> --to-revision=1
+```
+
+## ReplicaSet
+```yaml
+kubectl get rs
+```
+
 
 ## Pod
 ```yaml
@@ -110,12 +122,6 @@ kubectl describe pods <pod_name>
 ```
 ```yaml
 kubectl logs <pod_name> -c <container_name>
-```
-
-
-## ReplicaSet
-```yaml
-kubectl get rs
 ```
 
 
