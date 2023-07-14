@@ -125,6 +125,14 @@ kubectl logs <pod_name> -c <container_name>
 ```
 
 
+## Labels
+```yaml
+kubectl label pods -l <label=value>
+```
+```yaml
+kubectl label pods -l <label>- 
+```
+
 ## Service
 ```yaml
 kubectl get services
