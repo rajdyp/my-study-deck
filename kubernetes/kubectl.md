@@ -155,6 +155,15 @@ kubectl get configmaps
 kubectl get secrets
 ```
 
+## Logs
+```yaml
+kubectl logs <resource>
+```
+```yaml
+kubectl logs <resource> -f
+```
+
+
 ## 
 ```yaml
 kubectl get mutatingwebhookconfigurations.admissionregistration.k8s.io 
