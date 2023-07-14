@@ -86,7 +86,7 @@ kubectl scale deployment <deployment_name> --replicaset=2
 kubectl rollout status deployment <deployment_name>
 ```
 ```yaml
-kubectl rollout undo deployment <deployment_name> --to-revision=1
+kubectl rollout undo deployment <deployment_name> --to-revision=<revision_no>
 ```
 
 ## ReplicaSet
