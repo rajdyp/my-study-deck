@@ -86,3 +86,6 @@ spec:
 
 ## Taints
 - Taints allow node to repel a set of pods.
+
+## Node affinity
+- Node affinity restricts which nodes Pod can be scheduled on based on node labels. 
