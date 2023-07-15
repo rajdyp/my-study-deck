@@ -146,7 +146,7 @@ kubectl expose deployment <deployment_name> --type=LoadBalancer --name=<service_
 
 ## ConfigMap
 ```yaml
-kubectl set env deployment <deployment_name> <key>="<value>"
+kubectl set env deployment <deployment_name> <key>="<value>"  # without configmap
 ```
 ```yaml
 kubectl get configmaps
