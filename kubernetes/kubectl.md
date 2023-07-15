@@ -158,6 +158,9 @@ kubectl get configmaps
 
 ## Secret
 ```yaml
+kubectl create secret generic <secret_name> --from-literal=username='<user>' --from-literal=password='<password>'
+```
+```yaml
 kubectl get secrets
 ```
 
