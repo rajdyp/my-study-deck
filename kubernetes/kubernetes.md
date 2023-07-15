@@ -83,3 +83,6 @@ spec:
       port: 80
       targetPort: 8080  # deployment app port is the targetPort for service
 ```
+
+## Taints
+- Taints allow node to repel a set of pods.
