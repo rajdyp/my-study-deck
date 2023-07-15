@@ -149,6 +149,9 @@ kubectl expose deployment <deployment_name> --type=LoadBalancer --name=<service_
 kubectl set env deployment <deployment_name> <key>="<value>"  # without configmap
 ```
 ```yaml
+kubectl create cm <configmap_name> --from-env-file=/app/test/some.properties
+```
+```yaml
 kubectl get configmaps
 ```
 
