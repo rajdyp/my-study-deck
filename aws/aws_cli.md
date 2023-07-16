@@ -5,5 +5,5 @@
 aws
 ```
 ```yaml
-aws configure
+aws configure  # configure AWS CLI access key
 ```
