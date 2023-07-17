@@ -30,6 +30,7 @@ terraform plan -destroy
 ```yaml
 terraform apply
 terraform apply -refresh-only
+terraform apply -auto-approve
 ```
 
 ```yaml
