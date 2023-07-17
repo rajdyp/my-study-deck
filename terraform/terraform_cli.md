@@ -21,18 +21,29 @@ terraform init
 terraform validate
 ```
 
+## Plan
 ```yaml
 terraform plan
+```
+```yaml
 terraform plan -out <file_name>
+```
+```yaml
 terraform plan -destroy
 ```
 
+## Apply
 ```yaml
 terraform apply
+```
+```yaml
 terraform apply -refresh-only
+```
+```yaml
 terraform apply -auto-approve
 ```
 
+## Destroy
 ```yaml
 terraform destroy
 ```
