@@ -10,3 +10,6 @@ Users
 
 Default VPC = private network
 Security group = instance level firewall 
+
+
+Block storage vs Object storage vs File Storage
