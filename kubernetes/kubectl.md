@@ -13,6 +13,9 @@ kubectl config view
 ```yaml
 kubectl cluster-info
 ```
+```yaml
+kubectl api-resources
+```
 
 
 ## Context
@@ -28,6 +31,7 @@ kubectl config get-contexts
 ```yaml
 kubectl config set-context
 ```
+
 
 ## Get
 ```yaml
