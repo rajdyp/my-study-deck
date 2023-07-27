@@ -61,7 +61,9 @@ kubectl get sa
 ```yaml
 kubectl get nodes
 ```
-
+```yaml
+kubectl get node -o json | jq ".items[] | {name:.metadata.name} + .status.capacity"
+```
 
 ## Deployment
 ```yaml
