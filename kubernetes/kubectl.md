@@ -179,6 +179,11 @@ kubectl logs <resource> -f
 ```
 
 
+## CronJob
+```yaml
+kubectl create cronjob <cronjob_name> --image=<image_name> --schedule="* * * * *" -- <command>
+```
+
 ## 
 ```yaml
 kubectl get mutatingwebhookconfigurations.admissionregistration.k8s.io 
