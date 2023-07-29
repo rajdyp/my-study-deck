@@ -177,7 +177,9 @@ kubectl logs <resource>
 ```yaml
 kubectl logs <resource> -f
 ```
-
+```yaml
+kubectl logs -l <label>:<selector>
+```
 
 ## CronJob
 ```yaml
