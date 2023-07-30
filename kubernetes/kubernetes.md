@@ -37,13 +37,12 @@
 - Abstraction to help expose pods over a network.
 - Defines a logical set of endpoints (usually these endpoints are pods) along with a policy about how to make those pods accessible.
   - Service type:
-    - ClusterIP: Exposes the service on a cluster-internal IP.
+    - ClusterIP (default): Exposes the service on a cluster-internal IP.
     - NodePort: Exposes the service on each node's IP at a static port (the NodePort). 
     - LoadBalancer: Exposes the service externally using an external load balancer. 
     - ExternalName: Maps the service to the contents of the externalName field (DNS name). 
-```yaml
 
-```
+![service](https://github.com/rajdyp/rajdyp.github.io/blob/master/images/kubernetes/service.png)
 
 ## Ingress
 - Exposes HTTP and HTTPS routes from outside the cluster to services within the cluster.
