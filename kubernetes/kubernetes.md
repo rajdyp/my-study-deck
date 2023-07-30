@@ -33,6 +33,18 @@
 - Enables rollback to previous state.
   - deployment -> replicaset -> pod
 
+## Service
+- Abstraction to help expose pods over a network.
+- Defines a logical set of endpoints (usually these endpoints are pods) along with a policy about how to make those pods accessible.
+  - Service type:
+    - ClusterIP: Exposes the service on a cluster-internal IP.
+    - NodePort: Exposes the service on each node's IP at a static port (the NodePort). 
+    - LoadBalancer: Exposes the service externally using an external load balancer. 
+    - ExternalName: Maps the service to the contents of the externalName field (for example, to the hostname api.foo.bar.example). 
+```yaml
+
+```
+
 ## Ingress
 - Exposes HTTP and HTTPS routes from outside the cluster to services within the cluster.
 - Traffic routing is controlled by rules defined on the Ingress resource.
