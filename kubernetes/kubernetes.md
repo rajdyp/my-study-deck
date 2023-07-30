@@ -40,7 +40,7 @@
     - ClusterIP: Exposes the service on a cluster-internal IP.
     - NodePort: Exposes the service on each node's IP at a static port (the NodePort). 
     - LoadBalancer: Exposes the service externally using an external load balancer. 
-    - ExternalName: Maps the service to the contents of the externalName field (for example, to the hostname api.foo.bar.example). 
+    - ExternalName: Maps the service to the contents of the externalName field (DNS name). 
 ```yaml
 
 ```
