@@ -149,6 +149,9 @@ kubectl describe service <service_name>
 ```yaml
 kubectl expose deployment <deployment_name> --type=LoadBalancer --name=<service_name>
 ```
+```yaml
+kubectl get endpoints
+```
 
 ## ConfigMap
 ```yaml
