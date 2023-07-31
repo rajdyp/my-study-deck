@@ -186,8 +186,10 @@ kubectl logs -l <label>:<selector>
 kubectl create cronjob <cronjob_name> --image=<image_name> --schedule="* * * * *" -- <command>
 ```
 
-## 
+## Extras
 ```yaml
 kubectl get mutatingwebhookconfigurations.admissionregistration.k8s.io 
 ```
-
+```yaml
+IP=$(kubectl get svc httpenv -o go-template --template '{{ .spec.clusterIP }}')
+```
