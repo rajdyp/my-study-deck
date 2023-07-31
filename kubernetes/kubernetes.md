@@ -44,6 +44,12 @@
 
 ![service](https://github.com/rajdyp/rajdyp.github.io/blob/master/images/kubernetes/service.png)
 
+  - Headless service
+    - Cluster IP is not allocated.
+    - kube-proxy does not handle these services.
+    - No load balancing or proxying done by the Kubernetes for them.
+      - --cluster-ip=None
+
 ## Ingress
 - Exposes HTTP and HTTPS routes from outside the cluster to services within the cluster.
 - Traffic routing is controlled by rules defined on the Ingress resource.
