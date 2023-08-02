@@ -16,7 +16,7 @@ Block storage vs Object storage vs File storage
 
 ## CloudTrail
 - Events
-  - Management events
-  - Data events
-  - Insights events
+  - Management events: Capture management operations.
+  - Data events: Log resource operations.
+  - Insights events: Identify unusual activity, errors, or user behavior.
  
