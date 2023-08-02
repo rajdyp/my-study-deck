@@ -13,3 +13,10 @@ Security group = instance level firewall
 
 
 Block storage vs Object storage vs File storage
+
+## CloudTrail
+- Events
+  - Management events
+  - Data events
+  - Insights events
+ 
