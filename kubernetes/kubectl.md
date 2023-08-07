@@ -16,7 +16,9 @@ kubectl cluster-info
 ```yaml
 kubectl api-resources
 ```
-
+```yaml
+kubectl edit
+```
 
 ## Context
 ```yaml
