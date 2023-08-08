@@ -10,11 +10,17 @@
 - kube-controller-manager
 - cloud-controller-manager
 
-
 **Worker Node:**
 - kubelet
 - kube-proxy
 - cotainer runtime
+
+## Kubernetes Manifest File
+- Basic parts of Kubernetes manifest file:
+  - apiVersion : Kubernetes API version
+  - kind : Kind of object (deployment, service, etc.)
+  - metadata : Data that uniquely identify the object (name, namespace, labels, annotations, etc.)
+  - spec : Desired state for the object. Depend on the kind of object. 
 
 ## Namespaces
 - Mechanism for isolating groups of resources within a single cluster (virtual cluster).
