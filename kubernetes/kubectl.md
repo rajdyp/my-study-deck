@@ -5,7 +5,13 @@
 kubectl version --short
 ```
 ```yaml
-kubectl explain <resource_name>
+kubectl explain <resource>
+```
+```yaml
+kubectl explain <resource>.spec
+```
+```yaml
+kubectl explain <resource>.spec --recursive
 ```
 ```yaml
 kubectl config view
