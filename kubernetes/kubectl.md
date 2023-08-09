@@ -17,6 +17,9 @@ kubectl cluster-info
 kubectl api-resources
 ```
 ```yaml
+kubectl api-versions
+```
+```yaml
 kubectl edit
 ```
 
