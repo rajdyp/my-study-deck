@@ -28,6 +28,9 @@ kubectl api-versions
 ```yaml
 kubectl edit
 ```
+```yaml
+kubectl diff -f <yaml_file>
+```
 
 ## Context
 ```yaml
