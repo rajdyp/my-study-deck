@@ -210,3 +210,6 @@ kubectl get mutatingwebhookconfigurations.admissionregistration.k8s.io
 ```yaml
 IP=$(kubectl get svc httpenv -o go-template --template '{{ .spec.clusterIP }}')
 ```
+```yaml
+kubectl get deploy -o json | jq ".items[] | {name:.metadata.name} + .spec.strategy.rollingUpdate"
+```
