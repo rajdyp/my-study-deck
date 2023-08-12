@@ -103,6 +103,9 @@ kubectl describe deployment <deployment_name>
 kubectl scale deployment <deployment_name> --replicaset=2
 ```
 ```yaml
+kubectl rollout history deployment <deployment_name>
+```
+```yaml
 kubectl rollout status deployment <deployment_name>
 ```
 ```yaml
