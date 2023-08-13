@@ -111,6 +111,9 @@ kubectl rollout status deployment <deployment_name>
 ```yaml
 kubectl rollout undo deployment <deployment_name> --to-revision=<revision_no>
 ```
+```yaml
+kubectl patch deployment <deployment_name> --patch-file <patch-file>.yaml
+```
 
 ## ReplicaSet
 ```yaml
