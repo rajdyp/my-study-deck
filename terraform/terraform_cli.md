@@ -10,6 +10,10 @@ terraform init
 ```
 
 ```yaml
+terraform init -upgrade    # to allow selection of new versions
+```
+
+```yaml
 terraform fmt
 ```
 
