@@ -6,7 +6,7 @@ terraform -help
 ```
 
 ```yaml
-terraform init
+terraform init    # initializes a working directory
 ```
 
 ```yaml
