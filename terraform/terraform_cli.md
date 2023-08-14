@@ -1,6 +1,6 @@
 # Terraform commands
 
-## Terraform main commands
+## Basic commands
 ```yaml
 terraform -help
 ```
