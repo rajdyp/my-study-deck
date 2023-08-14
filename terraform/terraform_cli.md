@@ -6,15 +6,15 @@ terraform -help
 ```
 
 ```yaml
+terraform init
+```
+
+```yaml
 terraform fmt
 ```
 
 ```yaml
 terraform console
-```
-
-```yaml
-terraform init
 ```
 
 ```yaml
