@@ -27,7 +27,7 @@ terraform validate
 
 ## Plan
 ```yaml
-terraform plan
+terraform plan    # creates an execution plan
 ```
 ```yaml
 terraform plan -out <file_name>    # save generated plan to a file on disk
