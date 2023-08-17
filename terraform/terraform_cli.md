@@ -30,7 +30,7 @@ terraform validate
 terraform plan
 ```
 ```yaml
-terraform plan -out <file_name>
+terraform plan -out <file_name>    # save generated plan to a file on disk
 ```
 ```yaml
 terraform plan -destroy
