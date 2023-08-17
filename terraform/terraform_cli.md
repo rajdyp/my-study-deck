@@ -38,7 +38,7 @@ terraform plan -destroy
 
 ## Apply
 ```yaml
-terraform apply
+terraform apply    # executes the actions proposed in a Terraform plan
 ```
 ```yaml
 terraform apply -refresh-only
@@ -49,7 +49,7 @@ terraform apply -auto-approve
 
 ## Destroy
 ```yaml
-terraform destroy
+terraform destroy    # destroy all remote objects managed by Terraform configuration
 ```
 
 ```yaml
