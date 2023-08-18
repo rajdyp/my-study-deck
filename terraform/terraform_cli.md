@@ -56,6 +56,7 @@ terraform destroy    # destroy all remote objects managed by Terraform configura
 terraform providers
 ```
 
+## State
 ```yaml
 terraform state list
 ```
@@ -69,7 +70,10 @@ terraform show
 ```
 
 ```yaml
-terraform apply -replace <resource>
+terraform show -json | jq
 ```
 
+```yaml
+terraform apply -replace <resource>
+```
 
