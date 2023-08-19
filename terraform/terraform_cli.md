@@ -66,18 +66,14 @@ terraform state show <resource>
 ```
 
 ```yaml
-terraform show
-```
-
-```yaml
-terraform show -json | jq
-```
-
-```yaml
 terraform apply -replace <resource>
 ```
 
 ## Show
 ```yaml
 terraform show
+```
+
+```yaml
+terraform show -json | jq
 ```
