@@ -77,3 +77,9 @@ terraform show
 ```yaml
 terraform show -json | jq
 ```
+
+## Output
+```yaml
+terraform output
+```
+
