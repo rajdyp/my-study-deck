@@ -77,3 +77,7 @@ terraform show -json | jq
 terraform apply -replace <resource>
 ```
 
+## Show
+```yaml
+terraform show
+```
