@@ -58,7 +58,7 @@ terraform providers
 
 ## State
 ```yaml
-terraform state list
+terraform state list    # list all resources in the state file
 ```
 
 ```yaml
