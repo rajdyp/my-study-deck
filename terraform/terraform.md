@@ -90,7 +90,8 @@ output "instance_ip_addr" {
   - External secret stores like AWS Secrets Manager or HashiCorp Vault
 
 
-
+### Troubleshooting
+- 
 
 
 
