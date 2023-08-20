@@ -29,9 +29,11 @@ terraform validate
 ```yaml
 terraform plan    # creates an execution plan
 ```
+
 ```yaml
 terraform plan -out <file_name>    # save generated plan to a file on disk
 ```
+
 ```yaml
 terraform plan -destroy
 ```
@@ -40,11 +42,17 @@ terraform plan -destroy
 ```yaml
 terraform apply    # executes the actions proposed in a Terraform plan
 ```
+
 ```yaml
 terraform apply -refresh-only
 ```
+
 ```yaml
 terraform apply -auto-approve
+```
+
+```yaml
+terraform apply -replace <resource>
 ```
 
 ## Destroy
@@ -73,10 +81,6 @@ terraform taint <resource>
 terraform untaint <resource>
 ```
 
-```yaml
-terraform apply -replace <resource>
-```
-
 ## Show
 ```yaml
 terraform show
@@ -91,3 +95,7 @@ terraform show -json | jq
 terraform output
 ```
 
+## import
+```yaml
+terraform import
+```
