@@ -90,8 +90,11 @@ output "instance_ip_addr" {
   - External secret stores like AWS Secrets Manager or HashiCorp Vault
 
 
-### Troubleshooting
-- 
+## Troubleshooting
+### Delete unwanted resource introduced due to a corrupt state.
+- Temporarily add unwanted resource in the terraform config.
+- Import the resource to bring it under Terraform's management.
+- Delete the unwanted resource. 
 
 
 
