@@ -66,6 +66,14 @@ terraform state show <resource>
 ```
 
 ```yaml
+terraform taint <resource>
+```
+
+```yaml
+terraform untaint <resource>
+```
+
+```yaml
 terraform apply -replace <resource>
 ```
 
