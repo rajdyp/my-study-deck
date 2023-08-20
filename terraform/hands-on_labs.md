@@ -1,6 +1,6 @@
 # Hands-on Labs
 
-### Derek Morgan
+### More than Certified - Derek Morgan
 1. Create a Node-RED docker container.
 2. Output container name and its IP address.
 3. Next use join function to output `<IP>:<port>` instead of just IP address.
