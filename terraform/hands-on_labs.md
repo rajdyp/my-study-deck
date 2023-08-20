@@ -7,6 +7,6 @@
 4. Add another Node-RED docker container along with steps# 2 & 3. 
 5. Use random to rename the first container.
 6. Use count to rename both containers and remove duplicate code block for second container.
-  - Make necessary changes in output blocks. 
+    - Make necessary changes in output blocks. 
 8. Use splat expression to output container name. 
 9. 
