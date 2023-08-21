@@ -74,6 +74,14 @@ terraform state show <resource>
 ```
 
 ```yaml
+terraform state rm <resource>
+```
+
+```yaml
+terraform refresh
+```
+
+```yaml
 terraform taint <resource>
 ```
 
