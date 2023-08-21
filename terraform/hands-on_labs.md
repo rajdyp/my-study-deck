@@ -9,5 +9,5 @@
 6. Use count to rename both containers and remove duplicate code block for second container. Make necessary changes in output blocks. 
 8. Use splat expression to output container name. 
 9. Use for expression to output `<IP>:<port>`.
-10. Delete unwanted container created due to corrupt state.
+10. Delete a docker container created outside of Terraform config.
 11. 
