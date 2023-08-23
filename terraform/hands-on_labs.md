@@ -11,4 +11,5 @@
 8. Use splat expression to output container name. 
 9. Use for expression to output `<IP>:<port>`.
 10. Delete a docker container created outside of Terraform config.
-11. Fix Terraform state when a docker container was deleted outside of Terraoform config. 
+11. Fix Terraform state ($ terraform state list) when a docker container was deleted outside of Terraoform config.
+12. 
