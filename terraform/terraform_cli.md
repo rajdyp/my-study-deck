@@ -57,7 +57,7 @@ terraform apply -replace <resource>
 
 ## Variables
 ```yaml
-terraform plan/apply -var <var_name>=<value>
+terraform plan/apply -var <var_name>=<value>    # variables on the CLI
 ```
 
 ```yaml
