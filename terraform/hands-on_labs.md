@@ -17,4 +17,4 @@
      - Input value as an environment variable
      - Set a default value
 13. Set both container count and internal port as variables with default value.
-14. Validate internal port to always be 1880.
+14. Create a validation for internal port to always be 1880.
