@@ -61,7 +61,11 @@ terraform plan/apply -var <var_name>=<value>
 ```
 
 ```yaml
-export TF_VAR_<var_name>=<value>
+export TF_VAR_<var_name>=<value>    # export environment variable
+```
+
+```yaml
+unset TF_VAR_<var_name>    # unset environment variable
 ```
 
 ## Destroy
