@@ -12,4 +12,9 @@
 9. Use for expression to output `<IP>:<port>`.
 10. Delete a docker container created outside of Terraform config.
 11. Fix Terraform state ($ terraform state list) when a docker container was deleted outside of Terraoform config.
-12. Setup an external port as a variable for Node-RED container. 
+12. Set external port as a variable for Node-RED container.
+     - Input value in the CLI
+     - Input value as an environment variable
+     - Set a default value
+13. Set both container count and internal port as variables with default value.
+14. Validate internal port to always be 1880.
