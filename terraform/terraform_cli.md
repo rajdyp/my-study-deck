@@ -38,6 +38,10 @@ terraform plan -out <file_name>    # save generated plan to a file on disk
 terraform plan -destroy
 ```
 
+```yaml
+terraform plan -var <var_name>=<value>
+```
+
 ## Apply
 ```yaml
 terraform apply    # executes the actions proposed in a Terraform plan
