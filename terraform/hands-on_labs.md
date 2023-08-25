@@ -19,3 +19,5 @@
 13. Set both container count and internal port as variables with default value.
 14. Create a validation for internal port to always be 1880.
 15. Create a validation for external port to be in the part range 0 - 65535.
+16. Create seperate terraform files for variables and output.
+17. Override default variable value with another terraform file.  
