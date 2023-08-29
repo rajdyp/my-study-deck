@@ -23,4 +23,4 @@
 17. Override default variable value with another terraform file.
 18. How to create and use multiple tfvars file for different envrionments.
 19. Set external port as a sensitive variable.
-20. 
+20. Use local-exec provisioner as a null resource to bind a local directory in the container. 
