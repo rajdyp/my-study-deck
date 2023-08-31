@@ -24,4 +24,6 @@
 18. How to create and use multiple tfvars file for different envrionments.
 19. Set external port as a sensitive variable.
 20. Use local-exec provisioner as a null resource to bind a local directory in the container.
-21. Set a group of external ports to be used (instead of single port) and use local values to setup container count. 
+21. Set a group of external ports to be used (instead of single port) and use local values to setup container count (enternal port validation will fail).
+22. Fix external port validation.
+23. 
