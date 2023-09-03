@@ -102,6 +102,19 @@ terraform taint <resource>
 terraform untaint <resource>
 ```
 
+## Workspace
+```yaml
+terraform workspace new <ws_name>
+```
+
+```yaml
+terraform workspace show
+```
+
+```yaml
+terraform workspace list
+```
+
 ## Show
 ```yaml
 terraform show
