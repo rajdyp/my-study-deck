@@ -27,3 +27,4 @@
 21. Set a group of external ports to be used (instead of single port) and use local values to setup container count (enternal port validation will fail).
 22. Fix external port validation.
 23. Remove hard coded host_path for volumes and make it dynamic.
+24. Pretending there are two envs (dev and prod), use latest Node-RED image for dev env and latest-minimal for prod.
