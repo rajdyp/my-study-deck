@@ -28,3 +28,4 @@
 22. Fix external port validation.
 23. Remove hard coded host_path for volumes and make it dynamic.
 24. Pretending there are two envs (dev and prod), use latest Node-RED image for dev env and latest-minimal for prod.
+25. Setup different sets of external ports for dev (1980, 1981) and prod (1880, 1881) environments.
