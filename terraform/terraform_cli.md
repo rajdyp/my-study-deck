@@ -115,6 +115,10 @@ terraform workspace show
 terraform workspace list
 ```
 
+```yaml
+terraform workspace select <ws_name>
+```
+
 ## Show
 ```yaml
 terraform show
