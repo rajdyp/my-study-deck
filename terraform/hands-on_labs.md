@@ -30,3 +30,4 @@
 24. Pretending there are two envs (dev and prod), use latest Node-RED image for dev env and latest-minimal for prod.
 25. Setup different sets of external ports for dev (1980, 1981) and prod (1880, 1881) environments.
 26. Setup different workspaces for dev and prod environments.
+27. Make use of workspaces in the Terraform configuration.
