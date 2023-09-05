@@ -3,7 +3,11 @@
 ## Basic
 
 ```yaml
-aws
+aws --version
+```
+
+```yaml
+aws help
 ```
 
 ```yaml
