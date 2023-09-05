@@ -2,4 +2,4 @@
 
 ### AWS SysOps - DigitalCloud Training
 
-1. Create an  IAM User and group. 
+1. Create IAM Users and groups.
