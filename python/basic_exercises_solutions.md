@@ -20,14 +20,17 @@ print(new_list)
 5. Split integer `1234` into digits `1 2 3 4`
 ```yaml
 num = 1234
-temp = str(num)
 list = []
-for i in temp:
+for i in str(num):
     list.append(i)
 digits = " ".join([str(i) for i in list])
 print(digits)
 ```
-6. 
+6. Find sum of digits of a number `888`.
 ```yaml
-
+n = 888
+sum = 0
+for i in str(n):
+    sum += int(i)
+print(sum)
 ```
