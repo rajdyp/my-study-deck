@@ -7,3 +7,4 @@
 5. Find sum of digits of a number `888`.
 6. Break any text to a list of words.
 7. Add tuple to an existing list.
+8. Convert list to tuple and tuple to list. 
