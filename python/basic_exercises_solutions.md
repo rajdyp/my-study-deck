@@ -52,7 +52,7 @@ movies = [
     ("Memento", 9000000),
 ]
 
-new_movie = tuple(["Titanic", 800000000])
+new_movie = tuple(["Titanic", 800000000])    # new_movie = ("Titanic", 800000000)
 movies.append(new_movie)
 print(movies)
 ```
