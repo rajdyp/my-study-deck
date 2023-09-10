@@ -6,3 +6,4 @@
 4. Split integer `1234` into digits `1 2 3 4`
 5. Find sum of digits of a number `888`.
 6. Break any text to a list of words.
+7. Add tuple to an existing list.
