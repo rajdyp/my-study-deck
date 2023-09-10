@@ -45,4 +45,16 @@ text = "what a beautiful day"
 print(text.split())
 ```
 
-7. 
+7. Add tuple to an existing list.
+```yaml
+movies = [
+    ("Eternal Sunshine of the Spotless Mind", 20000000),
+    ("Memento", 9000000),
+]
+
+new_movie = tuple(["Titanic", 800000000])
+movies.append(new_movie)
+print(movies)
+```
+
+8. 
