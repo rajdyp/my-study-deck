@@ -57,4 +57,10 @@ movies.append(new_movie)
 print(movies)
 ```
 
-8. 
+8. Convert list to tuple and tuple to list.
+```yaml
+mylist = ["abc", "xyz", "qpr"]
+mytuple = tuple(mylist)
+print(mytuple)
+```
+9. 
