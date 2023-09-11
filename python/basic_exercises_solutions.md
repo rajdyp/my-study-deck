@@ -74,4 +74,12 @@ for index, i in enumerate(str_num):
         print (double_num)
 ```
 
-10. 
+10. Reverse the order of the digits `5893804115457289` using list.
+```yaml
+num = 5893804115457289
+mylist = list(str(5893804115457289))
+mylist.reverse()
+print(mylist)
+```
+
+11. 
