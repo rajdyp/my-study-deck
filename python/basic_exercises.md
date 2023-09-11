@@ -8,5 +8,5 @@
 6. Break any text to a list of words.
 7. Add tuple to an existing list.
 8. Convert list to tuple and tuple to list.
-9. For the given sequence of digits `5893804115457289`, take the digits at each of the even indices (0, 2, 4, 6, etc.) and double them.
-10. 
+9. For the sequence of digits `5893804115457289`, take the digits at each of the even indices (0, 2, 4, 6, etc.) and double them.
+10. Reverse the order of the digits `5893804115457289` using list. 
