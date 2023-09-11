@@ -63,4 +63,15 @@ mylist = ["abc", "xyz", "qpr"]
 mytuple = tuple(mylist)
 print(mytuple)
 ```
-9. 
+
+9. For the given sequence of digits `5893804115457289`, take the digits at each of the even indices (0, 2, 4, 6, etc.) and double them.
+```yaml
+num = 5893804115457289
+str_num = str(num)
+for index, i in enumerate(str_num):
+    if index % 2 == 0:
+        double_num = int(i) * 2
+        print (double_num)
+```
+
+10. 
