@@ -27,6 +27,8 @@ movies = [
      - Merge dictionary with any other dictionary
      - Update student age to 18
      - Delete grades
+     - List all keys
+     - List all values
      - Iterate and print all keys
      - Iterate and print all values
      - Iterate and print both keys value pairs
