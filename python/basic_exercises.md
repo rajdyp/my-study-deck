@@ -30,6 +30,7 @@ movies = [
      - Iterate and print all keys
      - Iterate and print all values
      - Iterate and print both keys value pairs
+     - Remove all items
 ```yaml
 student = {
     "name": "John Smith",
