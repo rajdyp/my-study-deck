@@ -21,13 +21,28 @@ movies = [
     ("Memento", 2000),
 ]
 ```
-4. Convert given list `numbers = [1, 2, 3, 4, 5]` to `1, 2, 3, 4, 5`
-5. Reverse the string `"Hello World"`
-6. Remove duplicates from the given list: `mylist = ["a", "b", "a", "c", "c"]`
-7. Split integer `1234` into digits `1 2 3 4`
-8. Find sum of digits of a number `888`.
-9. Break any text to a list of words.
-10. Add tuple to an existing list.
-11. Convert list to tuple and tuple to list.
-12. For the sequence of digits `5893804115457289`, take the digits at each of the even indices (0, 2, 4, 6, etc.) and double them.
-13. Reverse the order of the digits `5893804115457289` using list. 
+4. From dictionary:
+     - Print student grades
+     - Add student age
+     - Merge dictionary with any other dictionary
+     - Update student age to 18
+     - Delete grades
+     - Iterate and print all keys
+     - Iterate and print all values
+     - Iterate and print both keys value pairs
+```yaml
+student = {
+    "name": "John Smith",
+    "grades": [88, 76, 92, 85, 69]
+}
+```
+5. Convert given list `numbers = [1, 2, 3, 4, 5]` to `1, 2, 3, 4, 5`
+6. Reverse the string `"Hello World"`
+7. Remove duplicates from the given list: `mylist = ["a", "b", "a", "c", "c"]`
+8. Split integer `1234` into digits `1 2 3 4`
+9. Find sum of digits of a number `888`.
+10. Break any text to a list of words.
+11. Add tuple to an existing list.
+12. Convert list to tuple and tuple to list.
+13. For the sequence of digits `5893804115457289`, take the digits at each of the even indices (0, 2, 4, 6, etc.) and double them.
+14. Reverse the order of the digits `5893804115457289` using list. 
