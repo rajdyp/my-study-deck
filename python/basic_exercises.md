@@ -1,6 +1,6 @@
 # Basic Exercises
 
-1. From list: `names = ["John", "Alice", "Sarah", "George"]`
+1. Create a list of names containing `"John", "Alice", "Sarah", "George"`
      - Retrieve `"Sarah"`
      - Retrieve `"George"`
      - Add `"Simon"`
@@ -8,7 +8,7 @@
      - Remove `"John"`
      - Remove `"Simon"`
      - Clear the list
-2. From tuple: `names = ("John", "Sarah", "Alice")`
+2. Create a tuple of names`"John", "Sarah", "Alice"`
      - Retrieve `"Sarah"`
      - Add `"Simon"`
      - Rmove `"John"`
@@ -21,7 +21,7 @@ movies = [
     ("Memento", 2000),
 ]
 ```
-4. From dictionary:
+4. Create a dictionary called `student`, wherein student name is `"John Smith"` and his grades are `88, 76, 92, 85, 69`.
      - Print student grades
      - Add student age
      - Merge dictionary with any other dictionary
@@ -33,12 +33,6 @@ movies = [
      - Iterate and print all values
      - Iterate and print both keys value pairs
      - Remove all items
-```yaml
-student = {
-    "name": "John Smith",
-    "grades": [88, 76, 92, 85, 69]
-}
-```
 5. Convert given list `numbers = [1, 2, 3, 4, 5]` to `1, 2, 3, 4, 5`
 6. Reverse the string `"Hello World"`
 7. Remove duplicates from the given list: `mylist = ["a", "b", "a", "c", "c"]`
