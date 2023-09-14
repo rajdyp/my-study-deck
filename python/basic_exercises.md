@@ -41,13 +41,14 @@ movies = [
      - Create a sequence of numbers using range, then ask the user to enter a number.
           - Inform the user whether or not their number was within the specified range.
           - Also tell the user if their number was too high or too low.
-6. Convert given list `numbers = [1, 2, 3, 4, 5]` to `1, 2, 3, 4, 5`
-7. Reverse the string `"Hello World"`
-8. Remove duplicates from the given list: `mylist = ["a", "b", "a", "c", "c"]`
-9. Split integer `1234` into digits `1 2 3 4`
-10. Find sum of digits of a number `888`.
-11. Break any text to a list of words.
-12. Add tuple to an existing list.
-13. Convert list to tuple and tuple to list.
-14. For the sequence of digits `5893804115457289`, take the digits at each of the even indices (0, 2, 4, 6, etc.) and double them.
-15. Reverse the order of the digits `5893804115457289` using list. 
+6. Split `"was it a car"` to `'w', 'a', 's', 'i', 't', 'a', 'c', 'a', 'r'`
+7. Convert given list `numbers = [1, 2, 3, 4, 5]` to `1, 2, 3, 4, 5`
+8. Reverse the string `"Hello World"`
+9. Remove duplicates from the given list: `mylist = ["a", "b", "a", "c", "c"]`
+10. Split integer `1234` into digits `1 2 3 4`
+11. Find sum of digits of a number `888`.
+12. Break any text to a list of words.
+13. Add tuple to an existing list.
+14. Convert list to tuple and tuple to list.
+15. For the sequence of digits `5893804115457289`, take the digits at each of the even indices (0, 2, 4, 6, etc.) and double them.
+16. Reverse the order of the digits `5893804115457289` using list. 
