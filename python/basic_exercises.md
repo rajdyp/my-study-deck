@@ -24,6 +24,7 @@ movies = [
 4. Create a dictionary called `student`, wherein student name is `"John Smith"` and his grades are `88, 76, 92, 85, 69`.
      - Print student grades
      - Add student age
+     - Print `John Smith is 14 years old and his grades are 88, 76, 92, 85, 69`
      - Merge dictionary with any other dictionary
      - Update student age to 18
      - Delete grades
