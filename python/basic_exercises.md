@@ -54,3 +54,10 @@ movies = [
 16. For the sequence of digits `5893804115457289`, take the digits at each of the even indices (0, 2, 4, 6, etc.) and double them.
 17. Reverse the order of the digits `5893804115457289` using list.
 18. Print values in list along with its index `nums = [2,7,11,15]`
+19. Take the set of CSV data and split them into rows.
+```yaml
+sepal_length,sepal_width,petal_length,petal_width,species
+5.1,3.5,1.4,0.2,Iris-setosa
+4.9,3,1.4,0.2,Iris-setosa
+```
+20. 
