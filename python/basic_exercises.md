@@ -52,4 +52,5 @@ movies = [
 14. Add tuple to an existing list.
 15. Convert list to tuple and tuple to list.
 16. For the sequence of digits `5893804115457289`, take the digits at each of the even indices (0, 2, 4, 6, etc.) and double them.
-17. Reverse the order of the digits `5893804115457289` using list. 
+17. Reverse the order of the digits `5893804115457289` using list.
+18. Print values in list along with its index `nums = [2,7,11,15]`
