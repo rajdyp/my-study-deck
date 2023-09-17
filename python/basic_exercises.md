@@ -61,4 +61,11 @@ sepal_length,sepal_width,petal_length,petal_width,species
 5.1,3.5,1.4,0.2,Iris-setosa
 4.9,3,1.4,0.2,Iris-setosa
 ```
-20. 
+21. Check for leap year.
+```yaml
+In the Gregorian calendar, three conditions are used to identify leap years:
+- The year can be evenly divided by 4, is a leap year, unless
+- The year can be evenly divided by 100, it is NOT a leap year, unless
+- The year is also evenly divisible by 400. Then it is a leap year.
+```
+22. 
