@@ -44,7 +44,7 @@ movies = [
 6. Split `"was it a car"` to `'w', 'a', 's', 'i', 't', 'a', 'c', 'a', 'r'`
 7. Add first and last name without string concatenation.
 8. For integer `n = 5` without using any string methods, print `12345`.
-9. For integer `n = 5` perform backwards iteration and print `5, 4, 3, 2 ,1`.
+9. For integer `n = 5` perform backwards iteration and print `5 4 3 2 1`.
 10. Convert `"Hello word !"` into `helloworld!`.
 11. Convert given list `numbers = [1, 2, 3, 4, 5]` to `1, 2, 3, 4, 5`
 12. Reverse the string `"Hello World"`
