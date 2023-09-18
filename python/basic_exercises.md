@@ -44,19 +44,20 @@ movies = [
 6. Split `"was it a car"` to `'w', 'a', 's', 'i', 't', 'a', 'c', 'a', 'r'`
 7. Add first and last name without string concatenation.
 8. For integer `n = 5` without using any string methods, print `12345`.
-9. Convert `"Hello word !"` into `helloworld!`.
-10. Convert given list `numbers = [1, 2, 3, 4, 5]` to `1, 2, 3, 4, 5`
-11. Reverse the string `"Hello World"`
-12. Remove duplicates from the given list: `mylist = ["a", "b", "a", "c", "c"]`
-13. Split integer `1234` into digits `1 2 3 4`
-14. Find sum of digits of a number `888`.
-15. Break any text to a list of words.
-16. Add tuple to an existing list.
-17. Convert list to tuple and tuple to list.
-18. For the sequence of digits `5893804115457289`, take the digits at each of the even indices (0, 2, 4, 6, etc.) and double them.
-19. Reverse the order of the digits `5893804115457289` using list.
-20. Print values in list along with its index `nums = [2,7,11,15]`
-21. Take the set of CSV data and split them into rows.
+9. For integer `n = 5` perform backwards iteration and print `5, 4, 3, 2 ,1`.
+10. Convert `"Hello word !"` into `helloworld!`.
+11. Convert given list `numbers = [1, 2, 3, 4, 5]` to `1, 2, 3, 4, 5`
+12. Reverse the string `"Hello World"`
+13. Remove duplicates from the given list: `mylist = ["a", "b", "a", "c", "c"]`
+14. Split integer `1234` into digits `1 2 3 4`
+15. Find sum of digits of a number `888`.
+16. Break any text to a list of words.
+17. Add tuple to an existing list.
+18. Convert list to tuple and tuple to list.
+19. For the sequence of digits `5893804115457289`, take the digits at each of the even indices (0, 2, 4, 6, etc.) and double them.
+20. Reverse the order of the digits `5893804115457289` using list.
+21. Print values in list along with its index `nums = [2,7,11,15]`
+22. Take the set of CSV data and split them into rows.
 ```yaml
 sepal_length,sepal_width,petal_length,petal_width,species
 5.1,3.5,1.4,0.2,Iris-setosa
