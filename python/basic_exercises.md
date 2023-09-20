@@ -1,6 +1,6 @@
 # Basic Exercises
 
-1. Create a list of names containing `"John", "Alice", "Sarah", "George"`
+01. Create a list of names containing `"John", "Alice", "Sarah", "George"`
      - Retrieve `"Sarah"`
      - Retrieve `"George"`
      - Add `"Simon"`
@@ -8,11 +8,11 @@
      - Remove `"John"`
      - Remove `"Simon"`
      - Clear the list
-2. Create a tuple of names`"John", "Sarah", "Alice"`
+02. Create a tuple of names`"John", "Sarah", "Alice"`
      - Retrieve `"Sarah"`
      - Add `"Simon"`
      - Rmove `"John"`
-3. From nested collections:
+03. From nested collections:
      - Retrieve `("Eternal Sunshine of the Spotless Mind", 2004)`
      - Retrieve  `"Eternal Sunshine of the Spotless Mind"`
 ```yaml
@@ -21,7 +21,7 @@ movies = [
     ("Memento", 2000),
 ]
 ```
-4. Create a dictionary called `student`, wherein student name is `"John Smith"` and his grades are `88, 76, 92, 85, 69`.
+04. Create a dictionary called `student`, wherein student name is `"John Smith"` and his grades are `88, 76, 92, 85, 69`.
      - Print student grades
      - Add student age
      - Print `John Smith is 14 years old and his grades are 88, 76, 92, 85, 69`
@@ -34,17 +34,17 @@ movies = [
      - Iterate and print all values
      - Iterate and print both keys value pairs
      - Remove all items
-5. Create an empty set `set1` and assign it to a variable.
+05. Create an empty set `set1` and assign it to a variable.
      - Add three items
      - Create a second set `set2` with at least one common item with the first set
      - Find the union, symmetric difference, and intersection of the two sets
      - Create a sequence of numbers using range, then ask the user to enter a number.
           - Inform the user whether or not their number was within the specified range.
           - Also tell the user if their number was too high or too low.
-6. Split `"was it a car"` to `'w', 'a', 's', 'i', 't', 'a', 'c', 'a', 'r'`
-7. Add first and last name without string concatenation.
-8. For integer `n = 5` without using any string methods, print `12345`.
-9. For integer `n = 5` perform backwards iteration and print `5 4 3 2 1`.
+06. Split `"was it a car"` to `'w', 'a', 's', 'i', 't', 'a', 'c', 'a', 'r'`
+07. Add first and last name without string concatenation.
+08. For integer `n = 5` without using any string methods, print `12345`.
+09. For integer `n = 5` perform backwards iteration and print `5 4 3 2 1`.
 10. Print second highest value from the list `[2, 3, 8, 8, 8, 6, 6, 5]`.
 11. Convert `"Hello word !"` into `helloworld!`.
 12. Convert given list `numbers = [1, 2, 3, 4, 5]` to `1, 2, 3, 4, 5`
