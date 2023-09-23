@@ -1,13 +1,26 @@
 # Basic Exercises
 
-1. Create a list of names containing `"John", "Alice", "Sarah", "George"`
+1. Create a list of names containing `"John", "Alice", "Sarah", "Rajna", "George"` using list() constructor.
+     - Print number of items in the list
+     - Just print `"Alice", "Sarah", Rajna`
+     - Retrieve `"George"`       
      - Retrieve `"Sarah"`
-     - Retrieve `"George"`
+     - Replace `"John"` with `"Jenny"`
+     - Replace `"Jenny", "Alice"` with `"John", "Maya"`
      - Add `"Simon"`
-     - Add `"Betty"` before `"Alice"`
+     - Add `"Betty"` before `"Sarah"`
      - Remove `"John"`
-     - Remove `"Simon"`
-     - Clear the list
+     - Remove element at index 2
+     - Remove element at index 2
+     - Remove the last element
+     - Add list `fruits = ["apple", "banana", "cherry", "kiwi"]` to names
+     - From above list, print all fruits that has `a` in its name using list comprehension
+     - Reverse the order of the fruit list
+     - Clear fruit list
+     - Sort list numerically `num = [100, 50, 65, 82, 23 ]`
+     - Sort above list in descending order
+     - Join fruit and num list to a new list
+     - Delete num list
 2. Create a tuple of names`"John", "Sarah", "Alice"`
      - Retrieve `"Sarah"`
      - Add `"Simon"`
