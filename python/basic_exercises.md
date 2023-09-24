@@ -71,7 +71,7 @@ movies = [
      - Ask user to enter a number
      - Inform the user whether or not the number was within the specified range
      - Also tell the user if their number was too high or too low
-7. Split `"was it a car"` to `'w', 'a', 's', 'i', 't', 'a', 'c', 'a', 'r'`
+7. Split `"was it a car"` to `'w', 'a', 's', 'i', 't', 'a', 'c', 'a', 'r'` (try using list comprehension as well)
 8. Add first and last name without string concatenation.
 9. For integer `n = 5` without using any string methods, print `12345`.
 10. For integer `n = 5` perform backwards iteration and print `5 4 3 2 1`.
