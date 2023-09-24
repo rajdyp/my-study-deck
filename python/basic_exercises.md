@@ -23,7 +23,7 @@
      - Delete num list
 2. Create a tuple of names`"John", "Sarah", "Alice"` using tuple() constructor.
      - Print number of items in tuple
-     - Create a tuple of single name `"John"`
+     - Create a tuple of single name `"Maya"`
      - Add name to names
      - Retrieve `"Sarah"`
      - Add `"Simon"`
