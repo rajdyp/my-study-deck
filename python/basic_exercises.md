@@ -95,7 +95,7 @@ movies = [
 ]
 new_movie = ("Titanic", 800000000)
 ```
-20. Convert list to tuple and tuple to list.
+20. Convert list `mylist = ["abc", "xyz", "qpr"]` to tuple and tuple `mytuple = ("abc", "xyz", "qpr")` to list.
 21. For the sequence of digits `5893804115457289`, take the digits at each of the even indices (0, 2, 4, 6, etc.) and double them.
 22. Reverse the order of the digits `5893804115457289` using list.
 23. Print values in list along with its index `nums = [2,7,11,15]`
