@@ -84,6 +84,17 @@ movies = [
 17. Find sum of digits of a number `888`.
 18. Break any text to a list of words.
 19. Add tuple to an existing list.
+```yaml
+fruits = ["apple", "banana", "orange"]
+veges = ("carrot", "cucumber")
+```
+```yaml
+movies = [
+    ("Eternal Sunshine of the Spotless Mind", 20000000),
+    ("Memento", 9000000),
+]
+new_movie = ("Titanic", 800000000)
+```
 20. Convert list to tuple and tuple to list.
 21. For the sequence of digits `5893804115457289`, take the digits at each of the even indices (0, 2, 4, 6, etc.) and double them.
 22. Reverse the order of the digits `5893804115457289` using list.
