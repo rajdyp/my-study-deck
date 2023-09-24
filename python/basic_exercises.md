@@ -31,12 +31,12 @@
      - Unpack tuple `fruits = ("apple", "banana", "kiwi")` as per their color and print their values
      - Delete fruits tuple
 3. From nested collections:
-     - Retrieve `("Eternal Sunshine of the Spotless Mind", 2004)`
-     - Retrieve  `"Eternal Sunshine of the Spotless Mind"`
+     - Retrieve `('Eternal Sunshine of the Spotless Mind', 2004)`
+     - Retrieve `Eternal Sunshine of the Spotless Mind`
 ```yaml
 movies = [
-    ("Eternal Sunshine of the Spotless Mind", 2004),
-    ("Memento", 2000),
+    ('Eternal Sunshine of the Spotless Mind', 2004),
+    ('Memento', 2000)
 ]
 ```
 4. Create a dictionary called `student`, wherein student name is `"John Smith"` and his grades are `88, 76, 92, 85, 69`.
