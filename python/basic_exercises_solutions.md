@@ -115,16 +115,16 @@ print(text.split())
 
 19. Add tuple to an existing list.
 ```yaml
+fruits = ["apple", "banana", "orange"]
+veges = ("carrot", "cucumber")
+```
+```yaml
 movies = [
     ("Eternal Sunshine of the Spotless Mind", 20000000),
     ("Memento", 9000000),
 ]
-
-new_movie = tuple(["Titanic", 800000000])    # new_movie = ("Titanic", 800000000)
-movies.append(new_movie)
-print(movies)
+new_movie = ("Titanic", 800000000)
 ```
-
 20. Convert list to tuple and tuple to list.
 ```yaml
 mylist = ["abc", "xyz", "qpr"]
