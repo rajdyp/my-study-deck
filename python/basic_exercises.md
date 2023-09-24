@@ -29,7 +29,7 @@
      - Add `"Simon"`
      - Rmove `"John"`
      - Unpack tuple `fruits = ("apple", "banana", "kiwi")` as per their color and print their values
-     - Delete tuple
+     - Delete fruits tuple
 3. From nested collections:
      - Retrieve `("Eternal Sunshine of the Spotless Mind", 2004)`
      - Retrieve  `"Eternal Sunshine of the Spotless Mind"`
