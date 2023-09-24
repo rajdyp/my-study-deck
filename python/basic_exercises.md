@@ -58,30 +58,36 @@ movies = [
      - Remove all items
      - Delete student dictionary
 5. Create an empty set `set1` and assign it to a variable.
-     - Add three items
-     - Create a second set `set2` with at least one common item with the first set
+     - Add three items `"apple", "banana", "cherry"`
+     - Print `"apple"` 
+     - Create a second set `set2` using set() constructor with at least one common item with the first set
      - Find the union, symmetric difference, and intersection of the two sets
-     - Create a sequence of numbers using range, then ask the user to enter a number.
-          - Inform the user whether or not their number was within the specified range.
-          - Also tell the user if their number was too high or too low.
-6. Split `"was it a car"` to `'w', 'a', 's', 'i', 't', 'a', 'c', 'a', 'r'`
-7. Add first and last name without string concatenation.
-8. For integer `n = 5` without using any string methods, print `12345`.
-9. For integer `n = 5` perform backwards iteration and print `5 4 3 2 1`.
-10. Print second highest value from the list `[2, 3, 8, 8, 8, 6, 6, 5]`.
-11. Convert `"Hello word !"` into `helloworld!`.
-12. Convert given list `numbers = [1, 2, 3, 4, 5]` to `1, 2, 3, 4, 5`
-13. Reverse the string `"Hello World"`
-14. Remove duplicates from the given list: `mylist = ["a", "b", "a", "c", "c"]`
-15. Split integer `1234` into digits `1 2 3 4`
-16. Find sum of digits of a number `888`.
-17. Break any text to a list of words.
-18. Add tuple to an existing list.
-19. Convert list to tuple and tuple to list.
-20. For the sequence of digits `5893804115457289`, take the digits at each of the even indices (0, 2, 4, 6, etc.) and double them.
-21. Reverse the order of the digits `5893804115457289` using list.
-22. Print values in list along with its index `nums = [2,7,11,15]`
-23. Take the set of CSV data and split them into rows.
+     - Add set1 and set2
+     - Remove `"pineapple"`
+     - Remove any random item
+     - Remove all items
+     - Delete set1
+6. Create a sequence of numbers using range, then ask the user to enter a number.
+     - Inform the user whether or not their number was within the specified range
+     - Also tell the user if their number was too high or too low
+7. Split `"was it a car"` to `'w', 'a', 's', 'i', 't', 'a', 'c', 'a', 'r'`
+8. Add first and last name without string concatenation.
+9. For integer `n = 5` without using any string methods, print `12345`.
+10. For integer `n = 5` perform backwards iteration and print `5 4 3 2 1`.
+11. Print second highest value from the list `[2, 3, 8, 8, 8, 6, 6, 5]`.
+12. Convert `"Hello word !"` into `helloworld!`.
+13. Convert given list `numbers = [1, 2, 3, 4, 5]` to `1, 2, 3, 4, 5`
+14. Reverse the string `"Hello World"`
+15. Remove duplicates from the given list: `mylist = ["a", "b", "a", "c", "c"]`
+16. Split integer `1234` into digits `1 2 3 4`
+17. Find sum of digits of a number `888`.
+18. Break any text to a list of words.
+19. Add tuple to an existing list.
+20. Convert list to tuple and tuple to list.
+21. For the sequence of digits `5893804115457289`, take the digits at each of the even indices (0, 2, 4, 6, etc.) and double them.
+22. Reverse the order of the digits `5893804115457289` using list.
+23. Print values in list along with its index `nums = [2,7,11,15]`
+24. Take the set of CSV data and split them into rows.
 ```yaml
 sepal_length,sepal_width,petal_length,petal_width,species
 5.1,3.5,1.4,0.2,Iris-setosa
