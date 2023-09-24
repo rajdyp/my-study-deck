@@ -67,8 +67,9 @@ movies = [
      - Remove any random item
      - Remove all items
      - Delete set1
-6. Create a sequence of numbers using range, then ask the user to enter a number.
-     - Inform the user whether or not their number was within the specified range
+6. Create a sequence of numbers using range:
+     - Ask user to enter a number
+     - Inform the user whether or not the number was within the specified range
      - Also tell the user if their number was too high or too low
 7. Split `"was it a car"` to `'w', 'a', 's', 'i', 't', 'a', 'c', 'a', 'r'`
 8. Add first and last name without string concatenation.
