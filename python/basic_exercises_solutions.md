@@ -34,6 +34,11 @@ text = "was it a car"
 mylist = [i for i in text if i != " "]
 print(mylist)
 ```
+8. Print first and last name `Rajdeep Rai` without using string concatenation.
+```yaml
+print("Rajdeep", end=" ")
+print("Rai")
+```
 1. Convert given list `numbers = [1, 2, 3, 4, 5]` to `1, 2, 3, 4, 5`
 ```yaml
 numbers = [1, 2, 3, 4, 5]
