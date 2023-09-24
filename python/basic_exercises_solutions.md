@@ -159,4 +159,10 @@ mylist.reverse()
 print(mylist)
 ```
 
-23. 
+23. Print values in list along with its index `nums = [2,7,11,15]`
+```yaml
+nums = [2,7,11,15]
+for index, num in enumerate(nums):
+    print(f"{index} : {num}")
+```
+24. 
