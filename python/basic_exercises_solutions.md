@@ -94,9 +94,9 @@ print(new_list)
 num = 1234
 list = []
 for i in str(num):
-    list.append(i)
-digits = " ".join([str(i) for i in list])
-print(digits)
+    list.append(str(i))
+print(list)
+print(" ".join(list))
 ```
 
 17. Find sum of digits of a number `888`.
