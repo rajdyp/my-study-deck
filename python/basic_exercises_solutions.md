@@ -1,5 +1,24 @@
 # Basic Exercises Solutions
 
+6. Create a sequence of numbers using range:
+     - Ask user to enter a number
+     - Inform the user whether or not the number was within the specified range
+     - Also tell the user if their number was too high or too low
+```yaml
+within_range = False 
+numbers = range(5, 15)
+
+while within_range == False:
+    num = int(input("Enter any number below 20: "))
+    if num in numbers:
+        print("Within range!")
+        within_range = True
+    if num > numbers[-1]:
+        print("Too high")
+    if num < numbers[0]:
+        print("Too low")
+```
+
 1. Convert given list `numbers = [1, 2, 3, 4, 5]` to `1, 2, 3, 4, 5`
 ```yaml
 numbers = [1, 2, 3, 4, 5]
