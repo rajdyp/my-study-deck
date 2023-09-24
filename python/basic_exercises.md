@@ -73,8 +73,8 @@ movies = [
      - Also tell the user if their number was too high or too low
 7. Split `text = "was it a car"` to `'w', 'a', 's', 'i', 't', 'a', 'c', 'a', 'r'` (try using list comprehension as well)
 8. Print first and last name `Rajdeep Rai` without using string concatenation.
-9. For integer `n = 5` without using any string methods, print `12345`.
-10. For integer `n = 5` perform backwards iteration and print `5 4 3 2 1`.
+9. If integer `n = 5`, without using any string methods, print `12345`.
+10. If integer `n = 5`, perform backwards iteration and print `5 4 3 2 1`.
 11. Print second highest value from the list `[2, 3, 8, 8, 8, 6, 6, 5]`.
 12. Convert `"Hello word !"` into `helloworld!`.
 13. Convert given list `numbers = [1, 2, 3, 4, 5]` to `1, 2, 3, 4, 5`
