@@ -76,7 +76,7 @@ movies = [
 9. If integer `n = 5`, without using any string methods, print `12345`.
 10. If integer `n = 5`, perform backwards iteration and print `5 4 3 2 1`.
 11. Print second highest value in the list `[2, 3, 8, 8, 8, 6, 6, 5]`
-12. Convert `"Hello word !"` into `helloworld!`.
+12. Convert `text = "Hello word !"` into `helloworld!`.
 13. Convert given list `numbers = [1, 2, 3, 4, 5]` to `1, 2, 3, 4, 5`
 14. Reverse the string `"Hello World"`
 15. Remove duplicates from the given list: `mylist = ["a", "b", "a", "c", "c"]`
