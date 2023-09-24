@@ -62,27 +62,27 @@ print(unique_list[-2])
 text = "Hello word !"
 print(text.lower().replace(" ", ""))
 ```
-1. Convert given list `numbers = [1, 2, 3, 4, 5]` to `1, 2, 3, 4, 5`
+13. Convert given list `numbers = [1, 2, 3, 4, 5]` to `1, 2, 3, 4, 5`
 ```yaml
 numbers = [1, 2, 3, 4, 5]
 list = ", ".join([str(i) for i in numbers])
 print(list)
 ```
 
-2. Reverse the string `"Hello World"`
+14. Reverse the string `"Hello World"`
 ```yaml
 text = "Hello World"
 print(text[::-1])
 ```
 
-3. Remove duplicates from the given list: `mylist = ["a", "b", "a", "c", "c"]`
+15. Remove duplicates from the given list: `mylist = ["a", "b", "a", "c", "c"]`
 ```yaml
 mylist = ["a", "b", "a", "c", "c"]
 new_list = list(dict.fromkeys(mylist))
 print(new_list)
 ```
 
-4. Split integer `1234` into digits `1 2 3 4`
+16. Split integer `1234` into digits `1 2 3 4`
 ```yaml
 num = 1234
 list = []
@@ -92,7 +92,7 @@ digits = " ".join([str(i) for i in list])
 print(digits)
 ```
 
-5. Find sum of digits of a number `888`.
+17. Find sum of digits of a number `888`.
 ```yaml
 n = 888
 sum = 0
@@ -101,13 +101,13 @@ for i in str(n):
 print(sum)
 ```
 
-6. Break any text to a list of words.
+18. Break any text to a list of words.
 ```yaml
 text = "what a beautiful day"
 print(text.split())
 ```
 
-7. Add tuple to an existing list.
+19. Add tuple to an existing list.
 ```yaml
 movies = [
     ("Eternal Sunshine of the Spotless Mind", 20000000),
@@ -119,14 +119,14 @@ movies.append(new_movie)
 print(movies)
 ```
 
-8. Convert list to tuple and tuple to list.
+20. Convert list to tuple and tuple to list.
 ```yaml
 mylist = ["abc", "xyz", "qpr"]
 mytuple = tuple(mylist)
 print(mytuple)
 ```
 
-9. For the given sequence of digits `5893804115457289`, take the digits at each of the even indices (0, 2, 4, 6, etc.) and double them.
+21. For the given sequence of digits `5893804115457289`, take the digits at each of the even indices (0, 2, 4, 6, etc.) and double them.
 ```yaml
 num = 5893804115457289
 str_num = str(num)
@@ -136,7 +136,7 @@ for index, i in enumerate(str_num):
         print (double_num)
 ```
 
-10. Reverse the order of the digits `5893804115457289` using list.
+22. Reverse the order of the digits `5893804115457289` using list.
 ```yaml
 num = 5893804115457289
 mylist = list(str(5893804115457289))
@@ -144,4 +144,4 @@ mylist.reverse()
 print(mylist)
 ```
 
-11. 
+23. 
