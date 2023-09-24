@@ -85,8 +85,7 @@ print("Hello World"[::-1])
 15. Remove duplicates from the given list: `mylist = ["a", "b", "a", "c", "c"]`
 ```yaml
 mylist = ["a", "b", "a", "c", "c"]
-new_list = list(dict.fromkeys(mylist))
-print(new_list)
+print(list(dict.fromkeys(mylist)))
 ```
 
 16. Split integer `1234` into digits `1 2 3 4`
