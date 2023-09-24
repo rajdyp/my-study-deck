@@ -93,12 +93,12 @@ sepal_length,sepal_width,petal_length,petal_width,species
 5.1,3.5,1.4,0.2,Iris-setosa
 4.9,3,1.4,0.2,Iris-setosa
 ```
-21. Check for leap year.
+25. Check for leap year.
 ```yaml
 In the Gregorian calendar, three conditions are used to identify leap years:
 - The year can be evenly divided by 4, is a leap year, unless
 - The year can be evenly divided by 100, it is NOT a leap year, unless
 - The year is also evenly divisible by 400. Then it is a leap year.
 ```
-22. `square = {2: 4, -3: 9, -1: 1, -2: 4}` Find `a.` Largest key. `b.` Key whose value is the largest. `c.` Get the largest value.
-23. Take the list `numbers = [1, 2, 3, 4, 5]` and print the numbers on a single line with pipe (|) characters between each number. 
+26. `square = {2: 4, -3: 9, -1: 1, -2: 4}` Find `a.` Largest key. `b.` Key whose value is the largest. `c.` Get the largest value.
+27. Take the list `numbers = [1, 2, 3, 4, 5]` and print the numbers on a single line with pipe (|) characters between each number. 
