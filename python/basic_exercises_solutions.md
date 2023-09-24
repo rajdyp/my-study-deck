@@ -18,7 +18,22 @@ while within_range == False:
     if num < numbers[0]:
         print("Too low")
 ```
+7. Split `"was it a car"` to `'w', 'a', 's', 'i', 't', 'a', 'c', 'a', 'r'` (try using list comprehension as well)
+```yaml
+text = "was it a car"
+mylist = []
+for i in text:
+    if i != " ":
+        mylist.append(i)
 
+print(mylist)
+```
+```yaml
+# list comprehension 
+text = "was it a car"
+mylist = [i for i in text if i != " "]
+print(mylist)
+```
 1. Convert given list `numbers = [1, 2, 3, 4, 5]` to `1, 2, 3, 4, 5`
 ```yaml
 numbers = [1, 2, 3, 4, 5]
