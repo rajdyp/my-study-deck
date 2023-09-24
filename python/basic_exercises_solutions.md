@@ -117,6 +117,9 @@ print(text.split())
 ```yaml
 fruits = ["apple", "banana", "orange"]
 veges = ("carrot", "cucumber")
+
+fruits.extend(veges)
+print(fruits)
 ```
 ```yaml
 movies = [
@@ -124,6 +127,9 @@ movies = [
     ("Memento", 9000000),
 ]
 new_movie = ("Titanic", 800000000)
+
+movies.append(new_movie)
+print(movies)
 ```
 20. Convert list to tuple and tuple to list.
 ```yaml
