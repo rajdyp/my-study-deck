@@ -51,7 +51,7 @@ n = 5
 for i in reversed(range(1, n+1)):
     print(i, end=" ")
 ```
-11. Print second highest value in the list `[2, 3, 8, 8, 8, 6, 6, 5]`.
+11. Print second highest value in the list `[2, 3, 8, 8, 8, 6, 6, 5]`
 ```yaml
 mylist = [2, 3, 8, 8, 8, 6, 6, 5]
 unique_list = list(set(mylist))
