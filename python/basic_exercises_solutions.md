@@ -57,7 +57,7 @@ mylist = [2, 3, 8, 8, 8, 6, 6, 5]
 unique_list = list(set(mylist))
 print(unique_list[-2])
 ```
-12. Convert `"Hello word !"` into `helloworld!`.
+12. Convert `text = "Hello word !"` into `helloworld!`.
 ```yaml
 text = "Hello word !"
 print(text.lower().replace(" ", ""))
