@@ -45,6 +45,13 @@ n = 5
 for i in range(1, n + 1):
     print(i, end='')
 ```
+10. If integer `n = 5`, perform backwards iteration and print `5 4 3 2 1`.
+```yaml
+n = 5
+for i in reversed(range(1, n+1)):
+    print(i, end=" ")
+```
+
 1. Convert given list `numbers = [1, 2, 3, 4, 5]` to `1, 2, 3, 4, 5`
 ```yaml
 numbers = [1, 2, 3, 4, 5]
