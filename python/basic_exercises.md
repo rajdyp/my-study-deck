@@ -41,17 +41,22 @@ movies = [
 ```
 4. Create a dictionary called `student`, wherein student name is `"John Smith"` and his grades are `88, 76, 92, 85, 69`.
      - Print student grades
-     - Add student age
+     - Add student age = 14
      - Print `John Smith is 14 years old and his grades are 88, 76, 92, 85, 69`
-     - Merge dictionary with any other dictionary
+     - Create a dictionary school using dict() constructor with school name and location
+     - Merge student dictionary with school dictionary     # check name key
      - Update student age to 18
      - Delete grades
      - List all keys
      - List all values
+     - List all items
      - Iterate and print all keys
      - Iterate and print all values
      - Iterate and print both keys value pairs
+     - Remove `location`
+     - Remove last item
      - Remove all items
+     - Delete student dictionary
 5. Create an empty set `set1` and assign it to a variable.
      - Add three items
      - Create a second set `set2` with at least one common item with the first set
