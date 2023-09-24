@@ -79,8 +79,7 @@ print(str_numbers)
 ```
 14. Reverse the string `"Hello World"`
 ```yaml
-text = "Hello World"
-print(text[::-1])
+print("Hello World"[::-1])
 ```
 
 15. Remove duplicates from the given list: `mylist = ["a", "b", "a", "c", "c"]`
