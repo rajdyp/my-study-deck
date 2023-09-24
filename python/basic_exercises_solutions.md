@@ -51,7 +51,12 @@ n = 5
 for i in reversed(range(1, n+1)):
     print(i, end=" ")
 ```
-
+11. Print second highest value in the list `[2, 3, 8, 8, 8, 6, 6, 5]`.
+```yaml
+mylist = [2, 3, 8, 8, 8, 6, 6, 5]
+unique_list = list(set(mylist))
+print(unique_list[-2])
+```
 1. Convert given list `numbers = [1, 2, 3, 4, 5]` to `1, 2, 3, 4, 5`
 ```yaml
 numbers = [1, 2, 3, 4, 5]
