@@ -142,14 +142,13 @@ mylist = list(mytuple)
 print(mylist)
 ```
 
-21. For the given sequence of digits `5893804115457289`, take the digits at each of the even indices (0, 2, 4, 6, etc.) and double them.
+21. For the sequence of digits `5893804115457289`, take each digits at even indices (0, 2, 4, 6, etc.) and double them.
 ```yaml
-num = 5893804115457289
-str_num = str(num)
-for index, i in enumerate(str_num):
+digits = 5893804115457289
+for index, num in enumerate(str(digits)):
     if index % 2 == 0:
-        double_num = int(i) * 2
-        print (double_num)
+        double_num = int(num) * 2
+        print(double_num)
 ```
 
 22. Reverse the order of the digits `5893804115457289` using list.
