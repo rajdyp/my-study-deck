@@ -21,10 +21,15 @@
      - Sort above list in descending order
      - Join fruit and num list to a new list
      - Delete num list
-2. Create a tuple of names`"John", "Sarah", "Alice"`
+2. Create a tuple of names`"John", "Sarah", "Alice"` using tuple() constructor.
+     - Print number of items in tuple
+     - Create a tuple of single name `"John"`
+     - Add name to names
      - Retrieve `"Sarah"`
      - Add `"Simon"`
      - Rmove `"John"`
+     - Unpack tuple `fruits = ("apple", "banana", "cherry")` as per their color and print their values
+     - Delete tuple
 3. From nested collections:
      - Retrieve `("Eternal Sunshine of the Spotless Mind", 2004)`
      - Retrieve  `"Eternal Sunshine of the Spotless Mind"`
