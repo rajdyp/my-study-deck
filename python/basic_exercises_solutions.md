@@ -18,7 +18,7 @@ while within_range == False:
     if num < numbers[0]:
         print("Too low")
 ```
-7. Split `"was it a car"` to `'w', 'a', 's', 'i', 't', 'a', 'c', 'a', 'r'` (try using list comprehension as well)
+7. Split `text = "was it a car"` to `'w', 'a', 's', 'i', 't', 'a', 'c', 'a', 'r'` (try using list comprehension as well)
 ```yaml
 text = "was it a car"
 mylist = []
