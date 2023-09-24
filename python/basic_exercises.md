@@ -57,7 +57,7 @@ movies = [
      - Remove last item
      - Remove all items
      - Delete student dictionary
-5. Create an empty set `set1` and assign it to a variable.
+5. Create an empty set `set1`.
      - Add three items `"apple", "banana", "cherry"`
      - Print `"apple"` 
      - Create a second set `set2` using set() constructor with at least one common item with the first set
