@@ -185,3 +185,29 @@ if year % 4 == 0:
 else:
     print("Not a leap year")
 ```
+25. `square = {2: 4, -3: 9, -1: 1, -2: 4}` Find `a.` Largest key. `b.` Key whose value is the largest. `c.` Get the largest value.
+```yaml
+square = {2: 4, -3: 9, -1: 1, -2: 4}
+
+key1 = max(square)
+print(key1)
+
+key2 = max(square, key=lambda k: square[k])
+print(key2)
+
+print(square[key2])
+```
+26. Take the list `numbers = [1, 2, 3, 4, 5]` and print the numbers on a single line with pipe (|) characters between each number.
+```yaml
+numbers = [1, 2, 3, 4, 5]
+str_numbers = []
+for i in numbers:
+    str_numbers.append(str(i))
+
+print(" | ".join(str_numbers))
+```
+```yaml
+numbers = [1, 2, 3, 4, 5]
+print(*numbers, sep=" | ")
+```
+27. 
