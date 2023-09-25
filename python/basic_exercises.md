@@ -99,18 +99,12 @@ new_movie = ("Titanic", 800000000)
 21. For the sequence of digits `5893804115457289`, take each digits at even indices (0, 2, 4, 6, etc.) and double them.
 22. Reverse the order of the digits `5893804115457289` using list.
 23. Print values in list along with its index `nums = [2,7,11,15]`
-24. Take the set of CSV data and split them into rows.
-```yaml
-sepal_length,sepal_width,petal_length,petal_width,species
-5.1,3.5,1.4,0.2,Iris-setosa
-4.9,3,1.4,0.2,Iris-setosa
-```
-25. Check for leap year.
+24. Check for leap year.
 ```yaml
 In the Gregorian calendar, three conditions are used to identify leap years:
 - The year can be evenly divided by 4, is a leap year, unless
 - The year can be evenly divided by 100, it is NOT a leap year, unless
 - The year is also evenly divisible by 400. Then it is a leap year.
 ```
-26. `square = {2: 4, -3: 9, -1: 1, -2: 4}` Find `a.` Largest key. `b.` Key whose value is the largest. `c.` Get the largest value.
-27. Take the list `numbers = [1, 2, 3, 4, 5]` and print the numbers on a single line with pipe (|) characters between each number. 
+25. `square = {2: 4, -3: 9, -1: 1, -2: 4}` Find `a.` Largest key. `b.` Key whose value is the largest. `c.` Get the largest value.
+26. Take the list `numbers = [1, 2, 3, 4, 5]` and print the numbers on a single line with pipe (|) characters between each number. 
