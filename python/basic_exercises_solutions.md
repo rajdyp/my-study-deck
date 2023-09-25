@@ -165,4 +165,23 @@ nums = [2,7,11,15]
 for index, num in enumerate(nums):
     print(f"{index} : {num}")
 ```
-24. 
+24. Check for leap year.
+```yaml
+In the Gregorian calendar, three conditions are used to identify leap years:
+- The year can be evenly divided by 4, is a leap year, unless
+- The year can be evenly divided by 100, it is NOT a leap year, unless
+- The year is also evenly divisible by 400. Then it is a leap year.
+```
+```yaml
+year = int(input("Enter any year: "))
+if year % 4 == 0:
+    if year % 100 == 0:
+        if year % 400 == 0:
+            print("Leap year")
+        else:
+            print("Not a leap year")
+    else:
+        print("Leap year")
+else:
+    print("Not a leap year")
+```
