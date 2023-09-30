@@ -15,11 +15,11 @@
      - Remove the last element
      - Add list `fruits = ["apple", "banana", "cherry", "kiwi"]` to names
      - From above list, print all fruits that has `a` in its name using list comprehension
-     - Reverse the order of the fruit list
-     - Clear fruit list
+     - Reverse the order of the fruits list
      - Sort list numerically `num = [100, 50, 65, 82, 23 ]`
      - Sort above list in descending order
-     - Join fruit and num list to a new list
+     - Join fruits and num list to a new list
+     - Clear fruits list
      - Delete num list
 2. Create a tuple of names`"John", "Sarah", "Alice"` using tuple() constructor.
      - Print number of items in tuple
