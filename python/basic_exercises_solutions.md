@@ -1,5 +1,9 @@
 # Basic Exercises Solutions
 
+4. Print `John Smith is 14 years old and his grades are 88, 76, 92, 85, 69`
+```yaml
+print(f"{student['name']} is {student['age']} years old and his grades are {', '.join(map(str, student['grades']))}")
+```
 6. Create a sequence of numbers using range:
      - Ask user to enter a number
      - Inform the user whether or not the number was within the specified range
