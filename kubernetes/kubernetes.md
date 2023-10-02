@@ -49,7 +49,8 @@
     - **LoadBalancer**: Exposes the service externally using an external load balancer. 
     - **ExternalName**: Maps the service to the contents of the externalName field (DNS name). 
 
-![service](https://github.com/rajdyp/rajdyp.github.io/blob/master/images/kubernetes/service.png)
+![service](https://github.com/rajdyp/rajdyp.github.io/assets/15313631/17694c65-c8c0-403c-9ba6-7778f86bc0f9)
+
 
   - Headless service
     - Cluster IP is not allocated.
