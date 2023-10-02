@@ -1,14 +1,9 @@
 # Terraform Notes
 
 ### Terraform Architecture
-```yaml
-+-----------------+       +-----------+        
-| Terraform state + <---> +           |       
-+-----------------+       | Terraform |       +----------+
-+-----------------+       |   Core    |       | AWS      |       +-----+
-|Terraform config + ----> +           + <---> + Provider + <---> + AWS |       
-+-----------------+       +-----------+       +----------+       +-----+
-```
+
+![terraform architecture](https://github.com/rajdyp/rajdyp.github.io/assets/15313631/9ec986bf-894a-4cad-8c2e-f50ffe766cc9)
+
 ### Terraform Code Comments
 ```hcl
 # single line comment
