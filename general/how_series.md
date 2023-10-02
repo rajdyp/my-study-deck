@@ -8,7 +8,5 @@
 
 [SSL handshake overview](https://my.f5.com/manage/s/article/K15292)
 
-## How does SSH work?
+## [How does SSH work?](https://info.support.huawei.com/info-finder/encyclopedia/en/SSH.html)
 ![ssh](https://github.com/rajdyp/rajdyp.github.io/assets/15313631/daf782b2-dee3-4c3c-909a-89ea6baddd11)
-
-[SSH overview](https://info.support.huawei.com/info-finder/encyclopedia/en/SSH.html)
