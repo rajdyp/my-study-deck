@@ -9,18 +9,20 @@ print(f"{student['name']} is {student['age']} years old and his grades are {', '
      - Inform the user whether or not the number was within the specified range
      - Also tell the user if their number was too high or too low
 ```yaml
-within_range = False 
-numbers = range(5, 15)
+num = range(5, 11)
+within_range = False
 
 while within_range == False:
-    num = int(input("Enter any number below 20: "))
-    if num in numbers:
+    n = int(input("Enter any number between 0 to 20: "))
+    if n >= num[0] and n <= num[-1]:        # if n in num
         print("Within range!")
         within_range = True
-    if num > numbers[-1]:
-        print("Too high")
-    if num < numbers[0]:
-        print("Too low")
+    elif n < num[0]:
+        print("Too low!")
+    elif n > num[-1] and n < 20:
+        print("Too high!")
+    else:
+        print("Out of range!")
 ```
 7. Split `text = "was it a car"` to `'w', 'a', 's', 'i', 't', 'a', 'c', 'a', 'r'` (try using list comprehension as well)
 ```yaml
