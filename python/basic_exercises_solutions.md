@@ -24,7 +24,8 @@ while within_range == False:
     else:
         print("Out of range!")
 ```
-7. Split `text = "was it a car"` to `'w', 'a', 's', 'i', 't', 'a', 'c', 'a', 'r'` (try using list comprehension as well)
+7. Split `text = "was it a car"` to  a list `'w', 'a', 's', 'i', 't', 'a', 'c', 'a', 'r'` (Try same using list comprehension as well)
+     - Convert above list to a string of characters `w, a, s, i, t, a, c, a, r`
 ```yaml
 text = "was it a car"
 mylist = []
