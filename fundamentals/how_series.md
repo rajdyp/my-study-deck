@@ -3,7 +3,7 @@
 ## [How does DNS work?](https://www.youtube.com/watch?v=27r4Bzuj5NQ)
 ![dns](https://github.com/rajdyp/rajdyp.github.io/assets/15313631/bcd2b231-50cf-4c37-be34-00ebd56e96f7)
 
-## [How does SSL work?](https://www.youtube.com/watch?v=j9QmMEWmcfo)
+## [How does SSL/TLS 1.2 work?](https://www.youtube.com/watch?v=j9QmMEWmcfo)
 ![ssl](https://github.com/rajdyp/rajdyp.github.io/assets/15313631/ca3e5fe3-dec9-4959-9118-d446892fde62)
 
 [SSL handshake overview](https://my.f5.com/manage/s/article/K15292)
