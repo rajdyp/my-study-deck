@@ -71,7 +71,8 @@ movies = [
      - Ask user to enter a number
      - Inform the user whether or not the number was within the specified range
      - Also tell the user if their number was too high or too low
-7. Split `text = "was it a car"` to `'w', 'a', 's', 'i', 't', 'a', 'c', 'a', 'r'` (try using list comprehension as well)
+7. Split `text = "was it a car"` to  a list `'w', 'a', 's', 'i', 't', 'a', 'c', 'a', 'r'` (Try same using list comprehension as well)
+     - Convert above list to a string of characters `w, a, s, i, t, a, c, a, r`
 8. Print first and last name `Rajdeep Rai` without using string concatenation.
 9. If integer `n = 5`, without using any string methods, print `12345`.
 10. If integer `n = 5`, perform backwards iteration and print `5 4 3 2 1`.
