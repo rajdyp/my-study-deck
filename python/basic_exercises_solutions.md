@@ -29,17 +29,19 @@ while within_range == False:
 ```yaml
 text = "was it a car"
 mylist = []
-for i in text:
+for i in text:          # for i in text.replace(" ", "")
     if i != " ":
         mylist.append(i)
 
 print(mylist)
+print(", ".join(mylist))
 ```
 ```yaml
 # list comprehension 
 text = "was it a car"
 mylist = [i for i in text if i != " "]
 print(mylist)
+print(", ".join(mylist))
 ```
 8. Print first and last name `Rajdeep Rai` without using string concatenation.
 ```yaml
