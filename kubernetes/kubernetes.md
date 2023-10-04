@@ -1,8 +1,8 @@
 # Kubernetes
 
 ## Kubernetes Architecture
-![Kubernetes architecture](https://github.com/rajdyp/rajdyp.github.io/assets/15313631/dc38fb63-98e9-4ac5-b4dc-80242aa20689)
-
+![image](https://github.com/rajdyp/rajdyp.github.io/assets/15313631/e3f10d7b-a2e9-4ee8-a244-272916b2e55d)
+![image](https://github.com/rajdyp/rajdyp.github.io/assets/15313631/b101e23b-3863-4d3c-b234-63503663f8d3)
 
 **Master (brain):**
 - kube-apiserver
