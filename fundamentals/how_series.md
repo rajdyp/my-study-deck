@@ -10,3 +10,7 @@
 
 ## [How does SSH work?](https://info.support.huawei.com/info-finder/encyclopedia/en/SSH.html)
 ![ssh](https://github.com/rajdyp/rajdyp.github.io/assets/15313631/daf782b2-dee3-4c3c-909a-89ea6baddd11)
+
+## [How does gRPC work?](https://www.youtube.com/watch?v=gnchfOojMk4)
+![grpc](https://github.com/rajdyp/rajdyp.github.io/assets/15313631/7b8667dc-a5bf-47bc-a28f-4b63ac866583)
+
