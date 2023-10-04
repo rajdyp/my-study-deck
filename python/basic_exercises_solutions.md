@@ -48,8 +48,16 @@ print(", ".join(mylist))
 print("Rajdeep", end=" ")
 print("Rai")
 ```
-9. If integer `n = 5`, without using any string methods, print `12345`.
+9. If integer `n = 5`, print `12345`. Do the same without using any string join() method.
 ```yaml
+n = 5
+mylist = []
+for i in range(1, n + 1):
+    mylist.append(i)
+print("".join(map(str, mylist)))
+```
+```yaml
+# without using join()
 n = 5
 for i in range(1, n + 1):
     print(i, end='')
