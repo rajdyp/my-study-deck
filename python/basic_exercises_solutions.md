@@ -104,6 +104,10 @@ print(text.lower().replace(" ", ""))
 13. Convert given list `numbers = [1, 2, 3, 4, 5]` to `1, 2, 3, 4, 5`
 ```yaml
 numbers = [1, 2, 3, 4, 5]
+print(", ".join(map(str, numbers)))
+```
+```yaml
+numbers = [1, 2, 3, 4, 5]
 str_numbers = []
 for i in numbers:
     str_numbers.append(str(i))
@@ -113,8 +117,8 @@ print(", ".join(str_numbers))
 ```yaml
 # list comprehension 
 numbers = [1, 2, 3, 4, 5]
-str_numbers = ", ".join([str(i) for i in numbers])
-print(str_numbers)
+numbers = ", ".join([str(i) for i in numbers])
+print(numbers)
 ```
 
 14. Reverse the string `"Hello World"`
