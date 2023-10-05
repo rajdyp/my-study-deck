@@ -4,6 +4,7 @@
 ```yaml
 print(f"{student['name']} is {student['age']} years old and his grades are {', '.join(map(str, student['grades']))}")
 ```
+
 6. Create a sequence of numbers using range:
      - Ask user to enter a number
      - Inform the user whether or not the number was within the specified range
@@ -24,6 +25,7 @@ while within_range == False:
     else:
         print("Out of range!")
 ```
+
 7. Split `text = "was it a car"` to  a list `'w', 'a', 's', 'i', 't', 'a', 'c', 'a', 'r'` (Try same using list comprehension as well)
      - Convert above list to a string of characters `w, a, s, i, t, a, c, a, r`
 ```yaml
@@ -43,11 +45,13 @@ mylist = [i for i in text if i != " "]
 print(mylist)
 print(", ".join(mylist))
 ```
+
 8. Print first and last name `Rajdeep Rai` without using string concatenation.
 ```yaml
 print("Rajdeep", end=" ")
 print("Rai")
 ```
+
 9. If integer `n = 5`, print `12345`. Do the same without using any string join() method.
 ```yaml
 n = 5
@@ -62,23 +66,35 @@ n = 5
 for i in range(1, n + 1):
     print(i, end='')
 ```
+
 10. If integer `n = 5`, perform backwards iteration and print `5 4 3 2 1`.
 ```yaml
 n = 5
 for i in reversed(range(1, n+1)):
     print(i, end=" ")
 ```
+```yaml
+n = 5
+for i in reversed(range(1, n+1)):
+    if i != n - (n - 1):
+        print(i, end=" ")
+    if i == n - (n - 1):
+        print(i)
+```
+
 11. Print second highest value in the list `[2, 3, 8, 8, 8, 6, 6, 5]`
 ```yaml
 mylist = [2, 3, 8, 8, 8, 6, 6, 5]
 unique_list = list(set(mylist))
 print(unique_list[-2])
 ```
+
 12. Convert `text = "Hello word !"` into `helloworld!`.
 ```yaml
 text = "Hello word !"
 print(text.lower().replace(" ", ""))
 ```
+
 13. Convert given list `numbers = [1, 2, 3, 4, 5]` to `1, 2, 3, 4, 5`
 ```yaml
 numbers = [1, 2, 3, 4, 5]
@@ -94,6 +110,7 @@ numbers = [1, 2, 3, 4, 5]
 str_numbers = ", ".join([str(i) for i in numbers])
 print(str_numbers)
 ```
+
 14. Reverse the string `"Hello World"`
 ```yaml
 print("Hello World"[::-1])
@@ -148,6 +165,7 @@ new_movie = ("Titanic", 800000000)
 movies.append(new_movie)
 print(movies)
 ```
+
 20. Convert list `mylist = ["abc", "xyz", "qpr"]` to tuple and tuple `mytuple = ("abc", "xyz", "qpr")` to list.
 ```yaml
 mylist = ["abc", "xyz", "qpr"]
@@ -182,6 +200,7 @@ nums = [2,7,11,15]
 for index, num in enumerate(nums):
     print(f"{index} : {num}")
 ```
+
 24. Check for leap year.
 ```yaml
 In the Gregorian calendar, three conditions are used to identify leap years:
@@ -202,6 +221,7 @@ if year % 4 == 0:
 else:
     print("Not a leap year")
 ```
+
 25. `square = {2: 4, -3: 9, -1: 1, -2: 4}` Find `a.` Largest key. `b.` Key whose value is the largest. `c.` Get the largest value.
 ```yaml
 square = {2: 4, -3: 9, -1: 1, -2: 4}
@@ -214,6 +234,7 @@ print(key2)
 
 print(square[key2])
 ```
+
 26. Take the list `numbers = [1, 2, 3, 4, 5]` and print the numbers on a single line with pipe (|) characters between each number.
 ```yaml
 numbers = [1, 2, 3, 4, 5]
@@ -227,4 +248,5 @@ print(" | ".join(str_numbers))
 numbers = [1, 2, 3, 4, 5]
 print(*numbers, sep=" | ")
 ```
+
 27. 
