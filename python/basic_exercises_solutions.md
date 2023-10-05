@@ -88,6 +88,12 @@ mylist = [2, 3, 8, 8, 8, 6, 6, 5]
 unique_list = list(set(mylist))
 print(unique_list[-2])
 ```
+```yaml
+mylist = [2, 3, 8, 8, 8, 6, 6, 5]
+mylist = list(dict.fromkeys(mylist))
+mylist.sort()
+print(mylist[-2])
+```
 
 12. Convert `text = "Hello word !"` into `helloworld!`.
 ```yaml
