@@ -85,7 +85,7 @@ for i in reversed(range(1, n+1)):
 11. Print second highest value in the list `[2, 3, 8, 8, 8, 6, 6, 5]`
 ```yaml
 mylist = [2, 3, 8, 8, 8, 6, 6, 5]
-unique_list = list(set(mylist))
+unique_list = sorted(set(mylist))
 print(unique_list[-2])
 ```
 ```yaml
