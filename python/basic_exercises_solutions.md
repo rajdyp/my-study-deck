@@ -146,6 +146,13 @@ for i in str(num):
 print(list)
 print(" ".join(list))
 ```
+```yaml
+# list comprehension
+
+num = 1234
+mylist = [i for i in str(num)]
+print(" ".join(mylist))
+```
 
 17. Find sum of digits of a number `888`.
 ```yaml
