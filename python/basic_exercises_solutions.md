@@ -131,6 +131,11 @@ print("Hello World"[::-1])
 mylist = ["a", "b", "a", "c", "c"]
 print(list(dict.fromkeys(mylist)))
 ```
+```yaml
+mylist = ["a", "b", "a", "c", "c"]
+mylist = list(set(mylist))
+print(sorted(mylist))
+```
 
 16. Split integer `1234` into digits `1 2 3 4`
 ```yaml
