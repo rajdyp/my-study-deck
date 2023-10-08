@@ -5,4 +5,4 @@
 3. [How does Kubernetes create a pod?](https://github.com/rajdyp/rajdyp.github.io/blob/master/flashcards/kubernetes/answers/k8s_creates_a_pod.md)
 5. [How Kubernetes pod gets an IP address?]()
 6. [How does Kubernets deletes a pod?]()
-7. [How does HPA work?]()
+7. [How does HPA work?](https://github.com/rajdyp/rajdyp.github.io/blob/master/flashcards/kubernetes/answers/how_HPA_works.md)
