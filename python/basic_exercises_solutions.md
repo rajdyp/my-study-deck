@@ -208,12 +208,15 @@ for index, num in enumerate(str(digits)):
         print(double_num)
 ```
 
-22. Reverse the order of digits `5893804115457289` using list.
+22. Reverse the order of digits `5893804115457289` using list. Re-reverse the list using reversed method. 
 ```yaml
-num = 5893804115457289
-mylist = list(str(5893804115457289))
+digits = 5893804115457289
+mylist = list(str(digits))
+print(mylist)
 mylist.reverse()
 print(mylist)
+re_reversed = list(reversed(mylist))
+print(re_reversed)
 ```
 
 23. Print values in list along with its index `nums = [2,7,11,15]`
