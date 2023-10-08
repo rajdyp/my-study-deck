@@ -5,3 +5,6 @@
 3. [How does data transmit using TCP/IP network layers?](https://github.com/rajdyp/rajdyp.github.io/blob/master/flashcards/networking/answers/data_transfer_TCP_IP_layers.md)
 4. [Private IPv4 addresses?](https://github.com/rajdyp/rajdyp.github.io/blob/master/flashcards/networking/answers/private_ipv4_addresses.md)
 5. [Classes of IPv4 addresses?](https://github.com/rajdyp/rajdyp.github.io/blob/master/flashcards/networking/answers/IPv4_classes.md)
+
+
+[comment]: https://microchipdeveloper.com/networking:start
