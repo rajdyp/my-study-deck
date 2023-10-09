@@ -247,7 +247,45 @@ else:
     print("Not a leap year")
 ```
 
-25. `square = {2: 4, -3: 9, -1: 1, -2: 4}` Find `a.` Largest key. `b.` Key whose value is the largest. `c.` Get the largest value.
+25. Using max() function:
+     - Find the maximum element in an iterable: `numbers = [3, 1, 4, 1, 5, 9, 2, 6, 5, 3, 5]`
+     - Find the maximum length element: `words = ["apple", "banana", "cherry", "date"]`
+     - Find the maximum value from multiple arguments: `42, 17, 56, 29, 87`
+     - Find the maximum key in a dictionary: `square = {2: 4, -3: 9, -1: 1, -2: 4}`
+     - Handle empty sequences: `empty_list = []`
+
+```yaml
+# find the maximum element in an iterable: `numbers = [3, 1, 4, 1, 5, 9, 2, 6, 5, 3, 5]`
+
+numbers = [3, 1, 4, 1, 5, 9, 2, 6, 5, 3, 5]
+max_element = max(numbers)
+print(max_element)
+
+# find the maximum length element: `words = ["apple", "banana", "cherry", "date"]`
+
+words = ["apple", "banana", "cherry", "date"]
+max_len = max(words, key=len)
+print(max_len)
+
+# find the maximum value from multiple arguments: `42, 17, 56, 29, 87`
+
+max_value = max(42, 17, 56, 29, 87)
+print(max_value)
+
+# find the maximum key in a dictionary: `square = {2: 4, -3: 9, -1: 1, -2: 4}`
+
+square = {2: 4, -3: 9, -1: 1, -2: 4}
+max_key = max(square, key=lambda k: square[k])
+print(max_key)
+
+# handle empty sequences: `empty_list = []`
+
+empty_list = []
+handle_error = max(empty_list, default=0)
+print(handle_error)
+```
+
+26. `square = {2: 4, -3: 9, -1: 1, -2: 4}` Find `a.` Largest key. `b.` Key whose value is the largest. `c.` Get the largest value.
 ```yaml
 square = {2: 4, -3: 9, -1: 1, -2: 4}
 
@@ -260,7 +298,7 @@ print(key2)
 print(square[key2])
 ```
 
-26. Take the list `numbers = [1, 2, 3, 4, 5]` and print the numbers on a single line with pipe (|) characters between each number.
+27. Take the list `numbers = [1, 2, 3, 4, 5]` and print the numbers on a single line with pipe (|) characters between each number.
 ```yaml
 numbers = [1, 2, 3, 4, 5]
 str_numbers = []
@@ -274,4 +312,3 @@ numbers = [1, 2, 3, 4, 5]
 print(*numbers, sep=" | ")
 ```
 
-27. 
