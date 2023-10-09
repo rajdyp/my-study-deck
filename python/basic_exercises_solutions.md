@@ -252,7 +252,7 @@ else:
      - Find the maximum length element: `words = ["apple", "banana", "cherry", "date"]`
      - Find the maximum value from multiple arguments: `42, 17, 56, 29, 87`
      - Find the maximum key in a dictionary: `square = {2: 4, -3: 9, -1: 1, -2: 4}`
-     - Handle empty sequences: `empty_list = []`
+     - Find maximum value (or default value if empty): `empty_list = []`
 
 ```yaml
 # find the maximum element in an iterable: `numbers = [3, 1, 4, 1, 5, 9, 2, 6, 5, 3, 5]`
@@ -278,7 +278,7 @@ square = {2: 4, -3: 9, -1: 1, -2: 4}
 max_key = max(square, key=lambda k: square[k])
 print(max_key)
 
-# handle empty sequences: `empty_list = []`
+# find maximum value (or default value if empty): `empty_list = []`
 
 empty_list = []
 handle_error = max(empty_list, default=0)
