@@ -107,5 +107,11 @@ In the Gregorian calendar, three conditions are used to identify leap years:
 - The year can be evenly divided by 100, it is NOT a leap year, unless
 - The year is also evenly divisible by 400. Then it is a leap year.
 ```
-25. `square = {2: 4, -3: 9, -1: 1, -2: 4}` Find `a.` Largest key. `b.` Key whose value is the largest. `c.` Get the largest value.
-26. Take the list `numbers = [1, 2, 3, 4, 5]` and print the numbers on a single line with pipe (|) characters between each number. 
+25. Using max() function:
+     - Find the maximum element in an iterable: `numbers = [3, 1, 4, 1, 5, 9, 2, 6, 5, 3, 5]`
+     - Find the maximum length element: `words = ["apple", "banana", "cherry", "date"]`
+     - Find the maximum value from multiple arguments: `42, 17, 56, 29, 87`
+     - Find the maximum key in a dictionary: `square = {2: 4, -3: 9, -1: 1, -2: 4}`
+     - Handle empty sequences: `empty_list = []`
+26. `square = {2: 4, -3: 9, -1: 1, -2: 4}` Find `a.` Largest key. `b.` Key whose value is the largest. `c.` Get the largest value.
+27. Take the list `numbers = [1, 2, 3, 4, 5]` and print the numbers on a single line with pipe (|) characters between each number. 
