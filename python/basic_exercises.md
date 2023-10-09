@@ -112,6 +112,6 @@ In the Gregorian calendar, three conditions are used to identify leap years:
      - Find the maximum length element: `words = ["apple", "banana", "cherry", "date"]`
      - Find the maximum value from multiple arguments: `42, 17, 56, 29, 87`
      - Find the maximum key in a dictionary: `square = {2: 4, -3: 9, -1: 1, -2: 4}`
-     - Handle empty sequences: `empty_list = []`
+     - Find maximum value (or default value if empty): `empty_list = []`
 26. `square = {2: 4, -3: 9, -1: 1, -2: 4}` Find `a.` Largest key. `b.` Key whose value is the largest. `c.` Get the largest value.
 27. Take the list `numbers = [1, 2, 3, 4, 5]` and print the numbers on a single line with pipe (|) characters between each number. 
