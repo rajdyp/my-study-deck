@@ -1,7 +1,117 @@
 # Basic Exercises Solutions
 
+1. Create a list of names containing `"John", "Alice", "Sarah", "Rajna", "George"` using list() constructor.
+     - Print number of items in the list
+     - Just print `"Alice", "Sarah", Rajna`
+     - Retrieve `"George"`       
+     - Retrieve `"Sarah"`
+     - Replace `"John"` with `"Jenny"`
+     - Replace `"Jenny", "Alice"` with `"John", "Maya"`
+     - Add `"Simon"`
+     - Add `"Betty"` before `"Sarah"`
+     - Remove `"John"`
+     - Remove element at index 2
+     - Remove element at index 2
+     - Remove the last element
+     - Add list `fruits = ["apple", "banana", "cherry", "kiwi"]` to names
+     - From above list, print all fruits that has `a` in its name using list comprehension
+     - Reverse the order of the fruits list
+     - Sort list numerically `num = [100, 50, 65, 82, 23 ]`
+     - Sort above list in descending order
+     - Join fruits and num list to a new list
+     - Clear fruits list
+     - Delete num list
+```python
+print('\n1. Create a list of names containing `"John", "Alice", "Sarah", "Rajna", "George"` using list() constructor.\n')
+names = list(("John", "Alice", "Sarah", "Rajna", "George"))
+print(names)
+
+print('\n2. Print number of items in the list\n')
+print(f"No of items: {len(names)}")
+
+print('\n3. Just print `"Alice", "Sarah", Rajna`\n')
+print(names[1:4])
+
+print('\n4. Retrieve `"George"`\n')
+print(names[-1])
+
+print('\n5. Retrieve `"Sarah"`\n')
+print(names[2])
+
+print('\n6. Replace `"John"` with `"Jenny"`\n')
+names[0] = "Jenny"
+print(names)
+
+print('\n7. Replace `"Jenny", "Alice"` with `"John", "Maya"`\n')
+names[0:2] = ["John", "Maya"]
+print(names)
+
+print('\n8. Add `"Simon"`\n')
+names.append("Simon")
+print(names)
+
+print('\n9. Add `"Betty"` before `"Sarah"`\n')
+names.insert(2, "Betty")
+print(names)
+
+print('\n10. Remove `"John"`\n')
+names.remove("John")
+print(names)
+
+print('\n11. Remove element at index 2\n')
+names.remove(names[2])
+print(names)
+
+print('\n12. Remove the last element\n')
+names.pop()
+print(names)
+
+print('\n13. Add list `fruits = ["apple", "banana", "cherry", "kiwi"]` to names\n')
+fruits = ["apple", "banana", "cherry", "kiwi"]
+names.extend(fruits)
+print(names)
+
+print('\n14. From above list, print all fruits that has `a` in its name using list comprehension\n')
+fruits = ["apple", "banana", "cherry", "kiwi"]
+print([fruit for fruit in fruits if "a" in fruit])
+
+print('\n15. Reverse the order of the fruits list\n')
+fruits.reverse()
+print(fruits)
+
+fruits.sort(reverse=True)
+print(fruits)
+
+print('\n16. Sort list numerically `num = [100, 50, 65, 82, 23]`\n')
+num = [100, 50, 65, 82, 23]
+num.sort()
+print(num)
+
+print('\n17. Sort above list in descending order\n')
+num = [100, 50, 65, 82, 23]
+num.sort(reverse=True)
+print(num)
+
+print('\n18. Join fruits and num list to a new list\n')
+new_list = fruits + num
+print(new_list)
+
+fruits.extend(num)
+print(fruits)
+
+print('\n19. Clear fruits list\n')
+print(fruits)
+fruits.clear()
+print(fruits)
+
+print('\n20. Delete num list\n')
+print(num)
+del num
+print(num)
+```
+
 4. Print `John Smith is 14 years old and his grades are 88, 76, 92, 85, 69`
-```yaml
+```python
 print(f"{student['name']} is {student['age']} years old and his grades are {', '.join(map(str, student['grades']))}")
 ```
 
@@ -9,7 +119,7 @@ print(f"{student['name']} is {student['age']} years old and his grades are {', '
      - Ask user to enter a number
      - Inform the user whether or not the number was within the specified range
      - Also tell the user if their number was too high or too low
-```yaml
+```python
 num = range(5, 11)
 within_range = False
 
@@ -28,7 +138,7 @@ while within_range == False:
 
 7. Split `text = "was it a car"` to  a list `'w', 'a', 's', 'i', 't', 'a', 'c', 'a', 'r'` (Try same using list comprehension as well)
      - Convert above list to a string of characters `w, a, s, i, t, a, c, a, r`
-```yaml
+```python
 text = "was it a car"
 mylist = []
 for i in text:          # for i in text.replace(" ", "")
@@ -38,7 +148,7 @@ for i in text:          # for i in text.replace(" ", "")
 print(mylist)
 print(", ".join(mylist))
 ```
-```yaml
+```python
 # list comprehension 
 text = "was it a car"
 mylist = [i for i in text if i != " "]
@@ -47,20 +157,20 @@ print(", ".join(mylist))
 ```
 
 8. Print first and last name `Rajdeep Rai` without using string concatenation.
-```yaml
+```python
 print("Rajdeep", end=" ")
 print("Rai")
 ```
 
 9. If integer `n = 5`, print `12345`. Do the same without using any string join() method.
-```yaml
+```python
 n = 5
 mylist = []
 for i in range(1, n + 1):
     mylist.append(i)
 print("".join(map(str, mylist)))
 ```
-```yaml
+```python
 # without using join()
 n = 5
 for i in range(1, n + 1):
@@ -68,12 +178,12 @@ for i in range(1, n + 1):
 ```
 
 10. If integer `n = 5`, perform backwards iteration and print `5 4 3 2 1`.
-```yaml
+```python
 n = 5
 for i in reversed(range(1, n+1)):
     print(i, end=" ")
 ```
-```yaml
+```python
 n = 5
 for i in reversed(range(1, n+1)):
     if i != n - (n - 1):
@@ -83,12 +193,12 @@ for i in reversed(range(1, n+1)):
 ```
 
 11. Print second highest value in the list `[2, 3, 8, 8, 8, 6, 6, 5]`
-```yaml
+```python
 mylist = [2, 3, 8, 8, 8, 6, 6, 5]
 unique_list = sorted(set(mylist))
 print(unique_list[-2])
 ```
-```yaml
+```python
 mylist = [2, 3, 8, 8, 8, 6, 6, 5]
 mylist = list(dict.fromkeys(mylist))
 mylist.sort()
@@ -96,17 +206,17 @@ print(mylist[-2])
 ```
 
 12. Convert `text = "Hello word !"` into `helloworld!`.
-```yaml
+```python
 text = "Hello word !"
 print(text.lower().replace(" ", ""))
 ```
 
 13. Convert given list `numbers = [1, 2, 3, 4, 5]` to `1, 2, 3, 4, 5`
-```yaml
+```python
 numbers = [1, 2, 3, 4, 5]
 print(", ".join(map(str, numbers)))
 ```
-```yaml
+```python
 numbers = [1, 2, 3, 4, 5]
 str_numbers = []
 for i in numbers:
@@ -114,7 +224,7 @@ for i in numbers:
 
 print(", ".join(str_numbers))
 ```
-```yaml
+```python
 # list comprehension 
 numbers = [1, 2, 3, 4, 5]
 numbers = ", ".join([str(i) for i in numbers])
@@ -122,23 +232,23 @@ print(numbers)
 ```
 
 14. Reverse the string `"Hello World"`
-```yaml
+```python
 print("Hello World"[::-1])
 ```
 
 15. Remove duplicates from the given list: `mylist = ["a", "b", "a", "c", "c"]`
-```yaml
+```python
 mylist = ["a", "b", "a", "c", "c"]
 print(list(dict.fromkeys(mylist)))
 ```
-```yaml
+```python
 mylist = ["a", "b", "a", "c", "c"]
 mylist = list(set(mylist))
 print(sorted(mylist))
 ```
 
 16. Split integer `1234` into digits `1 2 3 4`
-```yaml
+```python
 num = 1234
 list = []
 for i in str(num):
@@ -146,7 +256,7 @@ for i in str(num):
 print(list)
 print(" ".join(list))
 ```
-```yaml
+```python
 # list comprehension
 
 num = 1234
@@ -155,7 +265,7 @@ print(" ".join(mylist))
 ```
 
 17. Find sum of digits of a number `888`.
-```yaml
+```python
 n = 888
 sum = 0
 for i in str(n):
@@ -164,20 +274,20 @@ print(sum)
 ```
 
 18. Break any text to a list of words.
-```yaml
+```python
 text = "what a beautiful day"
 print(text.split())
 ```
 
 19. Add tuple to an existing list.
-```yaml
+```python
 fruits = ["apple", "banana", "orange"]
 veges = ("carrot", "cucumber")
 
 fruits.extend(veges)
 print(fruits)
 ```
-```yaml
+```python
 movies = [
     ("Eternal Sunshine of the Spotless Mind", 20000000),
     ("Memento", 9000000),
@@ -189,7 +299,7 @@ print(movies)
 ```
 
 20. Convert list `mylist = ["abc", "xyz", "qpr"]` to tuple and tuple `mytuple = ("abc", "xyz", "qpr")` to list.
-```yaml
+```python
 mylist = ["abc", "xyz", "qpr"]
 mytuple = tuple(mylist)
 print(mytuple)
@@ -200,7 +310,7 @@ print(mylist)
 ```
 
 21. For the sequence of digits `5893804115457289`, take each digits at even indices (0, 2, 4, 6, etc.) and double them.
-```yaml
+```python
 digits = 5893804115457289
 for index, num in enumerate(str(digits)):
     if index % 2 == 0:
@@ -209,7 +319,7 @@ for index, num in enumerate(str(digits)):
 ```
 
 22. Reverse the order of digits `5893804115457289` using list. Re-reverse the list using reversed method. 
-```yaml
+```python
 digits = 5893804115457289
 mylist = list(str(digits))
 print(mylist)
@@ -220,7 +330,7 @@ print(re_reversed)
 ```
 
 23. Print values in list along with its index `nums = [2,7,11,15]`
-```yaml
+```python
 nums = [2,7,11,15]
 for index, num in enumerate(nums):
     print(f"{index} : {num}")
@@ -233,7 +343,7 @@ In the Gregorian calendar, three conditions are used to identify leap years:
 - The year can be evenly divided by 100, it is NOT a leap year, unless
 - The year is also evenly divisible by 400. Then it is a leap year.
 ```
-```yaml
+```python
 year = int(input("Enter any year: "))
 if year % 4 == 0:
     if year % 100 == 0:
@@ -254,7 +364,7 @@ else:
      - Find the maximum key in a dictionary: `square = {2: 4, -3: 9, -1: 1, -2: 4}`
      - Find maximum value (or default value if empty): `empty_list = []`
 
-```yaml
+```python
 # find the maximum element in an iterable: `numbers = [3, 1, 4, 1, 5, 9, 2, 6, 5, 3, 5]`
 
 numbers = [3, 1, 4, 1, 5, 9, 2, 6, 5, 3, 5]
@@ -286,7 +396,7 @@ print(handle_error)
 ```
 
 26. `square = {2: 4, -3: 9, -1: 1, -2: 4}` Find `a.` Largest key. `b.` Key whose value is the largest. `c.` Get the largest value.
-```yaml
+```python
 square = {2: 4, -3: 9, -1: 1, -2: 4}
 
 key1 = max(square)
@@ -299,7 +409,7 @@ print(square[key2])
 ```
 
 27. Take the list `numbers = [1, 2, 3, 4, 5]` and print the numbers on a single line with pipe (|) characters between each number.
-```yaml
+```python
 numbers = [1, 2, 3, 4, 5]
 str_numbers = []
 for i in numbers:
@@ -307,7 +417,7 @@ for i in numbers:
 
 print(" | ".join(str_numbers))
 ```
-```yaml
+```python
 numbers = [1, 2, 3, 4, 5]
 print(*numbers, sep=" | ")
 ```
