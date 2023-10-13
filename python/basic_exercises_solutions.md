@@ -22,7 +22,7 @@
      - Clear fruits list
      - Delete num list
 ```python
-print('\n1. Create a list of names containing `"John", "Alice", "Sarah", "Rajna", "George"` using list() constructor.\n')
+print('\n1. Create a list of names containing `"John", "Alice", "Sarah", "Rajna", "George"` using list() constructor\n')
 names = list(("John", "Alice", "Sarah", "Rajna", "George"))
 print(names)
 
@@ -108,6 +108,61 @@ print('\n20. Delete num list\n')
 print(num)
 del num
 print(num)
+```
+
+2. Create a tuple of names`"John", "Sarah", "Alice"` using tuple() constructor.
+     - Print number of items in tuple
+     - Create a tuple of single name `"Maya"`
+     - Add name to names
+     - Retrieve `"Sarah"`
+     - Add `"Simon"`
+     - Rmove `"John"`
+     - Unpack tuple `fruits = ("apple", "banana", "kiwi")` as per their color and print their values
+     - Delete fruits tuple
+
+```python
+print('\n1. Create a tuple of names`"John", "Sarah", "Alice"` using tuple() constructor\n')
+names = tuple(("John", "Sarah", "Alice"))
+print(names)
+
+print('\n2. Create a tuple of single name `"Maya"`\n')
+name = ("Maya",)
+print(name)
+
+print('\n3. Add name to names\n')
+names += name
+print(names)
+
+print('\n4. Retrieve `"Sarah"`\n')
+print(names[1])
+
+print('\n5. Add `"Simon"``\n')
+print("Cannot add items to a Tuple as it is immutable\n")
+
+# workaround
+add_name = list(names)
+add_name.append("Simon")
+print(tuple(add_name))
+
+print('\n6. Rmove `"John"`\n')
+print("Cannot remove items from a Tuple as it is immutable\n")
+
+# workaround
+rm_name = list(names)
+rm_name.remove("John")
+print(tuple(rm_name))
+
+print('\n7. Unpack tuple `fruits = ("apple", "banana", "cherry")` as per their color and print their values\n')
+fruits = ("apple", "banana", "cherry")
+green, yellow, red = fruits
+print(f"Green : {green}")
+print(f"Yellow : {yellow}")
+print(f"Red : {red}")
+
+print('\n8. Delete fruits tuple\n')
+print(fruits)
+del fruits
+print(fruits)
 ```
 
 4. Print `John Smith is 14 years old and his grades are 88, 76, 92, 85, 69`
