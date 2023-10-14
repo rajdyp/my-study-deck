@@ -15,6 +15,7 @@ Step 3: Create S3 bucket
 |    | --> `Create bucket`
 |    |    | --> `Bucket name`
 |    |    | --> `AWS Region`
+|    |    | --> `Create bucket`
 ```
 
 ```yaml
@@ -23,8 +24,9 @@ Step 4: Create IAM EC2 instance role
 |    | --> `Roles` > `Create role`
 |    |    | --> Trusted entity type = `AWS Service`
 |    |    | --> `EC2`
-|    |    | --> `Add permissions`
+|    |    | --> Add permissions > AmazonS3ReadOnlyAccess and AmazonSSMManagedInstanceCore
 |    |    | --> `Role name`
+|    |    | --> `Create role`
 ```
 
 ```yaml
