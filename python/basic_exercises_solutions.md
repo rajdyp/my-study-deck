@@ -165,6 +165,33 @@ del fruits
 print(fruits)
 ```
 
+3. From below nested collections:
+     - Retrieve `('Eternal Sunshine of the Spotless Mind', 2004)`
+     - Retrieve `Eternal Sunshine of the Spotless Mind`
+
+```yaml
+movies = [
+    ('Eternal Sunshine of the Spotless Mind', 2004),
+    ('Memento', 2000)
+]
+```
+
+```python
+nested = """
+movies = [
+    ('Eternal Sunshine of the Spotless Mind', 2004),
+    ('Memento', 2000)
+]
+"""
+
+print(nested)
+print("1. Retrieve `('Eternal Sunshine of the Spotless Mind', 2004)`")
+print(movies[0])
+
+print('\n2. Retrieve `Eternal Sunshine of the Spotless Mind`')
+print(movies[0][0])
+```
+
 4. Print `John Smith is 14 years old and his grades are 88, 76, 92, 85, 69`
 ```python
 print(f"{student['name']} is {student['age']} years old and his grades are {', '.join(map(str, student['grades']))}")
