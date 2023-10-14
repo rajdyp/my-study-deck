@@ -9,7 +9,7 @@ Step 2: Choose a Region
 ```
 
 ```yaml
-Step x: Create S3 bucket
+Step 3: Create S3 bucket
 
 | --> Go to Amazon S3 service
 |    | --> `Create bucket`
@@ -18,7 +18,7 @@ Step x: Create S3 bucket
 ```
 
 ```yaml
-Step x: Create IAM EC2 instance role
+Step 4: Create IAM EC2 instance role
 | --> Go to IAM dashboard
 |    | --> `Roles` > `Create role`
 |    |    | --> Trusted entity type = `AWS Service`
@@ -28,7 +28,7 @@ Step x: Create IAM EC2 instance role
 ```
 
 ```yaml
-Step 3: Create Virtual Private Cloud (VPC)
+Step 5: Create Virtual Private Cloud (VPC)
 
 | --> Go to VPC Dashboard
 |    | --> `Create VPC`
@@ -39,7 +39,7 @@ Step 3: Create Virtual Private Cloud (VPC)
 ```
 
 ```yaml
-Step x: Create Subnets
+Step 6: Create Subnets
 | --> On VPC Dashboard
 |    | --> `Subnets` > `Create subnet`
 |    |    | --> `Subnet name`
@@ -51,7 +51,7 @@ Step x: Create Subnets
 ```
 
 ```yaml
-Step x: Create Internet Gateway # internet connectivity
+Step 7: Create Internet Gateway # internet connectivity
 | --> On VPC Dashboard
 |    | --> `Internet gateways` > `Create internet gateway`
 |    |    | --> `Internet gateway name` > `Create internet gateway`
@@ -61,7 +61,7 @@ Step x: Create Internet Gateway # internet connectivity
 ```
 
 ```yaml
-Step x: Create NAT Gateways*** # internet connectivity
+Step 8: Create NAT Gateways*** # internet connectivity
 | --> On VPC Dashboard
 |    | --> `NAT gateways` > `Create NAT gateway`
 |    |    | --> `NAT gateway name`
@@ -71,7 +71,7 @@ Step x: Create NAT Gateways*** # internet connectivity
 ```
 
 ```yaml
-Step x: Create Route Tables
+Step 9: Create Route Tables
 | --> On VPC Dashboard
 |    | --> `Route tables` > `Create route table`
 |    |    | --> `Route table name`
@@ -92,7 +92,7 @@ Step x: Create Route Tables
 ```
 
 ```yaml
-Step x: Create Security Groups
+Step 10: Create Security Groups
 | --> On VPC Dashboard
 |    | --> `Security groups` > `Create security group`
 |    |    | --> `Security group name`
@@ -104,7 +104,7 @@ Step x: Create Security Groups
 ```
 
 ```yaml
-Step x: Create DB (RDS) Subnet Groups
+Step 11: Create DB (RDS) Subnet Groups
 | --> On RDS Dashboard
 |    | --> `Subnet groups` > `Create DB Subnet group`
 |    |    | --> `DB subnet group name`
@@ -114,7 +114,7 @@ Step x: Create DB (RDS) Subnet Groups
 ```
 
 ```yaml
-Step x: Database Deployment***
+Step 12: Database Deployment***
 | --> On RDS Dashboard
 |    | --> `Databases` > `Create database`
 |    |    | --> `Security group name`
@@ -124,7 +124,7 @@ Step x: Database Deployment***
 ```
 
 ```yaml
-Step x: Create EC2 Instances
+Step 13: Create EC2 Instances
 | --> On EC2 Dashboard
 |    | --> `Instances` > `Launch instances`
 |    |    | --> `Instance name`
@@ -138,7 +138,7 @@ Step x: Create EC2 Instances
 ```
 
 ```yaml
-Step x: Create App Tier AMI for Autoscaling
+Step 14: Create App Tier AMI for Autoscaling
 | --> On EC2 Dashboard
 |    | --> `Instances` > select `instance` > `Actions` > `Image and templates` > `Create image`
 |    |    | --> `Image name`
@@ -147,7 +147,7 @@ Step x: Create App Tier AMI for Autoscaling
 ```
 
 ```yaml
-Step x: Create Target Group
+Step 15: Create Target Group
 | --> On EC2 Dashboard
 |    | --> `Target Groups` > `Create target group`
 |    |    | --> Choose a target type = `Instances`
@@ -160,7 +160,7 @@ Step x: Create Target Group
 ```
 
 ```yaml
-Step x: Create Internal Load Balancer
+Step 16: Create Internal Load Balancer
 | --> On EC2 Dashboard
 |    | --> `Load Balancers` > `Create load balancer`
 |    |    | --> Application Load Balancer > `Create`
