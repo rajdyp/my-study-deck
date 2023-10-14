@@ -70,6 +70,8 @@ Step 8: Create NAT Gateways*** # internet connectivity
 |    |    | --> Select `Subnet`
 |    |    | --> `Allocate Elastic IP`
 |    |    | --> `Create NAT gateway`
+
+# for high availability, one NAT gateway in each private subnet
 ```
 
 ```yaml
