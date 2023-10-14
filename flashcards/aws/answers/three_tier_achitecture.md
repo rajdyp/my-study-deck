@@ -1,9 +1,175 @@
+![image](https://github.com/rajdyp/rajdyp.github.io/assets/15313631/f77d1632-f658-4505-9f0d-c874bfb83dc9)
+
 ```yaml
 Step 1: Sign in to AWS Console
 ```
 
 ```yaml
 Step 2: Choose a Region
+```
+
+```yaml
+Step x: Create S3 bucket
+
+| --> Go to Amazon S3 service
+|    | --> `Create bucket`
+|    |    | --> `Bucket name`
+|    |    | --> `AWS Region`
+```
+
+```yaml
+Step x: Create IAM EC2 instance role
+| --> Go to IAM dashboard
+|    | --> `Roles` > `Create role`
+|    |    | --> Trusted entity type = `AWS Service`
+|    |    | --> `EC2`
+|    |    | --> `Add permissions`
+|    |    | --> `Role name`
+```
+
+```yaml
+Step 3: Create Virtual Private Cloud (VPC)
+
+| --> Go to VPC Dashboard
+|    | --> `Create VPC`
+|    |    | --> `VPC only`
+|    |    | --> `VPC name`
+|    |    | --> `CIDR range`
+|    |    | --> `Create VPC`
+```
+
+```yaml
+Step x: Create Subnets
+| --> On VPC Dashboard
+|    | --> `Subnets` > `Create subnet`
+|    |    | --> `Subnet name`
+|    |    | --> `Availability Zone`
+|    |    | --> `CIDR range`
+|    |    | --> `Create subnet`
+
+# 2 public subnets, 2 private subnets, 2 DB subnets
+```
+
+```yaml
+Step x: Create Internet Gateway # internet connectivity
+| --> On VPC Dashboard
+|    | --> `Internet gateways` > `Create internet gateway`
+|    |    | --> `Internet gateway name` > `Create internet gateway`
+|    | --> `Internet gateway ID`
+|    |    | --> `Actions` > `Attach to VPC`
+|    |    |     | --> Select `VPC` > `Attach internet gateway`
+```
+
+```yaml
+Step x: Create NAT Gateways*** # internet connectivity
+| --> On VPC Dashboard
+|    | --> `NAT gateways` > `Create NAT gateway`
+|    |    | --> `NAT gateway name`
+|    |    | --> Select `Subnet`
+|    |    | --> `Allocate Elastic IP`
+|    |    | --> `Create NAT gateway`
+```
+
+```yaml
+Step x: Create Route Tables
+| --> On VPC Dashboard
+|    | --> `Route tables` > `Create route table`
+|    |    | --> `Route table name`
+|    |    | --> Select `VPC` > `Create route table`
+|    |    |    | --> `Routes` > `Edit routes`
+|    |    |    |    | --> `Add route` > Destination=`0.0.0.0/0` > Target=`Internet gateway` > `Save changes`
+|    |    |    | --> `Subnet associations` > `Edit subnet associations`
+|    |    |    |    | --> Select `Public subnets` > `Save associations`
+|    | -->`Route tables` > `Create route table`
+|    |    | --> `Route table name`
+|    |    | --> Select `VPC` > `Create route table`
+|    |    |    | --> `Routes` > `Edit routes`
+|    |    |    |    | --> `Add route` > Destination=`0.0.0.0/0` > Target=`NAT gateway` > `Save changes`
+|    |    |    | --> `Subnet associations` > `Edit subnet associations`
+|    |    |    |    | --> Select `Private subnet` > `Save associations`
+
+# create route table for public subnets and private subnets
+```
+
+```yaml
+Step x: Create Security Groups
+| --> On VPC Dashboard
+|    | --> `Security groups` > `Create security group`
+|    |    | --> `Security group name`
+|    |    | --> `Description`
+|    |    | --> Select `VPC`
+|    |    | --> Inbound rules > `Add rule` > `Create security group`
+
+# create security groups for internet facing LB, public instances, internal LB, private instance, DB instances
+```
+
+```yaml
+Step x: Create DB (RDS) Subnet Groups
+| --> On RDS Dashboard
+|    | --> `Subnet groups` > `Create DB Subnet group`
+|    |    | --> `DB subnet group name`
+|    |    | --> `Description`
+|    |    | --> Select `VPC`
+|    |    | --> Add subnets > `Availability Zones` > `Subnets` > `Create`
+```
+
+```yaml
+Step x: Database Deployment***
+| --> On RDS Dashboard
+|    | --> `Databases` > `Create database`
+|    |    | --> `Security group name`
+|    |    | --> `Description`
+|    |    | --> Select `VPC`
+|    |    | --> `Add rule` > Inbound rules > `Create security group`
+```
+
+```yaml
+Step x: Create EC2 Instances
+| --> On EC2 Dashboard
+|    | --> `Instances` > `Launch instances`
+|    |    | --> `Instance name`
+|    |    | --> Select `Amazon Machine Image`
+|    |    | --> Select `Instance type`
+|    |    | --> `Create new key pair`
+|    |    | --> Select `VPC`
+|    |    | --> Select `Subnet`
+|    |    | --> Select `Security groups`
+|    |    | --> Select `IAM instance profile`
+```
+
+```yaml
+Step x: Create App Tier AMI for Autoscaling
+| --> On EC2 Dashboard
+|    | --> `Instances` > select `instance` > `Actions` > `Image and templates` > `Create image`
+|    |    | --> `Image name`
+|    |    | --> `Image description`
+|    |    | --> `Create image`
+```
+
+```yaml
+Step x: Create Target Group
+| --> On EC2 Dashboard
+|    | --> `Target Groups` > `Create target group`
+|    |    | --> Choose a target type = `Instances`
+|    |    | --> `Target group name`
+|    |    | --> Select `Protocol`:`Port`
+|    |    | --> Select `VPC`
+|    |    | --> Select `Health check protocol`
+|    |    | --> Define `Health check path`
+|    |    | --> `Create target group`
+```
+
+```yaml
+Step x: Create Internal Load Balancer
+| --> On EC2 Dashboard
+|    | --> `Load Balancers` > `Create load balancer`
+|    |    | --> Application Load Balancer > `Create`
+|    |    | --> `Load balancer name`
+|    |    | --> Scheme = `Internal`
+|    |    | --> Select `VPC`
+|    |    | --> Select `Subnet`
+|    |    | --> Select `Security groups`
+|    |    | --> Listener > `Protocol`:`Port` > Default action = `target group`
 ```
 
 ```yaml
