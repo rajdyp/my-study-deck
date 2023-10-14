@@ -266,3 +266,7 @@ Continuously test your architecture for performance, security, and reliability.
 Use AWS Cost Explorer to monitor costs and optimize resources for cost-efficiency.
 This detailed guide provides step-by-step instructions for creating each component of a three-tier architecture in AWS using the AWS Management Console. Remember to refer to AWS documentation and adapt these steps to your specific use case and requirements.
 ```
+
+### Supplementary
+- [Hands-on workshop](https://catalog.us-east-1.prod.workshops.aws/workshops/85cd2bb2-7f79-4e96-bdee-8078e469752a/en-US)
+- [GitHub](https://github.com/aws-samples/aws-three-tier-web-architecture-workshop)
