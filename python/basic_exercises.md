@@ -43,7 +43,7 @@ movies = [
      - Print student grades
      - Add student age = 14
      - Print `John Smith is 14 years old and his grades are 88, 76, 92, 85, 69`
-     - Create a dictionary school using dict() constructor with school name and location
+     - Create a dictionary called `school` using dict() constructor with school name and location'
      - Merge student dictionary with school dictionary     # check name key
      - Update student age to 18
      - Delete grades
