@@ -356,9 +356,9 @@ while within_range == False:
     if n >= num[0] and n <= num[-1]:        # if n in num
         print("Within range!")
         within_range = True
-    elif n < num[0]:
+    elif n >= 0 and n < num[0]:
         print("Too low!")
-    elif n > num[-1] and n < 20:
+    elif n > num[-1] and n <= 20:
         print("Too high!")
     else:
         print("Out of range!")
