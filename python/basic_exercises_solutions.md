@@ -409,13 +409,22 @@ print("".join(map(str, mylist)))
 n = 5
 for i in range(1, n + 1):
     print(i, end='')
+print(" ")
 ```
 
 10. If integer `n = 5`, perform backwards iteration and print `5 4 3 2 1`.
 ```python
 n = 5
-for i in reversed(range(1, n+1)):
+for i in reversed(range(1, n+1)):          # for i in range(n, 0, -1):
     print(i, end=" ")
+print(" ")
+```
+```python
+n = 5
+mylist = []
+for i in range(n, 0, -1):
+    mylist.append(str(i))
+print(" ".join(mylist))
 ```
 ```python
 n = 5
