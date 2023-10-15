@@ -29,6 +29,9 @@ Step 4: Create IAM EC2 instance role
 |    |    | --> `Create role`
 ```
 
+## Networking and Security
+![image](https://github.com/rajdyp/rajdyp.github.io/assets/15313631/099692bb-f442-4f9c-9466-946bab60fe54)
+
 ```yaml
 Step 5: Create Virtual Private Cloud (VPC)
 
