@@ -110,6 +110,7 @@ Step 10: Create Security Groups
 # create security groups for internet facing LB, public instances, internal LB, private instance, DB instances
 ```
 
+## DB tier
 ```yaml
 Step 11: Create DB (RDS) Subnet Groups
 | --> On RDS Dashboard
@@ -130,6 +131,7 @@ Step 12: Database Deployment***
 |    |    | --> `Add rule` > Inbound rules > `Create security group`
 ```
 
+## App tier
 ```yaml
 Step 13: Create EC2 Instances
 | --> On EC2 Dashboard
@@ -176,8 +178,132 @@ Step 16: Create Internal Load Balancer
 |    |    | --> Select `VPC`
 |    |    | --> Select `Subnet`
 |    |    | --> Select `Security groups`
-|    |    | --> Listener > `Protocol`:`Port` > Default action = `target group`
+|    |    | --> Listener > `Protocol`:`Port` > Default action = `app target group`
 ```
+
+```yaml
+Step x: Create EC2 Launch Templates
+| --> On EC2 Dashboard
+|    | --> `Launch Templates` > `Create launch template`
+|    |    | --> `Launch template name`
+|    |    | --> My AMIs > Owned by me > Select `AMI`
+|    |    | --> Select `Instance type`
+|    |    | --> Select `Key pair name` # if applicable
+|    |    | --> Select existing security group > Select `Security groups`
+|    |    | --> Select `IAM instance profile`
+|    |    | --> `Create launch template`
+```
+
+```yaml
+Step x: Create Auto Scaling Groups
+| --> On EC2 Dashboard
+|    | --> `Auto Scaling Groups` > `Create Auto Scaling group`
+|    |    | --> `Auto Scaling group name`
+|    |    | --> Select `app launch template`
+|    |    | --> Select `VPC`
+|    |    | --> Select `Availability Zones and subnets`
+|    |    | --> Select `Attach to an existing load balancer`
+|    |    | --> Select `Choose from your load balancer target group`
+|    |    | --> Select `app load balancer target groups`
+|    |    | --> Configure group size and scaling policies > `Desired capacity` > `Minimum capacity` > `Maximum capacity`
+|    |    | --> `Create Auto Scaling group`
+```
+
+## Web tier
+```yaml
+Step x: Create EC2 Instances
+| --> On EC2 Dashboard
+|    | --> `Instances` > `Launch instances`
+|    |    | --> `Instance name`
+|    |    | --> Select `Amazon Machine Image`
+|    |    | --> Select `Instance type`
+|    |    | --> `Create new key pair`
+|    |    | --> Select `VPC`
+|    |    | --> Select `Subnet`
+|    |    | --> Auto-assign public IP = `Enable` # only in web tier
+|    |    | --> Select `Security groups`
+|    |    | --> Select `IAM instance profile`
+```
+
+```yaml
+Step x: Create Web Tier AMI for Autoscaling
+| --> On EC2 Dashboard
+|    | --> `Instances` > select `instance` > `Actions` > `Image and templates` > `Create image`
+|    |    | --> `Image name`
+|    |    | --> `Image description`
+|    |    | --> `Create image`
+```
+
+```yaml
+Step x: Create Target Group
+| --> On EC2 Dashboard
+|    | --> `Target Groups` > `Create target group`
+|    |    | --> Choose a target type = `Instances`
+|    |    | --> `Target group name`
+|    |    | --> Select `Protocol`:`Port`
+|    |    | --> Select `VPC`
+|    |    | --> Select `Health check protocol`
+|    |    | --> Define `Health check path`
+|    |    | --> `Create target group`
+```
+
+```yaml
+Step x: Create Public (Internet) Load Balancer
+| --> On EC2 Dashboard
+|    | --> `Load Balancers` > `Create load balancer`
+|    |    | --> Application Load Balancer > `Create`
+|    |    | --> `Load balancer name`
+|    |    | --> Scheme = `Internet-facing`
+|    |    | --> Select `VPC`
+|    |    | --> Select `Subnet`
+|    |    | --> Select `Security groups`
+|    |    | --> Listener > `Protocol`:`Port` > Default action = `web target group`
+```
+
+```yaml
+Step x: Create EC2 Launch Templates
+| --> On EC2 Dashboard
+|    | --> `Launch Templates` > `Create launch template`
+|    |    | --> `Launch template name`
+|    |    | --> My AMIs > Owned by me > Select `AMI`
+|    |    | --> Select `Instance type`
+|    |    | --> Select `Key pair name` # if applicable
+|    |    | --> Select existing security group > Select `Security groups`
+|    |    | --> Select `IAM instance profile`
+|    |    | --> `Create launch template`
+```
+
+```yaml
+Step x: Create Auto Scaling Groups
+| --> On EC2 Dashboard
+|    | --> `Auto Scaling Groups` > `Create Auto Scaling group`
+|    |    | --> `Auto Scaling group name`
+|    |    | --> Select `web launch template`
+|    |    | --> Select `VPC`
+|    |    | --> Select `Availability Zones and subnets`
+|    |    | --> Select `Attach to an existing load balancer`
+|    |    | --> Select `Choose from your load balancer target group`
+|    |    | --> Select `web load balancer target groups`
+|    |    | --> Configure group size and scaling policies > `Desired capacity` > `Minimum capacity` > `Maximum capacity`
+|    |    | --> `Create Auto Scaling group`
+```
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 ```yaml
 Step 3: Create a Virtual Private Cloud (VPC)
