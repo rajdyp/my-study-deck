@@ -401,7 +401,7 @@ print("Rai")
 n = 5
 mylist = []
 for i in range(1, n + 1):
-    mylist.append(i)
+    mylist.append(i)          # mylist.append(str(i))
 print("".join(map(str, mylist)))
 ```
 ```python
