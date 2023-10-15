@@ -182,7 +182,7 @@ Step 16: Create Internal Load Balancer
 ```
 
 ```yaml
-Step x: Create EC2 Launch Templates
+Step 17: Create EC2 Launch Templates
 | --> On EC2 Dashboard
 |    | --> `Launch Templates` > `Create launch template`
 |    |    | --> `Launch template name`
@@ -195,7 +195,7 @@ Step x: Create EC2 Launch Templates
 ```
 
 ```yaml
-Step x: Create Auto Scaling Groups
+Step 18: Create Auto Scaling Groups
 | --> On EC2 Dashboard
 |    | --> `Auto Scaling Groups` > `Create Auto Scaling group`
 |    |    | --> `Auto Scaling group name`
@@ -211,7 +211,7 @@ Step x: Create Auto Scaling Groups
 
 ## Web tier
 ```yaml
-Step x: Create EC2 Instances
+Step 19: Create EC2 Instances
 | --> On EC2 Dashboard
 |    | --> `Instances` > `Launch instances`
 |    |    | --> `Instance name`
@@ -226,7 +226,7 @@ Step x: Create EC2 Instances
 ```
 
 ```yaml
-Step x: Create Web Tier AMI for Autoscaling
+Step 20: Create Web Tier AMI for Autoscaling
 | --> On EC2 Dashboard
 |    | --> `Instances` > select `instance` > `Actions` > `Image and templates` > `Create image`
 |    |    | --> `Image name`
@@ -235,7 +235,7 @@ Step x: Create Web Tier AMI for Autoscaling
 ```
 
 ```yaml
-Step x: Create Target Group
+Step 21: Create Target Group
 | --> On EC2 Dashboard
 |    | --> `Target Groups` > `Create target group`
 |    |    | --> Choose a target type = `Instances`
@@ -248,7 +248,7 @@ Step x: Create Target Group
 ```
 
 ```yaml
-Step x: Create Public (Internet) Load Balancer
+Step 22: Create Public (Internet) Load Balancer
 | --> On EC2 Dashboard
 |    | --> `Load Balancers` > `Create load balancer`
 |    |    | --> Application Load Balancer > `Create`
@@ -261,7 +261,7 @@ Step x: Create Public (Internet) Load Balancer
 ```
 
 ```yaml
-Step x: Create EC2 Launch Templates
+Step 23: Create EC2 Launch Templates
 | --> On EC2 Dashboard
 |    | --> `Launch Templates` > `Create launch template`
 |    |    | --> `Launch template name`
@@ -274,7 +274,7 @@ Step x: Create EC2 Launch Templates
 ```
 
 ```yaml
-Step x: Create Auto Scaling Groups
+Step 24: Create Auto Scaling Groups
 | --> On EC2 Dashboard
 |    | --> `Auto Scaling Groups` > `Create Auto Scaling group`
 |    |    | --> `Auto Scaling group name`
