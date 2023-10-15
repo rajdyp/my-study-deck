@@ -650,3 +650,8 @@ numbers = [1, 2, 3, 4, 5]
 print(*numbers, sep=" | ")
 ```
 
+28. Create a sorted list from 0 to 50.
+```python
+numbers = list(range(51))
+print(numbers)
+```
