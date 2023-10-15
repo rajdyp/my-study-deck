@@ -375,6 +375,12 @@ for i in text:          # for i in text.replace(" ", "")
 
 print(mylist)
 print(", ".join(mylist))
+
+# shorter version
+text = "was it a car"
+mylist = list(text.replace(" ", ""))
+print(mylist)
+print(", ".join(mylist))
 ```
 ```python
 # list comprehension 
