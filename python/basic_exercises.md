@@ -115,3 +115,4 @@ In the Gregorian calendar, three conditions are used to identify leap years:
      - Find maximum value (or default value if empty): `empty_list = []`
 26. `square = {2: 4, -3: 9, -1: 1, -2: 4}` Find `a.` Largest key. `b.` Key whose value is the largest. `c.` Get the largest value.
 27. Take the list `numbers = [1, 2, 3, 4, 5]` and print the numbers on a single line with pipe (|) characters between each number. 
+28. Create a sorted list from 0 to 50.
