@@ -670,3 +670,14 @@ print(*numbers, sep=" | ")
 numbers = list(range(51))
 print(numbers)
 ```
+
+29. Nested list: `students = [['Harry', 37.21], ['Berry', 37.21], ['Tina', 37.2], ['Akriti', 41], ['Harsh', 39]]`
+     - Sort the marks in ascending order
+     - Sort the names in decending order
+```python
+students = [['Harry', 37.21], ['Berry', 37.21], ['Tina', 37.2], ['Akriti', 41], ['Harsh', 39]]
+score_list = sorted(list(set([student[1] for student in students])))
+names = sorted([student[0] for student in students], reverse=True)
+print(score_list)
+print(names)
+```
