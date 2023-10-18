@@ -117,5 +117,5 @@ In the Gregorian calendar, three conditions are used to identify leap years:
 27. Take the list `numbers = [1, 2, 3, 4, 5]` and print the numbers on a single line with pipe (|) characters between each number. 
 28. Create a sorted list from 0 to 50.
 29. Nested list: `students = [['Harry', 37.21], ['Berry', 37.21], ['Tina', 37.2], ['Akriti', 41], ['Harsh', 39]]`
-     - Sort the marks in ascending order
+     - Sort the grades in ascending order
      - Sort the names in decending order
