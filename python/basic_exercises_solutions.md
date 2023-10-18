@@ -673,11 +673,14 @@ print(numbers)
 
 29. Nested list: `students = [['Harry', 37.21], ['Berry', 37.21], ['Tina', 37.2], ['Akriti', 41], ['Harsh', 39]]`
      - Sort the grades in ascending order
+     - Sort the grades in ascending order and only unique values
      - Sort the names in decending order
 ```python
 students = [['Harry', 37.21], ['Berry', 37.21], ['Tina', 37.2], ['Akriti', 41], ['Harsh', 39]]
-score_list = sorted(list(set([student[1] for student in students])))
+grades = sorted([student[1] for student in students])
+unique_grades = sorted(list(set([student[1] for student in students])))
 names = sorted([student[0] for student in students], reverse=True)
-print(score_list)
+print(grades)
+print(unique_grades)
 print(names)
 ```
