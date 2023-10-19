@@ -85,7 +85,7 @@ print(math.pow(2, 200) < float("inf"))
 >>> True
 ```
 
-## Arrays
+## Array (List)
 ```python
 # arrays (called lists in python)
 arr = [1, 2, 3]
@@ -239,9 +239,9 @@ queue.pop()
 print(queue)
 ```
 
-## HashSets
+## HashSet (Set)
 ```python
-# HashSet (aka set)
+# HashSet
 mySet = set()
 
 mySet.add(1)
@@ -264,9 +264,9 @@ mySet = { i for i in range(5) }
 print(mySet)
 ```
 
-## HashMaps
+## HashMap (Dictionary)
 ```python
-# HashMap (aka dict)
+# HashMap
 myMap = {}
 myMap["alice"] = 88
 myMap["bob"] = 77
