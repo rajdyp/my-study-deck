@@ -99,6 +99,11 @@ print(arr)
 arr.pop()
 print(arr)
 
+# stack is used to solve a few of the general problems like:
+# Tower of Hanoi
+# N-Queens Problem
+# Infix to Prefix Conversion
+
 arr.insert(1, 7)
 print(arr)
 
