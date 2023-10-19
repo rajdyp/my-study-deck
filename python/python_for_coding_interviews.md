@@ -116,35 +116,45 @@ arr[3] = 0
 print(arr)
 >>> [0, 7, 2, 0, 4]
 
-# initialize arr of size n with default value of 1
+# initialize array of size n with default value of 1
 n = 5
 arr = [1] * n
 print(arr)
+>>> [1, 1, 1, 1, 1]
 print(len(arr))
+>>> 5
 
-# careful: -1 is not out of bounds, it's the last value
+# -1 is last value
 arr = [1, 2, 3]
 print(arr[-1])
+>>> 3
 
 # indexing -2 is the second to last value, etc.
 print(arr[-2])
+>>> 2
 
 # sublists (aka slicing)
 arr = [1, 2, 3, 4]
 print(arr[1:3])
+>>> [2, 3]
 
 # similar to for-loop ranges, last index is non-inclusive
 print(arr[0:4])
+>>> [1, 2, 3, 4]
 
 # but no out of bounds error
 print(arr[0:10])
+>>> [1, 2, 3, 4]
 
 # unpacking
 a, b, c = [1, 2, 3]
 print(a, b, c)
+>>> 1 2 3
 
 # be careful though
-# a, b = [1, 2, 3]
+a, b = [1, 2, 3]
+print(a, b)
+>>> ValueError: too many values to unpack (expected 2)
 
 # loop through arrays
 nums = [1, 2, 3]
@@ -152,53 +162,75 @@ nums = [1, 2, 3]
 # using index
 for i in range(len(nums)):
     print(nums[i])
+>>> 1
+>>> 2
+>>> 3
 
 # without index
 for n in nums:
     print(n)
+>>> 1
+>>> 2
+>>> 3
 
 # with index and value
 for i, n in enumerate(nums):
     print(i, n)
+>>> 0 1
+>>> 1 2
+>>> 2 3
 
 # loop through multiple arrays simultaneously with unpacking
 nums1 = [1, 3, 5]
 nums2 = [2, 4, 6]
 for n1, n2 in zip(nums1, nums2):
     print(n1, n2)
+>>> 1 2
+>>> 3 4
+>>> 5 6
 
 # reverse
 nums = [1, 2, 3]
 nums.reverse()
 print(nums)
+>>> [3, 2, 1]
 
 # sorting
 arr = [5, 4, 7, 3, 8]
 arr.sort()
 print(arr)
+>>> [3, 4, 5, 7, 8]
 
 arr.sort(reverse=True)
 print(arr)
+>>> [8, 7, 5, 4, 3]
 
 arr = ["bob", "alice", "jane", "doe"]
 arr.sort()
 print(arr)
+>>> ['alice', 'bob', 'doe', 'jane']
 
 # custom sort (by length of string)
 arr.sort(key=lambda x: len(x))
 print(arr)
+>>> ['bob', 'doe', 'jane', 'alice']
 
 # list comprehension
 arr = [i for i in range(5)]
 print(arr)
+>>> [0, 1, 2, 3, 4]
 
 # 2-D lists
 arr = [[0] * 4 for i in range(4)]
 print(arr)
+>>> [[0, 0, 0, 0], [0, 0, 0, 0], [0, 0, 0, 0], [0, 0, 0, 0]]
 print(arr[0][0], arr[3][3])
+>>> 0 0
 
 # this won't work
-# arr = [[0] * 4] * 4
+arr = [[0] * 4] * 4
+print(arr)
+[[0, 0, 0, 0], [0, 0, 0, 0], [0, 0, 0, 0], [0, 0, 0, 0]]    # not creating unique four rows
 ```
 
 ## Strings
