@@ -90,14 +90,17 @@ print(math.pow(2, 200) < float("inf"))
 # array
 arr = [1, 2, 3]
 print(arr)
+>>> [1, 2, 3]
 
 # can be used as a stack (Last In, First Out)
 arr.append(4)
 arr.append(5)
 print(arr)
+>>> [1, 2, 3, 4, 5]
 
 arr.pop()
 print(arr)
+>>> [1, 2, 3, 4]
 
 # stack is used to solve problems like:
 # Tower of Hanoi
@@ -106,10 +109,12 @@ print(arr)
 
 arr.insert(1, 7)
 print(arr)
+>>> [1, 7, 2, 3, 4]
 
 arr[0] = 0
 arr[3] = 0
 print(arr)
+>>> [0, 7, 2, 0, 4]
 
 # initialize arr of size n with default value of 1
 n = 5
