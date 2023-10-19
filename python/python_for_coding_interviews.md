@@ -87,11 +87,11 @@ print(math.pow(2, 200) < float("inf"))
 
 ## Array (List)
 ```python
-# arrays (called lists in python)
+# array
 arr = [1, 2, 3]
 print(arr)
 
-# can be used as a stack
+# can be used as a stack (Last In, First Out)
 arr.append(4)
 arr.append(5)
 print(arr)
