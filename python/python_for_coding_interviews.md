@@ -366,22 +366,34 @@ for key, val in myMap.items():
 # tuples are like arrays but immutable
 tup = (1, 2, 3)
 print(tup)
+>>> (1, 2, 3)
 print(tup[0])
+>>> 1
 print(tup[-1])
+>>> 3
 
-# can't modify
-# tup[0] = 0
+# can't modify (immutable)
+tup[0] = 0
+>>> TypeError: 'tuple' object does not support item assignment
 
-# can be used as key for hash map/set
-myMap = { (1,2): 3 }
+# can be used as key for hashmap/hashset
+myMap = {(1,2): 3}
 print(myMap[(1,2)])
+>>> 3
 
 mySet = set()
 mySet.add((1, 2))
 print((1, 2) in mySet)
+>>> True
 
-# Lists can't be keys
-# myMap[[3, 4]] = 5
+# list can't be key for hashmap/hashset
+myMap = {}
+myMap[[3, 4]] = 5
+print(myMap)
+>>> {'x': 5}
+# myMap["x"] = 5
+print(myMap)
+>>> TypeError: unhashable type: 'list'
 ```
 
 ## Heaps
