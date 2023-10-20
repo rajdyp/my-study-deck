@@ -238,27 +238,22 @@ print(arr)
 # strings are similar to arrays
 s = "abc"
 print(s[0:2])
+>>> ab
 
 # but they are immutable
 # s[0] = "A"
-
-# so this creates a new string
-s += "def"
-print(s)
-
-# valid numeric strings can be converted
-print(int("123") + int("123"))
-
-# and numbers can be converted to strings
-print(str(123) + str(123))
+>>> TypeError: 'str' object does not support item assignment
 
 # in rare cases you may need the ASCII value of a char
 print(ord("a"))
+>>> 97
 print(ord("b"))
+>>> 98
 
 # combine a list of strings (with an empty string delimitor)
 strings = ["ab", "cd", "ef"]
 print("".join(strings))
+>>> abcdef
 ```
 
 ## Queues
