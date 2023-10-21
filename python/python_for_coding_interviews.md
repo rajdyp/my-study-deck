@@ -500,7 +500,7 @@ double(nums, val)
 ## Classes
 ```python
 class MyClass:
-    # Constructor
+    # constructor
     def __init__(self, nums):
         # Create member variables
         self.nums = nums
