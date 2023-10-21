@@ -462,6 +462,7 @@ def myFunc(n, m):
     return n * m
 
 print(myFunc(3, 4))
+>>> 12
 
 # nested functions have access to outer variables
 def outer(a, b):
@@ -472,12 +473,12 @@ def outer(a, b):
     return inner()
 
 print(outer("a", "b"))
+>>> abc
 
-# can modify objects but not reassign
-# unless using nonlocal keyword
+# can modify objects but not reassign unless using nonlocal keyword
 def double(arr, val):
     def helper():
-        # Modifying array works
+        # modifying array works
         for i, n in enumerate(arr):
             arr[i] *= 2
         
