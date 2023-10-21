@@ -494,6 +494,7 @@ def double(arr, val):
 nums = [1, 2]
 val = 3
 double(nums, val)
+>>> [2, 4] 6
 ```
 
 ## Classes
