@@ -1,5 +1,19 @@
 # Basic Exercises Solutions
 
+1. Perform below multi line assignment in a single line.
+```yaml
+n = 0.125
+m = "abc"
+z = False
+```
+
+```python
+n, m, z = 0.125, "abc", False
+print(n)
+print(m)
+print(z)
+```
+
 1. Create a list of names containing `"John", "Alice", "Sarah", "Rajna", "George"` using list() constructor.
      - Print number of items in the list
      - Just print `"Alice", "Sarah", Rajna`
@@ -21,6 +35,7 @@
      - Join fruits and num list to a new list
      - Clear fruits list
      - Delete num list
+
 ```python
 print('\n1. Create a list of names containing `"John", "Alice", "Sarah", "Rajna", "George"` using list() constructor\n')
 names = list(("John", "Alice", "Sarah", "Rajna", "George"))
