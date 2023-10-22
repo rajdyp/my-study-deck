@@ -12,7 +12,7 @@ z = False
      - Get the characters from position 2 to position 5 (not included)
      - Print only the characters at even position
      - Replace `"H"` with `"Y"`
-     - Split "My name is Rajdeep" to a list of substrings
+     - Split `My name is Rajdeep` to a list of substrings
      - Remove any whitespace from beginning or end of `" Hello, World! "`
      - Combine a list of strings `["ab", "cd", "ef"]` with an empty string delimitor
 
