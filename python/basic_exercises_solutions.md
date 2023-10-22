@@ -397,6 +397,74 @@ print(set1)
 del set1
 print(set1)
 ```
+
+8. Create double-ended queue `[4, 5, 6]`.
+     - Append `7` to the right
+     - Append `3` to the left
+     - Append `[8, 9, 10]` to right
+     - Append `[1, 2]` to left
+     - Insert `-1` at index 5
+     - Remove element from the right end
+     - Remove element from the left end
+     - Remove `-1`
+     - Count the number of times `5` occurs
+     - Return index of '7'
+     - Rotate the deque three times to the right
+     - Reverse the whole deque
+
+```python
+print('\nCreate double-ended queue `[4, 5, 6]`.')
+from collections import deque
+dq = deque([4, 5, 6])
+print(dq)
+
+print('\nAppend `7` to the right')
+dq.append(7)
+print(dq)
+
+print('\nAppend `3` to the left')
+dq.appendleft(3)
+print(dq)
+
+print('\nAppend `[8, 9, 10]` to right')
+dq.extend([8, 9, 10])
+print(dq)
+
+print('\nAppend `[1, 2]` to left')
+dq.extendleft([1, 2])
+print(dq)
+
+print('\nInsert `-1` at index 5')
+dq.insert(5, -1)
+print(dq)
+
+print('\nRemove element from the right end')
+dq.pop()
+print(dq)
+
+print('\nRemove element from the left end')
+dq.popleft()
+
+print('\nRemove `-1`')
+dq.remove(-1)
+print(dq)
+
+print('\nCount the number of times `5` occurs')
+print(dq.count(5))
+
+print('\nReturn index of `7`')
+print(dq)
+print(dq.index(7))
+
+print('\nRotate the deque three times to the right')
+dq.rotate(3)
+print(dq)
+
+print('\nReverse the whole deque')
+dq.reverse()
+print(dq)
+```
+
 6. Create a sequence of numbers using range:
      - Ask user to enter a number
      - Inform the user whether or not the number was within the specified range
