@@ -14,7 +14,46 @@ print(m)
 print(z)
 ```
 
-1. Create a list of names containing `"John", "Alice", "Sarah", "Rajna", "George"` using list() constructor.
+2. Create a string `Hello, World!`
+     - Just print `,` from the string
+     - Get the characters from position 2 to position 5 (not included)
+     - Print only the characters at even position
+     - Replace `"H"` with `"Y"`
+     - Split `My name is Rajdeep` to a list of substrings
+     - Remove any whitespace from beginning or end of `" Hello, World! "`
+     - Combine a list of strings `["ab", "cd", "ef"]` with an empty string delimitor
+
+```python
+print('\nCreate a string `Hello, World!`')
+mystr = "Hello, World!"
+print(mystr)
+
+print('\nJust print `,` from the string')
+print(mystr[5])
+
+print('\nGet the characters from position 2 to position 5 (not included)')
+print(mystr[2:5])
+
+print('\nPrint only the characters at even position')
+print(mystr[::2])
+
+print('\nReplace `"H"` with `"Y"`')
+print(mystr.replace("H", "Y"))
+
+print('\nSplit "My name is Rajdeep" to a list of substrings')
+mystr = "My name is Rajdeep"
+print(mystr.split())
+
+print('\nRemove any whitespace from beginning or end of `" Hello, World! "`')
+mystr = " Hello, World! "
+print(mystr.strip())
+
+print('\nCombine a list of strings `["ab", "cd", "ef"]` with an empty string delimitor')
+str_list = ["ab", "cd", "ef"]
+print("".join(str_list))
+```
+
+3. Create a list of names containing `"John", "Alice", "Sarah", "Rajna", "George"` using list() constructor.
      - Print number of items in the list
      - Just print `"Alice", "Sarah", Rajna`
      - Retrieve `"George"`       
@@ -125,7 +164,7 @@ del num
 print(num)
 ```
 
-2. Create a tuple of names`"John", "Sarah", "Alice"` using tuple() constructor.
+4. Create a tuple of names`"John", "Sarah", "Alice"` using tuple() constructor.
      - Print number of items in tuple
      - Create a tuple of single name `"Maya"`
      - Add name to names
@@ -180,7 +219,7 @@ del fruits
 print(fruits)
 ```
 
-3. From below nested collections:
+5. From below nested collections:
      - Retrieve `('Eternal Sunshine of the Spotless Mind', 2004)`
      - Retrieve `Eternal Sunshine of the Spotless Mind`
 
@@ -207,7 +246,7 @@ print('\n2. Retrieve `Eternal Sunshine of the Spotless Mind`')
 print(movies[0][0])
 ```
 
-4. Create a dictionary called `student`, wherein student name is `"John Smith"` and his grades are `88, 76, 92, 85, 69`.
+6. Create a dictionary called `student`, wherein student name is `"John Smith"` and his grades are `88, 76, 92, 85, 69`.
      - Print student grades
      - Add student age = 14
      - Print `John Smith is 14 years old and his grades are 88, 76, 92, 85, 69`
@@ -303,7 +342,7 @@ del student
 print(student)
 ```
 
-5. Create an empty set `set1`.
+7. Create an empty set `set1`.
      - Add three items `"apple", "banana", "cherry"`
      - Print `"apple"` 
      - Create a second set `set2` using set() constructor with at least one common item with the first set
