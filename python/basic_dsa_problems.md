@@ -2,7 +2,13 @@
 
 ## Arrays
 
-- Find the maximum and minimum element in an array.
+- [Find the maximum and minimum element in an array.](https://github.com/rajdyp/rajdyp.github.io/blob/master/python/solutions/max_and_min_in_an_array.md)
+```yaml
+Given an array of integers, write a function to find the maximum and minimum elements in the array.
+arr = [5, 2, 9, 1, 5, 6]
+Maximum element: 9
+Minimum element: 1
+```
 - Reverse an array.
 - Find the sum of all elements in an array.
 - Find the second largest element in an array.
