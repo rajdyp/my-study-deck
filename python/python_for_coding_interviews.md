@@ -1,5 +1,45 @@
 # [Python for Coding Interviews](https://neetcode.io/courses/lessons/python-for-coding-interviews)
 
+## Big O Complexity 
+| Method or Data Type             | Time Complexity (Average/Worst Case)  | Space Complexity       |
+|---------------------------------|---------------------------------------|------------------------|
+| **List Methods**                |                                       |                        |
+| `append()`                      | O(1)                                  | O(1)                   |
+| `insert()`                      | O(n)                                  | O(1)                   |
+| `pop()` (from the end)          | O(1)                                  | O(1)                   |
+| `pop()` (from a specific index) | O(n)                                  | O(1)                   |
+| `extend()` (concatenation)      | O(k)                                  | O(k)                   |
+| `remove()`                      | O(n)                                  | O(1)                   |
+| `sort()`                        | O(n log n)                            | O(n)                   |
+| `reverse()`                     | O(n)                                  | O(1)                   |
+| **Dictionary Methods**          |                                       |                        |
+| Access by key                   | O(1) average, O(n) worst case (rare)  | O(n)                   |
+| `get()`                         | O(1) average, O(n) worst case (rare)  | O(n)                   |
+| `set()`                         | O(1) average, O(n) worst case (rare)  | O(n)                   |
+| `keys()`                        | O(n)                                  | O(n)                   |
+| `values()`                      | O(n)                                  | O(n)                   |
+| `items()`                       | O(n)                                  | O(n)                   |
+| **Set Methods**                 |                                       |                        |
+| `add()`                         | O(1)                                  | O(1)                   |
+| `remove()`                      | O(1)                                  | O(1)                   |
+| `discard()`                     | O(1)                                  | O(1)                   |
+| `union()`                       | O(len(s))                             | O(len(s))              |
+| `intersection()`                | O(min(len(s), len(t)))                | O(min(len(s), len(t))) |
+| **String Methods**              |                                       |                        |
+| `len()`                         | O(1)                                  | O(1)                   |
+| `split()`                       | O(n)                                  | O(n)                   |
+| `join()`                        | O(n)                                  | O(n)                   |
+| `replace()`                     | O(n)                                  | O(n)                   |
+| **Tuples**                      |                                       |                        |
+| Indexing                        | O(1)                                  | O(1)                   |
+| Slicing                         | O(k) where k is the size of the slice | O(k)                   |
+| **Sets**                        |                                       |                        |
+| Membership test (in `x in s`)   | O(1)                                  | O(1)                   |
+| **Queue (collections.deque)**   |                                       |                        |
+| `append()` and `popleft()`      | O(1)                                  | O(1)                   |
+| **Stack (list-based)**          |                                       |                        |
+| `push()` and `pop()`            | O(1)                                  | O(1)                   |
+
 ## Variables
 ```python
 # variables are dynamicly typed
