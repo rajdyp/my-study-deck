@@ -40,6 +40,38 @@
 | **Stack (list-based)**          |                                       |                        |
 | `push()` and `pop()`            | O(1)                                  | O(1)                   |
 
+## Popular Problem-Solving Techniques and Patterns
+
+- **Two-Pointers Technique**: As previously discussed, this technique involves using two pointers to traverse an array or sequence, often from opposite ends or within a subarray, to solve problems efficiently.
+
+- **Sliding Window Technique**: This technique involves maintaining a "window" of elements in an array and sliding it through the array to solve problems like finding subarrays with a specific sum, longest substring with distinct characters, or substring matching.
+
+- **Divide and Conquer**: This technique breaks down a problem into smaller subproblems, solves the subproblems recursively, and then combines their solutions to solve the overall problem. Examples include binary search, merge sort, and quicksort.
+
+- **Greedy Algorithm**: Greedy algorithms make locally optimal choices at each step in the hope of finding a global optimum. They are often used for optimization problems where a series of decisions must be made.
+
+- **Dynamic Programming**: This is a technique for solving problems by breaking them down into smaller overlapping subproblems and storing the results of these subproblems to avoid redundant calculations. It is commonly used for problems like finding the longest common subsequence, shortest path, or optimizing resource allocation.
+
+- **Backtracking**: Backtracking is an algorithmic technique that incrementally builds a solution and abandons a candidate solution as soon as it is determined to be unworkable. It's often used for problems that involve searching for valid solutions within a search space, such as the N-Queens problem.
+
+- **Depth-First Search (DFS) and Breadth-First Search (BFS)**: These are graph traversal techniques used to explore and search through nodes in graphs or trees. They have applications in problems like finding connected components, shortest paths, and more.
+
+- **Binary Search**: Binary search is a divide-and-conquer technique used to search for a specific element in a sorted array. It significantly reduces the search space by repeatedly dividing it in half.
+
+- **Topological Sort**: This technique is used for directed acyclic graphs (DAGs) to find a linear ordering of the nodes that respects the partial order imposed by the edges. It's essential for solving problems like scheduling and task dependency resolution.
+
+- **Hashing**: Hashing is used to achieve fast data retrieval in situations where the data can be mapped to a fixed number of indices, such as dictionaries or implementing data structures like hash tables.
+
+- **Floyd-Warshall Algorithm**: This is used to find the shortest paths between all pairs of nodes in a weighted graph. It's essential for solving problems related to network routing or distance calculations.
+
+- **Trie (Prefix Tree)**: Tries are data structures used for efficient retrieval of keys in a large dataset, particularly in problems related to text or dictionary-like operations.
+
+- **Bit Manipulation**: Bit manipulation techniques are often used for problems related to binary representation, bitwise operations, and combinatorial problems.
+
+- **Heap Data Structure**: Heaps, such as binary heaps and priority queues, are used for maintaining a set of elements with specific ordering properties, like finding the smallest or largest elements efficiently.
+
+- **Segment Tree and Fenwick Tree**: These are data structures for solving problems related to range queries, such as finding the minimum, maximum, or sum of elements in a specific range.
+
 ## Variables
 ```python
 # variables are dynamicly typed
