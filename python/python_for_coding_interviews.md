@@ -42,7 +42,7 @@
 
 ## Popular Problem-Solving Techniques and Patterns
 
-- **Two-Pointers Technique**: As previously discussed, this technique involves using two pointers to traverse an array or sequence, often from opposite ends or within a subarray, to solve problems efficiently.
+- **Two-Pointers Technique**: This technique involves using two pointers to traverse an array or sequence, often from opposite ends or within a subarray, to solve problems efficiently.
 
 - **Sliding Window Technique**: This technique involves maintaining a "window" of elements in an array and sliding it through the array to solve problems like finding subarrays with a specific sum, longest substring with distinct characters, or substring matching.
 
