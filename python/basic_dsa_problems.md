@@ -9,7 +9,7 @@ arr = [5, 2, 9, 1, 5, 6]
 Maximum element: 9
 Minimum element: 1
 ```
-2. [Reverse an array.]()
+2. [Reverse an array.](https://github.com/rajdyp/rajdyp.github.io/blob/master/python/solutions/reverse_an_array.md)
 ```yaml
 Given an array of integers, write a function that reverses the elements of the array in place.
 (i.e. modify the original array without using additional data structures)
