@@ -2,19 +2,25 @@
 
 ## Arrays
 
-- [Find the maximum and minimum element in an array.](https://github.com/rajdyp/rajdyp.github.io/blob/master/python/solutions/max_and_min_in_an_array.md)
+1. [Find the maximum and minimum element in an array.](https://github.com/rajdyp/rajdyp.github.io/blob/master/python/solutions/max_and_min_in_an_array.md)
 ```yaml
 Given an array of integers, write a function to find the maximum and minimum elements in the array.
 arr = [5, 2, 9, 1, 5, 6]
 Maximum element: 9
 Minimum element: 1
 ```
-- Reverse an array.
-- Find the sum of all elements in an array.
-- Find the second largest element in an array.
-- Check if an array is sorted.
-- Remove duplicates from a sorted array.
-- Rotate an array to the right by K positions.
+2. [Reverse an array.]()
+```yaml
+Given an array of integers, write a function that reverses the elements of the array in place.
+(i.e. modify the original array without using additional data structures)
+arr = [1, 2, 3, 4, 5]
+```
+
+3. Find the sum of all elements in an array.
+4. Find the second largest element in an array.
+5. Check if an array is sorted.
+6. Remove duplicates from a sorted array.
+7. Rotate an array to the right by K positions.
 
 ## Strings
 
