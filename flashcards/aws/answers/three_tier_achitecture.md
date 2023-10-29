@@ -70,7 +70,7 @@ Step 8: Create NAT Gateways*** # internet connectivity
 | --> On VPC Dashboard
 |    | --> `NAT gateways` > `Create NAT gateway`
 |    |    | --> `NAT gateway name`
-|    |    | --> Select `Subnet`
+|    |    | --> Select `Subnet`    # public subnet
 |    |    | --> `Allocate Elastic IP`
 |    |    | --> `Create NAT gateway`
 
