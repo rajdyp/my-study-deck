@@ -1,6 +1,82 @@
 ![image](https://github.com/rajdyp/rajdyp.github.io/assets/15313631/f77d1632-f658-4505-9f0d-c874bfb83dc9)
 
 ```yaml
+Workflow:
+
+Sign in to AWS Console
+│
+├── Choose a Region
+│
+├── Create S3 bucket
+│
+├── Create (EC2) IAM role
+│   │
+│   ├── AWS Service
+│   │
+│   └── EC2
+│
+├── Create VPC
+│
+├── Create subnets
+│   │
+│   ├── private subnets
+│   │
+│   ├── public subnets
+│   │
+│   └── db subnets
+│
+├── Create IGW
+│   │
+│   └── Attach to VPC
+│
+├── Create NAT gateway
+│   │
+│   ├── public subnet
+│   │
+│   └── Allocate Elastic IP
+│
+├── Create route table
+│   │
+│   ├── Add route
+│   │
+│   └── Explicit subnet associations
+│
+├── Create security group
+│   │
+│   ├── Inbound rules
+│   │
+│   └── Outbound rules (allow all traffic)
+│
+├── Create DB subnet group
+│
+├── Create database
+│
+├── Create EC2 instance
+│   │
+│   └── Create image (AMI) # for launch template
+│
+├── Create launch template # for auto scaling group
+│   │
+│   └── Select custom AMI
+│
+├── Create target group
+│
+├── Create load balancer
+│   │
+│   ├── Select load balancer type # Application Load Balancer | Network Load Balancer | Gateway Load Balancer
+│   │
+│   └── Select target group
+│
+├── Create Auto Scaling group
+│   │
+│   ├── Select target group (load balancer)
+│   │
+│   └── Configure group size and scaling policies
+│
+└── End
+```
+
+```yaml
 Step 1: Sign in to AWS Console
 ```
 
