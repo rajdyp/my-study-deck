@@ -28,8 +28,8 @@ Constraints:
 
 3. [Find the sum of all elements in an array](https://github.com/rajdyp/rajdyp.github.io/blob/master/python/solutions/sum_of_all_elements_in_array.md)
 ```yaml
-# Given an array of integers, write a function that calculates the sum of all the elements in the array.
-# arr = [1, 2, 3, 4, 5]
+Given an array of integers, write a function that calculates the sum of all the elements in the array.
+arr = [1, 2, 3, 4, 5]
 
 Constraints:
 - The input array may be empty.
