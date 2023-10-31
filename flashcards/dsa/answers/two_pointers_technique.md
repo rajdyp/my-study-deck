@@ -1,5 +1,7 @@
 ## Two Pointers Technique
 
+Use case: Used for problems involving searching, merging, or comparing elements within an array or sequence.
+
 ```yaml
 # flow chart
 Start
