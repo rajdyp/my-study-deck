@@ -49,27 +49,67 @@ Conclude the solution based on the pointers' positions.
 ```
 
 ```yaml
-List of some common problem types where the two pointers technique is applicable:
-- Two Sum Problems: Finding pairs of elements that sum up to a specific target value.
-- Three Sum Problems: Identifying triplets that sum up to a target value.
-- Subarray Problems: Determining subarrays that meet certain conditions (e.g., maximum sum subarray).
-- Palindrome Problems: Checking whether a string or sequence is a palindrome.
-- Merge or Intersection Problems: Merging or finding intersections between two sorted arrays or lists.
-- Reverse Problems: Reversing elements or characters within a data structure.
-- Cycle Detection: Detecting cycles in linked lists or arrays.
-- Remove Duplicates: Removing duplicates from a sorted or unsorted array.
-- Container with Most Water: Finding the two lines that together with the x-axis forms a container that contains the most water.
-- Two Pointers on Two Arrays: Solving problems that involve two separate arrays or lists (e.g., merging two sorted arrays).
-- Trapping Rainwater: Calculating the amount of rainwater that can be trapped between bars.
-- Move Zeros: Rearranging an array to move all zeros to the end while maintaining the relative order of the non-zero elements.
-- Intersection of Two Linked Lists: Finding the node where two linked lists intersect.
-- Partitioning Problems: Partitioning an array or list based on a certain condition (e.g., Dutch National Flag problem).
-- Closest Pair of Points: Finding the pair of points with the smallest distance in a set of points.
-- Longest Substring Without Repeating Characters: Finding the longest substring without repeating characters in a string.
-- Valid Parentheses: Checking if a string of parentheses is valid.
-- Longest Palindromic Substring: Finding the longest palindromic substring within a string.
-- Kth Smallest Element in a Matrix: Finding the Kth smallest element in a sorted matrix.
-- Array Segmentation: Dividing an array into segments with specific properties.
+Some common problem where the two pointers technique is applicable:
+
+1. Two Sum Problems:
+  - Finding pairs of elements that sum up to a specific target value.
+
+2. Three Sum Problems:
+  - Identifying triplets that sum up to a target value.
+
+3. Subarray Problems:
+  - Determining subarrays that meet certain conditions (e.g., maximum sum subarray).
+
+4. Palindrome Problems:
+  - Checking whether a string or sequence is a palindrome.
+
+5. Merge or Intersection Problems:
+  - Merging or finding intersections between two sorted arrays or lists.
+
+6. Reverse Problems:
+  - Reversing elements or characters within a data structure.
+
+7. Cycle Detection:
+  - Detecting cycles in linked lists or arrays.
+
+8. Remove Duplicates:
+  - Removing duplicates from a sorted or unsorted array.
+
+9. Container with Most Water:
+  - Finding the two lines that together with the x-axis forms a container that contains the most water.
+
+10. Two Pointers on Two Arrays:
+  - Solving problems that involve two separate arrays or lists (e.g., merging two sorted arrays).
+
+11. Trapping Rainwater:
+  - Calculating the amount of rainwater that can be trapped between bars.
+
+12. Move Zeros:
+  - Rearranging an array to move all zeros to the end while maintaining relative order of non-zero elements.
+
+13. Intersection of Two Linked Lists:
+  - Finding the node where two linked lists intersect.
+
+14. Partitioning Problems:
+  - Partitioning an array or list based on a certain condition (e.g., Dutch National Flag problem).
+
+15. Closest Pair of Points:
+  - Finding the pair of points with the smallest distance in a set of points.
+
+16. Longest Substring Without Repeating Characters:
+  - Finding the longest substring without repeating characters in a string.
+
+17. Valid Parentheses:
+  - Checking if a string of parentheses is valid.
+
+18. Longest Palindromic Substring:
+  - Finding the longest palindromic substring within a string.
+
+19. Kth Smallest Element in a Matrix:
+  - Finding the Kth smallest element in a sorted matrix.
+
+20. Array Segmentation:
+  - Dividing an array into segments with specific properties.
 ```
 
 ### Detailed steps
