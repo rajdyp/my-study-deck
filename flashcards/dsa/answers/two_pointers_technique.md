@@ -110,6 +110,51 @@ Some common problem where the two pointers technique is applicable:
 
 20. Array Segmentation:
   - Dividing an array into segments with specific properties.
+
+Searching and Sorting:
+
+Finding pairs with a specific sum in a sorted array.
+Implementing binary search algorithms.
+Two Sum and Three Sum Problems:
+
+Finding pairs or triplets that sum to a specific target value in an array.
+String Manipulation:
+
+Checking for palindromes or anagrams.
+Implementing substring search algorithms.
+Sliding Window Problems:
+
+Finding subarrays or substrings with a maximum or minimum sum.
+Implementing algorithms for variable-size window operations.
+Merging and Intersection:
+
+Merging two sorted arrays.
+Finding the intersection of two sorted arrays.
+Partitioning:
+
+Segregating elements in an array based on a condition (e.g., even and odd, positive and negative).
+Data Compression and Encoding:
+
+Implementing run-length encoding.
+Finding the longest substring without repeating characters (used in compression algorithms).
+Container Problems:
+
+Finding the most water that can be trapped by vertical lines (Two Pointers can be used to optimize this problem).
+Implementing container problems involving arranging elements in a certain way.
+Circular Array Problems:
+
+Detecting cycles in linked lists or arrays with wrap-around.
+In-Place Array Operations:
+
+Removing duplicates from a sorted or unsorted array in-place.
+Rearranging elements of an array in a specific order (e.g., moving all zeros to one side).
+LinkedList Operations:
+
+Detecting and removing cycles in a linked list.
+Finding the middle of a linked list.
+Trapping Rainwater:
+
+Calculating the amount of trapped rainwater between bars or walls.
 ```
 
 ### Detailed steps
