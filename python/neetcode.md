@@ -54,7 +54,7 @@ Constraints:
 - s and t consist of lowercase English letters.
 ```
 
-> [Problem solution](https://github.com/rajdyp/rajdyp.github.io/blob/master/python/solutions/max_and_min_in_an_array.md)
+> [Problem solution](https://github.com/rajdyp/rajdyp.github.io/blob/master/python/solutions/valid_anagram.md)
 </details>
 
 
