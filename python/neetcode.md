@@ -87,5 +87,5 @@ Constraints:
 - Only one valid answer exists.
 ```
 
-> [Problem solution](https://github.com/rajdyp/rajdyp.github.io/blob/master/python/solutions/max_and_min_in_an_array.md)
+> [Problem solution](https://github.com/rajdyp/rajdyp.github.io/blob/master/python/solutions/two_sum.md)
 </details>
