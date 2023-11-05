@@ -117,5 +117,5 @@ Constraints:
 - s consists only of printable ASCII characters.
 ```
 
-> [Problem solution](https://github.com/rajdyp/rajdyp.github.io/blob/master/python/solutions/two_sum.md)
+> [Problem solution](https://github.com/rajdyp/rajdyp.github.io/blob/master/python/solutions/valid_palindrome.md)
 </details>
