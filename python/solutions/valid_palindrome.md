@@ -23,6 +23,7 @@ print(is_palindrome(s))
 ```
 
 ```python
+# Two pointer
 # O(n)
 def is_palindrome(s):
     left, right = 0, len(s) - 1
