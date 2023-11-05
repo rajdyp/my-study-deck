@@ -3,7 +3,7 @@
 ## Blind75
 
 <details>
-<summary> Contains Duplicate </summary>
+<summary> Contains duplicate </summary>
 
 ```yaml
 Given an integer array nums, return true if any value appears at least twice in the array, and return false if every
@@ -32,7 +32,7 @@ Constraints:
 
 
 <details>
-<summary> Valid Anagram </summary>
+<summary> Valid anagram </summary>
 
 ```yaml
 Given two strings s and t, return true if t is an anagram of s, and false otherwise.
@@ -59,7 +59,7 @@ Constraints:
 
 
 <details>
-<summary> Two Sum </summary>
+<summary> Two sum </summary>
 
 ```yaml
 Given an array of integers nums and an integer target, return indices of the two numbers such that they add up to
