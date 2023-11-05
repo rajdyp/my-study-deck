@@ -27,7 +27,7 @@ Constraints:
 - -109 <= nums[i] <= 109
 ```
 
-> [Problem solution](https://github.com/rajdyp/rajdyp.github.io/blob/master/python/solutions/max_and_min_in_an_array.md)
+> [Problem solution](https://github.com/rajdyp/rajdyp.github.io/blob/master/python/solutions/contains_duplicate.md)
 </details>
 
 
