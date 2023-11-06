@@ -1,6 +1,7 @@
 ## Best time to buy and sell stock
 
 ```python
+# O(n)
 def max_profit(prices):
     if len(prices) == 0:
         return 0
