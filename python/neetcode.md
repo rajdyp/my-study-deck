@@ -35,9 +35,8 @@ Constraints:
 
 ```yaml
 Given two strings s and t, return true if t is an anagram of s, and false otherwise.
-
-An Anagram is a word or phrase formed by rearranging the letters of a different word or phrase, typically using all the
-original letters exactly once.
+An Anagram is a word or phrase formed by rearranging the letters of a different word or phrase, typically using all
+the original letters exactly once.
 
 Example 1:
 Input: s = "anagram", t = "nagaram"
@@ -125,9 +124,9 @@ Constraints:
 <summary> Best time to buy and sell stock </summary>
 
 ```yaml
-You are given an array prices where prices[i] is the price of a given stock on the ith day. You want to maximize your
-profit by choosing a single day to buy one stock and choosing a different day in the future to sell that stock. Return
-the maximum profit you can achieve from this transaction. If you cannot achieve any profit, return 0.
+You are given an array prices where prices[i] is the price of a given stock on the ith day. You want to maximize
+your profit by choosing a single day to buy one stock and choosing a different day in the future to sell that stock.
+Return the maximum profit you can achieve from this transaction. If you cannot achieve any profit, return 0.
 
 Example 1:
 Input: prices = [7,1,5,3,6,4]
