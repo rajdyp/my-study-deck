@@ -145,5 +145,5 @@ Constraints:
 - 0 <= prices[i] <= 104
 ```
 
-> [Problem solution](https://github.com/rajdyp/rajdyp.github.io/blob/master/python/solutions/valid_palindrome.md)
+> [Problem solution](https://github.com/rajdyp/rajdyp.github.io/blob/master/python/solutions/best_time_to_buy_sell_stock.md)
 </details>
