@@ -1,5 +1,9 @@
 ## Valid anagram
-
+```yaml
+Need to meet two conditions for anagram:
+- Both string (s and t) length should be equal
+- Number of individual characters should be equal
+```
 ```python
 # O(n)
 def is_anagram(s, t):
