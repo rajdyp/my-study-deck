@@ -3,12 +3,12 @@
 ```python
 # O(n)
 def containsDuplicate(nums):
-        myset = set()
-        for n in nums:
-            if n in myset:
-                return True
-            myset.add(n)
-        return False
+    myset = set()
+    for n in nums:
+        if n in myset:
+            return True
+        myset.add(n)
+    return False
     
 nums1 = [1,2,3,1]
 print(containsDuplicate(nums1))
