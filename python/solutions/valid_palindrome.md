@@ -1,6 +1,8 @@
 ## Valid palindrome
 
 ```yaml
+# Extra memory
+
 - Filter alphanumeric characters
 - Compare "s" with reverse of "s"
 ```
@@ -29,6 +31,8 @@ print(is_palindrome(s))
 
 
 ```yaml
+# Two pointer solution
+
 - Take two pointers "left" and "right"
 - If char is not alphanumeric than just increment the pointer
 - Compare "left" character with "right" character
@@ -36,7 +40,6 @@ print(is_palindrome(s))
 ```
 
 ```python
-# Two pointer
 # O(n)
 def is_palindrome(s):
     left, right = 0, len(s) - 1
