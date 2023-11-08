@@ -1,5 +1,11 @@
 ## Two sum
 
+```yaml
+- Hashmap (key "num": value "index")
+- Take difference of target and "num"
+- Check if the difference value exists in hashmap
+```
+
 ```python
 # O(n)
 def two_sum(nums, target):
