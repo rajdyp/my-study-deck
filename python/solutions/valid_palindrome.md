@@ -1,5 +1,10 @@
 ## Valid palindrome
 
+```yaml
+- Filter alphanumeric characters
+- Compare "s" with reverse of "s"
+```
+
 ```python
 # O(n)
 def is_palindrome(s):
@@ -20,6 +25,14 @@ print(is_palindrome(s))
 
 s = " "
 print(is_palindrome(s))
+```
+
+
+```yaml
+- Take two pointers "left" and "right"
+- If char is not alphanumeric than just increment the pointer
+- Compare "left" character with "right" character
+- Increment the pointer till while condition is met
 ```
 
 ```python
