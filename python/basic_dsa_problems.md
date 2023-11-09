@@ -9,7 +9,7 @@
 
 ```yaml
 Given an array of integers, write a function to find the maximum and minimum elements in the array.
-arr = [5, 2, 9, 1, 5, 6]
+a = [5, 2, 9, 1, 5, 6]
 Maximum element: 9
 Minimum element: 1
 
@@ -28,7 +28,7 @@ Constraints:
 ```yaml
 Given an array of integers, write a function that reverses the elements of the array in place.
 (i.e. modify the original array without using additional data structures)
-arr = [1, 2, 3, 4, 5]
+a = [1, 2, 3, 4, 5]
 
 Constraints:
 - The input array may be empty.
@@ -45,7 +45,7 @@ Constraints:
 
 ```yaml
 Given an array of integers, write a function that calculates the sum of all the elements in the array.
-arr = [1, 2, 3, 4, 5]
+a = [1, 2, 3, 4, 5]
 
 Constraints:
 - The input array may be empty.
