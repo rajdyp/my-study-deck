@@ -1,21 +1,21 @@
 ## Find the sum of all elements in an array
 ```python
 # O(n)
-arr = [1, 2, 3, 4, 5]
+a = [1, 2, 3, 4, 5]
 sum = 0
-for n in arr:
+for n in a:
     sum += n
 print(sum)
 ```
 
 ```python
 # O(n)
-def find_sum_of_elements(arr):
+def find_sum_of_elements(a):
     sum = 0
-    for e in arr:
-        sum += e
+    for n in a:
+        sum += n
     return sum
 
-arr = [1, 2, 3, 4, 5]
-print(find_sum_of_elements(arr))
+a = [1, 2, 3, 4, 5]
+print(find_sum_of_elements(a))
 ```
