@@ -685,5 +685,5 @@ Constraints:
 - nums is sorted in ascending order.
 ```
 
-> [Problem solution](https://github.com/rajdyp/rajdyp.github.io/blob/master/python/solutions/valid_parentheses.md)
+> [Problem solution](https://github.com/rajdyp/rajdyp.github.io/blob/master/python/solutions/binary_search.md)
 </details>
