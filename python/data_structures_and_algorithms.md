@@ -204,7 +204,7 @@ Detect a cycle in a linked list
 </details>
 
 
-## Stacks and Queues
+`Stacks and Queues`
 
 <details>
 <summary> Implement a stack and perform basic operations (push, pop) </summary>
