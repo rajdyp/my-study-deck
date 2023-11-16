@@ -1,1 +1,1 @@
-## My Collection of Study Notes
+## My collection of study notes
